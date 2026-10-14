@@ -1,0 +1,157 @@
+diff --git a/src/engine.cpp b/src/engine.cpp
+index 3179efa..d6b8586 100644
+--- a/src/engine.cpp
++++ b/src/engine.cpp
+@@ -156,7 +156,10 @@ void Engine::go(Search::LimitsType& limits) {
+ 
+     threads.start_thinking(options, pos, states, limits);
+ }
+-void Engine::stop() { threads.stop = true; }
++void Engine::stop() {
++    threads.externalStop = true;
++    threads.stop         = true;
++}
+ 
+ void Engine::search_clear() {
+     wait_for_search_finished();
+diff --git a/src/misc.cpp b/src/misc.cpp
+index 6fa1223..a46008e 100644
+--- a/src/misc.cpp
++++ b/src/misc.cpp
+@@ -171,7 +171,9 @@ std::string engine_version_info() {
+ #endif
+     }
+ 
+-    return ss.str();
++    // Aurora distribution: retain the exact upstream engine and its provenance.
++    // Search, evaluation, neural network and all strength options are unchanged.
++    return "Aurora SF 1.0 (" + ss.str() + ")";
+ }
+ 
+ std::string engine_info(bool to_uci) {
+diff --git a/src/numa.h b/src/numa.h
+index f4419e2..8557e0e 100644
+--- a/src/numa.h
++++ b/src/numa.h
+@@ -598,6 +598,19 @@ class NumaConfig {
+             cfg = from_system_numa(respectProcessAffinity, is_cpu_allowed);
+ 
+     #if defined(_WIN64)
++        // Virtualized APIs can omit every usable processor from the reported
++        // NUMA nodes. Retain known process affinity as a single-node fallback.
++        // A replicated network must always have at least one node.
++        if (cfg.nodes.empty())
++        {
++            if (respectProcessAffinity && allowedCpus && !allowedCpus->empty())
++                for (CpuIndex c : *allowedCpus)
++                    cfg.add_cpu_to_node(NumaIndex{0}, c);
++            else
++                for (CpuIndex c = 0; c < SYSTEM_THREADS_NB; ++c)
++                    cfg.add_cpu_to_node(NumaIndex{0}, c);
++        }
++
+         // Split the NUMA nodes to be contained within a group if necessary.
+         // This is needed between Windows 10 Build 20348 and Windows 11, because
+         // the new NUMA allocation behaviour was introduced while there was
+@@ -1232,6 +1245,14 @@ class NumaConfig {
+                 domain.cpus = readCacheMembers(info, is_cpu_allowed);
+                 if (!domain.cpus.empty())
+                 {
++                    // Some virtualized Windows APIs report cache processors
++                    // missing from the NUMA topology. Use the existing system
++                    // fallback instead of throwing from map::at at startup.
++                    if (std::any_of(domain.cpus.begin(), domain.cpus.end(),
++                                    [&systemConfig](CpuIndex c) {
++                                        return !systemConfig.is_cpu_assigned(c);
++                                    }))
++                        return std::nullopt;
+                     domain.systemNumaIndex = systemConfig.nodeByCpu.at(*domain.cpus.begin());
+                     l3Domains.push_back(std::move(domain));
+                 }
+diff --git a/src/search.cpp b/src/search.cpp
+index 5f90150..ad21954 100644
+--- a/src/search.cpp
++++ b/src/search.cpp
+@@ -31,6 +31,7 @@
+ #include <list>
+ #include <ratio>
+ #include <string>
++#include <thread>
+ #include <utility>
+ 
+ #include "bitboard.h"
+@@ -212,6 +213,8 @@ void Search::Worker::start_searching() {
+     {
+         main_manager()->updates.onUpdateNoMoves(
+           {0, {rootPos.checkers() ? -VALUE_MATE : VALUE_DRAW, rootPos}});
++        while (!threads.externalStop && (main_manager()->ponder || limits.infinite))
++            std::this_thread::sleep_for(std::chrono::milliseconds(1));
+         main_manager()->updates.onBestmove(UCIEngine::move(Move::none()), "");
+         return;
+     }
+@@ -220,13 +223,11 @@ void Search::Worker::start_searching() {
+     threads.start_searching();
+     bool uciPvSent = iterative_deepening();
+ 
+-    // When we reach the maximum depth, we can arrive here without a raise of
+-    // threads.stop. However, if we are pondering or in an infinite search,
+-    // the UCI protocol states that we shouldn't print the best move before the
+-    // GUI sends a "stop" or "ponderhit" command. We therefore simply wait here
+-    // until the GUI sends one of those commands.
+-    while (!threads.stop && (main_manager()->ponder || limits.infinite))
+-    {}
++    // An internal budget can stop computation without ending infinite/ponder
++    // mode. Only a GUI stop (or ponderhit outside infinite mode) releases the
++    // result. Sleep avoids burning a CPU while waiting for the GUI.
++    while (!threads.externalStop && (main_manager()->ponder || limits.infinite))
++        std::this_thread::sleep_for(std::chrono::milliseconds(1));
+ 
+     // Stop the threads if not already stopped (also raise the stop if "ponderhit"
+     // just reset threads.ponder).
+diff --git a/src/thread.cpp b/src/thread.cpp
+index 21aa32a..ca635d0 100644
+--- a/src/thread.cpp
++++ b/src/thread.cpp
+@@ -299,6 +299,7 @@ void ThreadPool::start_thinking(const OptionsMap&  options,
+     main_thread()->wait_for_search_finished();
+ 
+     main_manager()->stopOnPonderhit = stop = false;
++    externalStop                          = false;
+     main_manager()->ponder                 = limits.ponderMode;
+ 
+     increaseDepth = true;
+diff --git a/src/thread.h b/src/thread.h
+index 8ee1e03..7447d84 100644
+--- a/src/thread.h
++++ b/src/thread.h
+@@ -155,6 +155,8 @@ class ThreadPool {
+     void ensure_network_replicated();
+ 
+     std::atomic_bool stop, increaseDepth;
++    // Distinguish a GUI stop from a completed internal node/time/mate budget.
++    std::atomic_bool externalStop{false};
+ 
+     auto cbegin() const noexcept { return threads.cbegin(); }
+     auto begin() noexcept { return threads.begin(); }
+diff --git a/tests/instrumented.py b/tests/instrumented.py
+index 3207617..938acef 100644
+--- a/tests/instrumented.py
++++ b/tests/instrumented.py
+@@ -219,7 +219,7 @@ class TestInteractive(metaclass=OrderedClassMembers):
+         self.stockfish.clear_output()
+ 
+     def test_startup_output(self):
+-        self.stockfish.starts_with("Stockfish")
++        self.stockfish.starts_with("Aurora SF 1.0 (Stockfish")
+ 
+     def test_uci_command(self):
+         self.stockfish.send_command("uci")
+@@ -453,7 +453,7 @@ class TestSyzygy(metaclass=OrderedClassMembers):
+         self.stockfish.clear_output()
+ 
+     def test_syzygy_setup(self):
+-        self.stockfish.starts_with("Stockfish")
++        self.stockfish.starts_with("Aurora SF 1.0 (Stockfish")
+         self.stockfish.send_command("uci")
+         self.stockfish.send_command(
+             f"setoption name SyzygyPath value {os.path.join(PATH, 'syzygy')}"

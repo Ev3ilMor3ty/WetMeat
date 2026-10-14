@@ -1,0 +1,3 @@
+# Optional independent rule validation and engine match runner.
+# The C++ engine and its standard test suite have no Python package dependencies.
+python-chess==1.999

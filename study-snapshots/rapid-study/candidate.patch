@@ -1,0 +1,38 @@
+--- a/src/engine.cpp
++++ b/src/engine.cpp
+@@ -107,6 +107,9 @@
+     options.add("Skill Level", Option(20, 0, 20));
+ 
+     options.add("Move Overhead", Option(10, 0, 5000));
++
++    // Experimental time allocation: no pruning, evaluation or NNUE changes.
++    options.add("Tactical Time Boost", Option(25, 0, 100));
+ 
+     options.add("nodestime", Option(0, 0, 10000));
+ 
+--- a/src/search.cpp
++++ b/src/search.cpp
+@@ -603,6 +603,12 @@
+             double totalTime = mainThread->tm.optimum() * fallingEval * reduction
+                              * bestMoveInstability * highBestMoveEffort;
+ 
++            // Experimental: invest more of the existing clock budget when the
++            // evaluation is falling or root move choice is unstable. The hard
++            // maximum time bound below is retained, as are forced-move caps.
++            if (fallingEval > 1.15 || bestMoveInstability > 1.50)
++                totalTime *= 1.0 + double(int(options["Tactical Time Boost"])) / 100.0;
++
+             if (rootMoves.size() == 1)
+                 // Cap used time to 0.5s for a better viewer experience
+                 totalTime = std::min(500.0, totalTime);
+--- a/src/misc.cpp
++++ b/src/misc.cpp
+@@ -173,7 +173,7 @@
+ 
+     // WetMeat distribution: retain the exact upstream engine and its provenance.
+     // Search, evaluation, neural network and all strength options are unchanged.
+-    return "WetMeat 1.0 (" + ss.str() + ")";
++    return "WetMeat 1.1 experimental (" + ss.str() + ")";
+ }
+ 
+ std::string engine_info(bool to_uci) {

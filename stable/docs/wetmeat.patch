@@ -1,0 +1,416 @@
+diff --git a/README.md b/README.md
+index 621f1d1..92e2b22 100644
+--- a/README.md
++++ b/README.md
+@@ -1,161 +1,110 @@
+-<div align="center">
+-
+-  [![Stockfish][stockfish128-logo]][website-link]
+-
+-  <h3>Stockfish</h3>
+-
+-  A free and strong UCI chess engine.
+-  <br>
+-  <strong>[Explore Stockfish docs »][wiki-link]</strong>
+-  <br>
+-  <br>
+-  [Report bug][issue-link]
+-  ·
+-  [Open a discussion][discussions-link]
+-  ·
+-  [Discord][discord-link]
+-  ·
+-  [Blog][website-blog-link]
+-
+-  [![Build][build-badge]][build-link]
+-  [![License][license-badge]][license-link]
+-  <br>
+-  [![Release][release-badge]][release-link]
+-  [![Commits][commits-badge]][commits-link]
+-  <br>
+-  [![Website][website-badge]][website-link]
+-  [![Fishtest][fishtest-badge]][fishtest-link]
+-  [![Discord][discord-badge]][discord-link]
+-
+-</div>
+-
+-## Overview
+-
+-[Stockfish][website-link] is a **free and strong UCI chess engine** derived from
+-Glaurung 2.1 that analyzes chess positions and computes the optimal moves.
+-
+-Stockfish **does not include a graphical user interface** (GUI) that is required
+-to display a chessboard and to make it easy to input moves. These GUIs are
+-developed independently from Stockfish and are available online. **Read the
+-documentation for your GUI** of choice for information about how to use
+-Stockfish with it.
+-
+-See also the Stockfish [documentation][wiki-usage-link] for further usage help.
+-
+-## Files
+-
+-This distribution of Stockfish consists of the following files:
+-
+-  * [README.md][readme-link], the file you are currently reading.
++# WetMeat 1.0
++
++WetMeat hieß zuvor Aurora SF. Die Umbenennung ändert ausschließlich den Namen.
++Historische Testberichte verwenden den damaligen Namen und dessen Binärprüfsummen.
++
++Eine starke UCI-Schachengine auf aktueller Stockfish-Basis. Der Schachkern und
++die neuronale Bewertung stammen aus Stockfish vom 30. September 2026.
++WetMeat ergänzt eine geprüfte UCI-Protokollkorrektur, CPU-optimierte Builds und
++nachvollziehbare Tests. Die Entwicklungsversion enthält Änderungen nach
++Stockfish 19. Eine höhere Spielstärke muss durch ausreichend große Turniere
++belegt werden; aus dem eigenen Namen folgt kein Elo-Gewinn.
++
++## Benutzen
++
++Die passende Datei aus `bin` in einer Schachoberfläche als **UCI-Engine**
++hinzufügen, zum Beispiel in Arena oder Cute Chess. Die vollständige
++neuronale Bewertung ist in den ausführbaren Dateien eingebettet.
++
++Für volle Stärke `Skill Level = 20`, `UCI_LimitStrength = false` und beim
++Spielen `MultiPV = 1` verwenden. `Threads` auf die für die Engine verfügbaren
++CPU-Kerne setzen; `Hash` etwa auf 256 bis 1024 MB, abhängig vom freien RAM.
++Mehr Bedenkzeit verbessert die Suche. Syzygy-Endspieldatenbanken können über
++`SyzygyPath` ergänzt werden; sie sind kein Bestandteil dieses Pakets.
++
++Der Linux-Build `bin/wetmeat-linux-avx512` benötigt die AVX-512-Funktionen
++von Intel Ice Lake oder AMD Zen 4. Er ist statisch verknüpft. Weitere
++ausgelieferte Builds und ihre Prüfung stehen in `docs/TESTS.md`.
++
++`bin/wetmeat-linux-avx2` und `bin/wetmeat-windows-avx2.exe` benötigen
++AVX2, BMI1, POPCNT und SSE4.1. Diese Funktionen bieten viele neuere Intel-
++und AMD-Prozessoren. Die Windows-Datei als Engine in der Schachoberfläche
++auswählen; ein Doppelklick öffnet nur die UCI-Konsole.
++
++Interaktiv im Terminal starten und anschließend zum Beispiel diese Zeilen
++eingeben:
++
++```text
++uci
++setoption name Threads value 3
++setoption name Hash value 256
++isready
++position startpos moves e2e4 e7e5
++go movetime 3000
++```
+ 
+-  * [Copying.txt][license-link], a text file containing the GNU General Public
+-    License version 3.
++Nach der Antwort `bestmove` beendet `quit` den Prozess. `go infinite` startet
++eine unbegrenzte Analyse; `stop` liefert den berechneten Zug. Eine
++Schachoberfläche übernimmt diese Befehle automatisch.
+ 
+-  * [AUTHORS][authors-link], a text file with the list of authors for the project.
++## Selbst bauen
+ 
+-  * [src][src-link], a subdirectory containing the full source code, including a
+-    Makefile that can be used to compile Stockfish on Unix-like systems.
++Benötigt werden ein C++17-Compiler, GNU Make und Bash. Aus dem Projektordner:
+ 
+-  * a file with the .nnue extension, storing the neural network for the NNUE
+-    evaluation. Binary distributions will have this file embedded.
++```sh
++bash tools/build.sh native
++```
+ 
+-## Contributing
++Das erzeugt einen profiloptimierten Build für den eigenen Rechner. Für andere
++Intel-/AMD-Rechner etwa `bash tools/build.sh x86-64-avx2`, für sehr alte
++64-Bit-Prozessoren `bash tools/build.sh x86-64`. Für macOS auf Apple Silicon
++`bash tools/build.sh apple-silicon`. Diese Bauwege ändern die CPU-Anweisungen,
++die Schachalgorithmen bleiben gleich. Nicht hier ausgeführte Plattformtests
++sind im Testbericht ausdrücklich gekennzeichnet.
+ 
+-__See [Contributing Guide](CONTRIBUTING.md).__
++Unter Windows lässt sich der Quellcode zum Beispiel mit MSYS2/MinGW bauen:
+ 
+-### Donating hardware
++```sh
++cd src
++make -j2 profile-build ARCH=x86-64-avx2 COMP=gcc EXE=wetmeat.exe \
++    GIT_SHA=49ea5ded GIT_DATE=20260930 GIT_DIFFINDEX=1
++```
+ 
+-Improving Stockfish requires a massive amount of testing. You can donate your
+-hardware resources by installing the [Fishtest Worker][worker-link] and viewing
+-the current tests on [Fishtest][fishtest-link].
++Die offizielle Netzwerkdatei liegt in `src`; zum eigenen Bau ist kein eigenes
++Training nötig. Die vollständigen Build-Parameter der ausgelieferten Dateien
++stehen in `docs/build-manifest.json`.
+ 
+-### Improving the code
++## Tests wiederholen
+ 
+-In the [chessprogramming wiki][programming-link], many techniques used in
+-Stockfish are explained with a lot of background information.
+-The [section on Stockfish][programmingsf-link] describes many features
+-and techniques used by Stockfish. However, it is generic rather than
+-focused on Stockfish's precise implementation.
++Python 3.10 oder neuer verwenden und `requirements-test.txt` installieren:
+ 
+-The engine testing is done on [Fishtest][fishtest-link].
+-If you want to help improve Stockfish, please read this [guideline][guideline-link]
+-first, where the basics of Stockfish development are explained.
++```sh
++python -m pip install -r requirements-test.txt
++python tools/differential.py --engine bin/wetmeat-linux-avx512 --positions 15000
++python tools/differential.py --engine bin/wetmeat-linux-avx512 --positions 5000 --chess960 --threads 3
++python tools/stress.py --engine bin/wetmeat-linux-avx512 --cycles 1000
++python tools/protocol_regression.py --engine bin/wetmeat-linux-avx512
++python tests/instrumented.py --none bin/wetmeat-linux-avx512
++```
+ 
+-Discussions about Stockfish take place these days mainly in the Stockfish
+-[Discord server][discord-link]. This is also the best place to ask questions
+-about the codebase and how to improve it.
++Für Vergleichspartien beide Engines auf identische Ressourcen setzen:
+ 
+-## Compiling Stockfish
++```sh
++python tools/match.py --engine bin/wetmeat-linux-avx512 \
++    --opponent /pfad/zu/stockfish --pairs 48 --time 0.02 --threads 1 --hash 64
++```
+ 
+-Stockfish has support for 32 or 64-bit CPUs, certain hardware instructions,
+-big-endian machines such as Power PC, and other platforms.
++Die Matchprogramme begrenzen keine der Engines künstlich über Elo oder Skill.
++Jede Eröffnung wird mit beiden Farben gespielt. Vollständige Partien werden
++als PGN und die Ergebnisse einschließlich Binärprüfsummen als JSON gespeichert.
++Auf `--time` beziehen sich Sekunden pro Zug, keine Turnier-Gesamtzeit.
+ 
+-On Unix-like systems, it should be easy to compile Stockfish directly from the
+-source code with the included Makefile in the folder `src`. In general, it is
+-recommended to run `make help` to see a list of make targets with corresponding
+-descriptions. An example suitable for most Intel and AMD chips:
++## Herkunft und Lizenz
+ 
+-```
+-cd src
+-make -j profile-build
+-```
++GPL v3 oder später, siehe `Copying.txt`. Die Stockfish-Entwickler stehen in
++`AUTHORS`; der Originaltext ist in `UPSTREAM_README.md` erhalten. Vollständiger
++Quellcode und Netzwerkdatei werden mitgeliefert. Exakter Upstream-Stand,
++Änderungen und externe Testergebnisse: `docs/PROVENANCE.md`.
+ 
+-Detailed compilation instructions for all platforms can be found in our
+-[documentation][wiki-compile-link]. Our wiki also has information about
+-the [UCI commands][wiki-uci-link] supported by Stockfish.
+-
+-## Terms of use
+-
+-Stockfish is free and distributed under the
+-[**GNU General Public License version 3**][license-link] (GPL v3). Essentially,
+-this means you are free to do almost exactly what you want with the program,
+-including distributing it among your friends, making it available for download
+-from your website, selling it (either by itself or as part of some bigger
+-software package), or using it as the starting point for a software project of
+-your own.
+-
+-The only real limitation is that whenever you distribute Stockfish in some way,
+-you MUST always include the license and the full source code (or a pointer to
+-where the source code can be found) to generate the exact binary you are
+-distributing. If you make any changes to the source code, these changes must
+-also be made available under GPL v3.
+-
+-## Acknowledgements
+-
+-Stockfish uses neural networks trained on [data provided by the Leela Chess Zero
+-project][lc0-data-link], which is made available under the [Open Database License][odbl-link] (ODbL).
+-
+-
+-[authors-link]:       https://github.com/official-stockfish/Stockfish/blob/master/AUTHORS
+-[build-link]:         https://github.com/official-stockfish/Stockfish/actions/workflows/stockfish.yml
+-[commits-link]:       https://github.com/official-stockfish/Stockfish/commits/master
+-[discord-link]:       https://discord.gg/GWDRS3kU6R
+-[issue-link]:         https://github.com/official-stockfish/Stockfish/issues/new?assignees=&labels=&template=BUG-REPORT.yml
+-[discussions-link]:   https://github.com/official-stockfish/Stockfish/discussions/new
+-[fishtest-link]:      https://tests.stockfishchess.org/tests
+-[guideline-link]:     https://github.com/official-stockfish/fishtest/wiki/Creating-my-first-test
+-[license-link]:       https://github.com/official-stockfish/Stockfish/blob/master/Copying.txt
+-[programming-link]:   https://www.chessprogramming.org/Main_Page
+-[programmingsf-link]: https://www.chessprogramming.org/Stockfish
+-[readme-link]:        https://github.com/official-stockfish/Stockfish/blob/master/README.md
+-[release-link]:       https://github.com/official-stockfish/Stockfish/releases/latest
+-[src-link]:           https://github.com/official-stockfish/Stockfish/tree/master/src
+-[stockfish128-logo]:  https://stockfishchess.org/images/logo/icon_128x128.png
+-[uci-link]:           https://backscattering.de/chess/uci/
+-[website-link]:       https://stockfishchess.org
+-[website-blog-link]:  https://stockfishchess.org/blog/
+-[wiki-link]:          https://github.com/official-stockfish/Stockfish/wiki
+-[wiki-compile-link]:  https://github.com/official-stockfish/Stockfish/wiki/Compiling-from-source
+-[wiki-uci-link]:      https://github.com/official-stockfish/Stockfish/wiki/UCI-&-Commands
+-[wiki-usage-link]:    https://github.com/official-stockfish/Stockfish/wiki/Download-and-usage
+-[worker-link]:        https://github.com/official-stockfish/fishtest/wiki/Running-the-worker
+-[lc0-data-link]:      https://storage.lczero.org/files/training_data
+-[odbl-link]:          https://opendatacommons.org/licenses/odbl/odbl-10.txt
+-
+-[build-badge]:        https://img.shields.io/github/actions/workflow/status/official-stockfish/Stockfish/stockfish.yml?branch=master&style=for-the-badge&label=stockfish&logo=github
+-[commits-badge]:      https://img.shields.io/github/commits-since/official-stockfish/Stockfish/latest?style=for-the-badge
+-[discord-badge]:      https://img.shields.io/discord/435943710472011776?style=for-the-badge&label=discord&logo=Discord
+-[fishtest-badge]:     https://img.shields.io/website?style=for-the-badge&down_color=red&down_message=Offline&label=Fishtest&up_color=success&up_message=Online&url=https%3A%2F%2Ftests.stockfishchess.org%2Ftests%2Ffinished
+-[license-badge]:      https://img.shields.io/github/license/official-stockfish/Stockfish?style=for-the-badge&label=license&color=success
+-[release-badge]:      https://img.shields.io/github/v/release/official-stockfish/Stockfish?style=for-the-badge&label=official%20release
+-[website-badge]:      https://img.shields.io/website?style=for-the-badge&down_color=red&down_message=Offline&label=website&up_color=success&up_message=Online&url=https%3A%2F%2Fstockfishchess.org
++Die zuvor eigenständig entwickelte Aurora-Engine bleibt ein separates Projekt.
++WetMeat nutzt ausdrücklich Stockfish als Rechenkern.
+diff --git a/src/engine.cpp b/src/engine.cpp
+index 3179efa..d6b8586 100644
+--- a/src/engine.cpp
++++ b/src/engine.cpp
+@@ -156,7 +156,10 @@ void Engine::go(Search::LimitsType& limits) {
+ 
+     threads.start_thinking(options, pos, states, limits);
+ }
+-void Engine::stop() { threads.stop = true; }
++void Engine::stop() {
++    threads.externalStop = true;
++    threads.stop         = true;
++}
+ 
+ void Engine::search_clear() {
+     wait_for_search_finished();
+diff --git a/src/misc.cpp b/src/misc.cpp
+index 6fa1223..3ec12b9 100644
+--- a/src/misc.cpp
++++ b/src/misc.cpp
+@@ -171,7 +171,9 @@ std::string engine_version_info() {
+ #endif
+     }
+ 
+-    return ss.str();
++    // WetMeat distribution: retain the exact upstream engine and its provenance.
++    // Search, evaluation, neural network and all strength options are unchanged.
++    return "WetMeat 1.0 (" + ss.str() + ")";
+ }
+ 
+ std::string engine_info(bool to_uci) {
+diff --git a/src/numa.h b/src/numa.h
+index f4419e2..8557e0e 100644
+--- a/src/numa.h
++++ b/src/numa.h
+@@ -598,6 +598,19 @@ class NumaConfig {
+             cfg = from_system_numa(respectProcessAffinity, is_cpu_allowed);
+ 
+     #if defined(_WIN64)
++        // Virtualized APIs can omit every usable processor from the reported
++        // NUMA nodes. Retain known process affinity as a single-node fallback.
++        // A replicated network must always have at least one node.
++        if (cfg.nodes.empty())
++        {
++            if (respectProcessAffinity && allowedCpus && !allowedCpus->empty())
++                for (CpuIndex c : *allowedCpus)
++                    cfg.add_cpu_to_node(NumaIndex{0}, c);
++            else
++                for (CpuIndex c = 0; c < SYSTEM_THREADS_NB; ++c)
++                    cfg.add_cpu_to_node(NumaIndex{0}, c);
++        }
++
+         // Split the NUMA nodes to be contained within a group if necessary.
+         // This is needed between Windows 10 Build 20348 and Windows 11, because
+         // the new NUMA allocation behaviour was introduced while there was
+@@ -1232,6 +1245,14 @@ class NumaConfig {
+                 domain.cpus = readCacheMembers(info, is_cpu_allowed);
+                 if (!domain.cpus.empty())
+                 {
++                    // Some virtualized Windows APIs report cache processors
++                    // missing from the NUMA topology. Use the existing system
++                    // fallback instead of throwing from map::at at startup.
++                    if (std::any_of(domain.cpus.begin(), domain.cpus.end(),
++                                    [&systemConfig](CpuIndex c) {
++                                        return !systemConfig.is_cpu_assigned(c);
++                                    }))
++                        return std::nullopt;
+                     domain.systemNumaIndex = systemConfig.nodeByCpu.at(*domain.cpus.begin());
+                     l3Domains.push_back(std::move(domain));
+                 }
+diff --git a/src/search.cpp b/src/search.cpp
+index 5f90150..ad21954 100644
+--- a/src/search.cpp
++++ b/src/search.cpp
+@@ -31,6 +31,7 @@
+ #include <list>
+ #include <ratio>
+ #include <string>
++#include <thread>
+ #include <utility>
+ 
+ #include "bitboard.h"
+@@ -212,6 +213,8 @@ void Search::Worker::start_searching() {
+     {
+         main_manager()->updates.onUpdateNoMoves(
+           {0, {rootPos.checkers() ? -VALUE_MATE : VALUE_DRAW, rootPos}});
++        while (!threads.externalStop && (main_manager()->ponder || limits.infinite))
++            std::this_thread::sleep_for(std::chrono::milliseconds(1));
+         main_manager()->updates.onBestmove(UCIEngine::move(Move::none()), "");
+         return;
+     }
+@@ -220,13 +223,11 @@ void Search::Worker::start_searching() {
+     threads.start_searching();
+     bool uciPvSent = iterative_deepening();
+ 
+-    // When we reach the maximum depth, we can arrive here without a raise of
+-    // threads.stop. However, if we are pondering or in an infinite search,
+-    // the UCI protocol states that we shouldn't print the best move before the
+-    // GUI sends a "stop" or "ponderhit" command. We therefore simply wait here
+-    // until the GUI sends one of those commands.
+-    while (!threads.stop && (main_manager()->ponder || limits.infinite))
+-    {}
++    // An internal budget can stop computation without ending infinite/ponder
++    // mode. Only a GUI stop (or ponderhit outside infinite mode) releases the
++    // result. Sleep avoids burning a CPU while waiting for the GUI.
++    while (!threads.externalStop && (main_manager()->ponder || limits.infinite))
++        std::this_thread::sleep_for(std::chrono::milliseconds(1));
+ 
+     // Stop the threads if not already stopped (also raise the stop if "ponderhit"
+     // just reset threads.ponder).
+diff --git a/src/thread.cpp b/src/thread.cpp
+index 21aa32a..ca635d0 100644
+--- a/src/thread.cpp
++++ b/src/thread.cpp
+@@ -299,6 +299,7 @@ void ThreadPool::start_thinking(const OptionsMap&  options,
+     main_thread()->wait_for_search_finished();
+ 
+     main_manager()->stopOnPonderhit = stop = false;
++    externalStop                          = false;
+     main_manager()->ponder                 = limits.ponderMode;
+ 
+     increaseDepth = true;
+diff --git a/src/thread.h b/src/thread.h
+index 8ee1e03..7447d84 100644
+--- a/src/thread.h
++++ b/src/thread.h
+@@ -155,6 +155,8 @@ class ThreadPool {
+     void ensure_network_replicated();
+ 
+     std::atomic_bool stop, increaseDepth;
++    // Distinguish a GUI stop from a completed internal node/time/mate budget.
++    std::atomic_bool externalStop{false};
+ 
+     auto cbegin() const noexcept { return threads.cbegin(); }
+     auto begin() noexcept { return threads.begin(); }
+diff --git a/tests/instrumented.py b/tests/instrumented.py
+index 3207617..55d3633 100644
+--- a/tests/instrumented.py
++++ b/tests/instrumented.py
+@@ -219,7 +219,7 @@ class TestInteractive(metaclass=OrderedClassMembers):
+         self.stockfish.clear_output()
+ 
+     def test_startup_output(self):
+-        self.stockfish.starts_with("Stockfish")
++        self.stockfish.starts_with("WetMeat 1.0 (Stockfish")
+ 
+     def test_uci_command(self):
+         self.stockfish.send_command("uci")
+@@ -453,7 +453,7 @@ class TestSyzygy(metaclass=OrderedClassMembers):
+         self.stockfish.clear_output()
+ 
+     def test_syzygy_setup(self):
+-        self.stockfish.starts_with("Stockfish")
++        self.stockfish.starts_with("WetMeat 1.0 (Stockfish")
+         self.stockfish.send_command("uci")
+         self.stockfish.send_command(
+             f"setoption name SyzygyPath value {os.path.join(PATH, 'syzygy')}"

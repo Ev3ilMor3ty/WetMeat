@@ -1,0 +1,28 @@
+{
+  "verified_utc": "2026-10-14T23:39:11.704303+00:00",
+  "status": "passed",
+  "checks": [
+    "WetMeat-Windows.zip: all archived checksums and CRCs verified",
+    "WetMeat-Linux.zip: all archived checksums and CRCs verified",
+    "WetMeat-Source.zip: all archived checksums and CRCs verified",
+    "WetMeat-Discord-Upload-Pack.zip: all archived checksums and CRCs verified",
+    "440 source/project files, stable model and per-project licences verified; stable C++ byte-for-byte unchanged",
+    "Windows: actual split files reassembled and hash-verified, existing correct archive reused; Windows helper part list checked",
+    "Linux: actual split files reassembled and hash-verified, existing correct archive reused; Windows helper part list checked",
+    "Source: actual split files reassembled and hash-verified, existing correct archive reused; Windows helper part list checked",
+    "reassembly rejected missing input and preserved existing files",
+    "reassembly rejected corrupt input and preserved existing files",
+    "reassembly rejected existing input and preserved existing files",
+    "Linux installer handled a path with spaces and preserved an existing installation",
+    "Linux installer rejected corrupted files before creating an installation",
+    "Installed Linux engine started from an unrelated directory and returned a legal move without an external model"
+  ],
+  "check_count": 14,
+  "source_file_count": 440,
+  "max_discord_part_bytes": 8388608,
+  "engine_binaries_unchanged": true,
+  "native_Windows_helper_execution_tested": false,
+  "Windows_note": "CMD uses native Windows certutil/robocopy. File lists and syntax structure checked; native Windows helper execution is not available in this Linux environment. The unchanged EXE passed the earlier Wine protocol/functional checks.",
+  "new_strength_claim": false,
+  "published_externally": false
+}

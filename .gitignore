@@ -1,0 +1,12 @@
+# Local build output and editor files
+*.o
+*.d
+*.gcda
+*.gcno
+__pycache__/
+.venv/
+.DS_Store
+build/
+stable/bin/
+stable/src/wetmeat
+stable/src/wetmeat.exe

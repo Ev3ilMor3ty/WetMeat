@@ -1,0 +1,31 @@
+name: Aurora tests
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  build-and-rules:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: make -j2 extended-test
+      - run: cmake -S . -B build-cmake -DCMAKE_BUILD_TYPE=Release
+      - run: cmake --build build-cmake --parallel 2
+      - run: ctest --test-dir build-cmake --output-on-failure
+
+  sanitizers:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: make -j2 sanitize
+
+  independent-reference:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements-dev.txt
+      - run: make -j2
+      - run: python tools/differential.py --positions 3000 --search-every 50
+      - run: python tools/tactics.py --count-per-kind 8 --depth 6
+      - run: python tools/stress.py --cycles 200

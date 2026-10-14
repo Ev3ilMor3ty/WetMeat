@@ -1,0 +1,24 @@
+**WetMeat 1.0 Stable — Windows & Linux**
+
+I've put together a release of WetMeat, my Stockfish-based chess-engine project.
+It comes with English setup instructions, optional installers and the full source.
+
+**Download:** https://github.com/mwmwqxzk5h-del/WetMeat/releases/tag/v1.0.0
+
+• Windows: https://github.com/mwmwqxzk5h-del/WetMeat/releases/download/v1.0.0/WetMeat-Windows.zip
+• Linux: https://github.com/mwmwqxzk5h-del/WetMeat/releases/download/v1.0.0/WetMeat-Linux.zip
+• Complete source and the actual model: https://github.com/mwmwqxzk5h-del/WetMeat/releases/download/v1.0.0/WetMeat-Source.zip
+• English setup guide: https://github.com/mwmwqxzk5h-del/WetMeat/releases/download/v1.0.0/WetMeat-Setup-English.pdf
+
+Extract the Windows or Linux ZIP on your PC. Follow the README, then add the
+engine to Cute Chess or Arena as a UCI engine. You can run the optional installer
+to copy it to your user folder. Use Skill Level 20, UCI_LimitStrength off and
+MultiPV 1. The network is embedded; there is no extra model download for playing.
+
+Cute Chess downloads: https://github.com/cutechess/cutechess/releases
+These are x64 PC builds and do not run directly on an iPhone or iPad.
+
+WetMeat Stable uses Stockfish's search, evaluation and official NNUE weights.
+Stockfish credits, GPL notices and the corresponding source are included.
+The research versions are separate; this release makes no claim of being
+stronger than Stockfish.

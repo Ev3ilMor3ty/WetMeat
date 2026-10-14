@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WetMeat · 10+5 rapid study</title>
+<style>
+:root{color-scheme:dark;--bg:#0c141a;--panel:#17242e;--line:#304350;--text:#e8eff3;--muted:#adbeca;--green:#90d7ac;--yellow:#efcf8b;--red:#ed8a8a}*{box-sizing:border-box}body{margin:0;background:var(--bg);font:15px/1.5 system-ui,sans-serif;color:var(--text)}main{max-width:1130px;margin:auto;padding:30px 24px}h1{font-size:32px;line-height:1.2;margin:5px 0 8px;letter-spacing:-.025em}h2{font-size:19px;margin:0 0 12px}.eyebrow{font-size:12px;color:var(--green);font-weight:700;letter-spacing:.14em;text-transform:uppercase}.sub{color:var(--muted);margin:0 0 20px;font-size:14px}.card{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:18px;margin-bottom:20px}.headline{color:var(--green);font-weight:600;margin:0 0 9px}.hint{color:var(--muted);font-size:12px;margin:9px 0 0}table{border-collapse:collapse;width:100%;font-size:13px}th,td{padding:9px 11px;text-align:left;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums}th{color:var(--muted);font-weight:500}tr:last-child td{border:0}.tables{display:grid;grid-template-columns:1fr 1fr;gap:20px}.tables .card{margin:0 0 20px}.table-wrap{overflow:auto}.layout{display:grid;grid-template-columns:minmax(0,584px) 1fr;gap:24px}.player{height:46px;display:flex;gap:8px;align-items:center}.player strong{font-size:14px}.clock{margin-left:auto;font:600 21px ui-monospace,monospace;color:var(--green);font-variant-numeric:tabular-nums}.dot{width:10px;height:10px;background:#10161b;border:1px solid #9fb0bf;border-radius:50%}.dot.white{background:#eaf0f2}.shell{padding:10px;background:#26353e;border:1px solid #40535d;border-radius:9px}.board{display:grid;grid-template-columns:repeat(8,1fr);grid-template-rows:repeat(8,1fr);aspect-ratio:1;position:relative;border-radius:3px;overflow:hidden}.square{position:relative;background:#e5e8d7;display:flex;justify-content:center;align-items:center;min-width:0;min-height:0}.square.dark{background:#668e78}.square.last{background:#ebd38f}.square.dark.last{background:#b7a871}.square.check{background:#d88372}.square svg{width:86%;height:86%;filter:drop-shadow(0 2px 1px #0003)}.coord{position:absolute;font-size:11px;color:#365943;font-weight:600;line-height:1}.dark .coord{color:#e0ebe3}.rank{top:4px;left:4px}.file{bottom:4px;right:4px}.board>.arrow-layer{position:absolute;width:100%;height:100%;pointer-events:none;left:0;top:0}.controls{display:flex;gap:7px;align-items:center;flex-wrap:wrap;margin-top:10px}button,select{font:inherit;color:var(--text);background:#253846;border:1px solid #455b6c;border-radius:7px;padding:7px 10px;cursor:pointer}button:hover{background:#355266}button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid var(--green);outline-offset:2px}button:disabled{opacity:.4;cursor:default}.play{background:var(--green);color:#102218;font-weight:700}.seek-row{display:flex;gap:10px;align-items:center;font-size:12px;color:var(--muted);margin-top:12px}input[type=range]{flex:1;min-width:0;accent-color:var(--green)}.speed{margin-left:auto;font-size:12px}.game-select{width:100%;font-size:13px;max-width:100%}.status{margin-top:14px;padding:16px;border:1px solid var(--line);border-radius:10px;background:var(--panel)}.current{font-size:25px;font-weight:700;margin:2px 0}.loss{color:var(--green);font-size:13px;min-height:22px}.loss.mistake{color:var(--yellow)}.loss.blunder{color:var(--red)}.move-head,.move-row{display:grid;grid-template-columns:32px 1fr 1fr;gap:6px}.move-head{margin-top:14px;color:var(--muted);font-size:12px;padding:7px 10px;background:#1d2e3b;border-radius:7px 7px 0 0}.moves{height:358px;overflow:auto;scrollbar-color:#556d7c #17242e;padding:5px 8px;background:var(--panel);border:1px solid var(--line);border-top:0;border-radius:0 0 10px 10px}.move-row{height:32px;align-items:center;font-variant-numeric:tabular-nums}.number{font-size:12px;color:var(--muted);text-align:center}.move{border:0;background:transparent;text-align:left;font-size:13px;padding:4px 8px}.move.active{background:#385b49;color:#c3f7d5;box-shadow:inset 2px 0 var(--green)}.move.mistake{color:var(--yellow)}.move.blunder{color:var(--red)}.buttons{display:flex;gap:8px;margin-top:11px;flex-wrap:wrap}.buttons button{font-size:12px}.metadata{font-size:12px;color:var(--muted);margin-top:14px}details{font-size:12px;color:var(--muted)}summary{cursor:pointer;color:var(--text)}footer{margin-top:24px;color:var(--muted);font-size:12px}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:11px}.before-label{font-size:12px;color:var(--yellow);min-height:20px}
+@media(max-width:820px){main{padding:20px 14px}.tables,.layout{grid-template-columns:1fr;gap:12px}h1{font-size:26px}.tables .card{margin-bottom:2px}.tables{margin-bottom:20px}.card{padding:14px}th,td{padding:7px 8px;font-size:12px}.moves{height:220px}.clock{font-size:19px}.player strong{font-size:12px}.coord{font-size:10px}}
+</style></head><body><main>
+<div class="eyebrow">Real clocks · recorded games · measured estimates</div>
+<h1>WetMeat against Stockfish 19</h1>
+<p class="sub">10 minutes + 5 seconds per move · 1 thread &amp; 256 MB hash each · full strength</p>
+<div class="tables">
+<section class="card"><h2>Held-out match results</h2><p class="headline" id="outcome">Validation in progress</p><div class="table-wrap"><table><thead><tr><th>Version</th><th>Wins</th><th>Draws</th><th>Losses</th><th>Score</th></tr></thead><tbody id="match-results"></tbody></table></div><p class="hint">Both versions play the same validation opening with both colors. A small pilot cannot establish a reliable Elo advantage.</p></section>
+<section class="card"><h2>Estimated move-error rates</h2><div class="table-wrap"><table><thead><tr><th>Engine</th><th>Checked</th><th>Mistakes</th><th>Blunders</th></tr></thead><tbody id="rates"></tbody></table></div><p class="hint">Mistake: 50–199 cp lost. Blunder: 200+ cp lost. Opening-book moves excluded. Finite longer analysis estimates these losses; it is not perfect ground truth.</p></section>
+</div>
+<div class="layout"><section aria-label="Recorded chess game">
+<div class="player" id="top-player"></div><div class="shell"><div class="board" id="board" role="img" aria-label="Chess position"></div></div><div class="player" id="bottom-player"></div>
+<div class="before-label" id="before-label"></div>
+<div class="seek-row"><span id="progress">0 / 0</span><input id="seek" type="range" min="0" value="0" aria-label="Choose move"></div>
+<div class="controls"><button id="first" aria-label="Start">|◀</button><button id="prev" aria-label="Previous move">←</button><button id="play" class="play">Play</button><button id="next" aria-label="Next move">→</button><button id="last" aria-label="Final position">▶|</button><select id="speed" class="speed" aria-label="Replay speed"><option value="1000">Slow</option><option value="500" selected>Normal</option><option value="180">Fast</option></select></div>
+<div class="buttons"><button id="flip">Flip board</button><button id="before">Before / after move</button><button id="suggestion">Show analysis suggestion</button></div>
+</section><aside>
+<select id="game-select" class="game-select" aria-label="Select recorded game"></select>
+<div class="status" aria-live="polite"><div class="hint" id="side">Initial position</div><div class="current" id="current">Ready to replay</div><div class="loss" id="loss">Clock readings come from the real game.</div></div>
+<div class="move-head"><span>Move</span><span>White</span><span>Black</span></div><div class="moves" id="moves" aria-label="Move list"></div>
+<div class="buttons"><button id="pgn">Save this PGN</button><button id="json">Save study data</button></div>
+<p class="metadata" id="game-meta"></p>
+<details><summary>Study method and limits</summary><p>A separate Stockfish process receives the complete game history and a larger node budget. Alternatives are compared at a common completed depth. Flagged losses get a larger recheck.</p><p>These rates apply to the recorded games. Search noise, finite depth, correlated moves and the small number of openings limit their meaning.</p><pre id="method"></pre></details>
+</aside></div>
+<footer>The experimental time-management candidate stays separate from the stable engine unless validation supports an improvement. Replay animation speed differs from the actual recorded clocks.</footer>
+</main>
+<script id="study-data" type="application/json">__STUDY_DATA__</script>
+<script>
+'use strict';
+const study=JSON.parse(document.getElementById('study-data').textContent),$=id=>document.getElementById(id);
+let game=null,ply=0,flipped=false,showBefore=false,showSuggestion=false,timer=null;
+const short=name=>name.split(' (Stockfish')[0],fmt=value=>`${Math.floor(Math.max(0,value)/60)}:${String(Math.floor(Math.max(0,value)%60)).padStart(2,'0')}`;
+function cell(text){const td=document.createElement('td');td.textContent=text;return td;}
+if(study.validation){
+ for(const [label,variant] of Object.entries(study.validation.by_variant)){
+  const s=variant.statistics,row=document.createElement('tr');
+  for(const value of [label==='baseline'?'WetMeat 1.0':'Experimental',s.wins,s.draws,s.losses,(100*s.score).toFixed(1)+'%'])row.append(cell(value));
+  $('match-results').append(row);
+ }
+ $('outcome').textContent=study.decision?study.decision.summary:'Validation complete; decision pending';
+}
+for(const [name,s] of Object.entries(study.rates)){
+ const row=document.createElement('tr'),complete=s.audited===s.moves;
+ for(const value of [short(name),`${s.audited}/${s.moves}`,complete?`${s.mistakes} (${(100*s.mistakes/s.moves).toFixed(2)}%)`:'Pending',complete?`${s.blunders} (${(100*s.blunders/s.moves).toFixed(2)}%)`:'Pending'])row.append(cell(value));
+ $('rates').append(row);
+}
+$('method').textContent=JSON.stringify(study.protocol,null,2);
+function label(i){return `${Math.ceil(i/2)}${i%2?'.':'…'} ${game.frames[i].san}`;}
+function stop(){if(timer!==null)clearInterval(timer);timer=null;$('play').textContent='Play';}
+function go(value){stop();ply=Math.max(0,Math.min(game.frames.length-1,Number(value)||0));showBefore=false;showSuggestion=false;render();}
+function player(id,white,frame){
+ const target=$(id);target.replaceChildren();
+ const dot=document.createElement('span');dot.className='dot'+(white?' white':'');
+ const name=document.createElement('strong');name.textContent=short(game.headers[white?'White':'Black']);
+ const clock=document.createElement('span');clock.className='clock';clock.textContent=fmt(frame.clocks[white?'white':'black']);
+ target.append(dot,name,clock);
+}
+function boardRender(){
+ const selected=game.frames[ply],frame=game.frames[showBefore&&ply?ply-1:ply],cells=[];
+ for(let row=0;row<8;row++)for(let col=0;col<8;col++){
+  const file=flipped?7-col:col,rank=flipped?row:7-row,square=String.fromCharCode(97+file)+(rank+1),symbol=frame.pieces[square];
+  const last=frame.uci&&(square===frame.uci.slice(0,2)||square===frame.uci.slice(2,4));
+  const cls=['square',(file+rank)%2===0?'dark':'light',last?'last':'',frame.check===square?'check':''].filter(Boolean).join(' ');
+  cells.push(`<div class="${cls}" title="${square}">${symbol?study.pieces[symbol]:''}${col===0?`<span class="coord rank">${rank+1}</span>`:''}${row===7?`<span class="coord file">${String.fromCharCode(97+file)}</span>`:''}</div>`);
+ }
+ $('board').innerHTML=cells.join('');
+ if(showSuggestion&&selected.audit&&selected.audit.best){
+  const move=selected.audit.best;
+  const xy=square=>{const f=square.charCodeAt(0)-97,r=Number(square[1])-1;return [((flipped?7-f:f)+.5)*100,((flipped?r:7-r)+.5)*100];};
+  const from=xy(move.slice(0,2)),to=xy(move.slice(2,4));
+  $('board').insertAdjacentHTML('beforeend',`<svg class="arrow-layer" viewBox="0 0 800 800"><defs><marker id="tip" markerWidth="3" markerHeight="3" refX="2" refY="1.5" orient="auto"><path d="M0,0 L3,1.5 L0,3Z" fill="#eaa84d"/></marker></defs><line x1="${from[0]}" y1="${from[1]}" x2="${to[0]}" y2="${to[1]}" stroke="#eaa84d" stroke-width="12" stroke-opacity=".88" marker-end="url(#tip)"/></svg>`);
+ }
+ player('top-player',flipped,frame);player('bottom-player',!flipped,frame);
+ $('before-label').textContent=showBefore?'Position before the selected move'+(showSuggestion?' · arrow: analysis suggestion':''):'';
+ $('board').setAttribute('aria-label',ply?`Position ${showBefore?'before':'after'} ${label(ply)}`:'Initial position');
+}
+function render(){
+ boardRender();const frame=game.frames[ply],audit=frame.audit;
+ $('seek').value=ply;$('progress').textContent=`${ply} / ${game.frames.length-1}`;
+ $('current').textContent=ply?label(ply):'Ready to replay';
+ $('side').textContent=ply?frame.book?'Preset opening move':ply===game.frames.length-1?'Final position · '+game.result:ply%2?'White played':'Black played':'Initial position';
+ $('loss').className='loss'+(audit?' '+audit.category:'');
+ $('loss').textContent=audit?`Estimated loss: ${audit.loss_cp} cp · ${audit.category}${audit.best!==audit.played?' · suggested '+audit.best:''}`:frame.book?'Preset opening; excluded from error rates.':'Move audit pending or not applicable.';
+ $('first').disabled=$('prev').disabled=ply===0;$('last').disabled=$('next').disabled=ply===game.frames.length-1;
+ $('before').disabled=ply===0;$('suggestion').disabled=!audit||!audit.best;
+ document.querySelectorAll('.move.active').forEach(el=>el.classList.remove('active'));
+ const active=$('move-'+ply);
+ if(active){active.classList.add('active');const list=$('moves'),top=active.offsetTop-list.offsetTop;if(top<list.scrollTop||top+active.offsetHeight>list.scrollTop+list.clientHeight)list.scrollTop=Math.max(0,top-list.clientHeight/2);}else $('moves').scrollTop=0;
+}
+function load(index){
+ stop();game=study.games[index];ply=0;showBefore=false;showSuggestion=false;
+ $('seek').max=game.frames.length-1;$('moves').replaceChildren();
+ for(let i=1;i<game.frames.length;i+=2){
+  const row=document.createElement('div');row.className='move-row';const number=document.createElement('span');number.className='number';number.textContent=Math.ceil(i/2)+'.';row.append(number);
+  for(const j of [i,i+1])if(j<game.frames.length){const button=document.createElement('button');const audit=game.frames[j].audit;button.className='move'+(audit?' '+audit.category:'');button.id='move-'+j;button.textContent=game.frames[j].san;button.addEventListener('click',()=>go(j));row.append(button);}
+  $('moves').append(row);
+ }
+ $('game-meta').textContent=`${game.stage} · ${game.variant} · ${game.result} · ${game.termination.replaceAll('_',' ')} · ${game.frames.length-1} half-moves`;
+ render();
+}
+for(let index=0;index<study.games.length;index++){const g=study.games[index],option=document.createElement('option');option.value=index;option.textContent=`${g.stage} ${g.round} · ${g.variant} · ${g.result}`;$('game-select').append(option);}
+$('game-select').addEventListener('change',e=>load(Number(e.target.value)));
+function start(){stop();if(ply===game.frames.length-1)go(0);showBefore=false;showSuggestion=false;$('play').textContent='Pause';timer=setInterval(()=>{ply++;render();if(ply===game.frames.length-1)stop();},Number($('speed').value));}
+$('play').addEventListener('click',()=>timer===null?start():stop());$('speed').addEventListener('change',()=>{if(timer!==null)start();});
+$('first').addEventListener('click',()=>go(0));$('prev').addEventListener('click',()=>go(ply-1));$('next').addEventListener('click',()=>go(ply+1));$('last').addEventListener('click',()=>go(game.frames.length-1));$('seek').addEventListener('input',e=>go(e.target.value));
+$('flip').addEventListener('click',()=>{flipped=!flipped;boardRender();});$('before').addEventListener('click',()=>{stop();showBefore=!showBefore;showSuggestion=false;boardRender();});$('suggestion').addEventListener('click',()=>{stop();showBefore=true;showSuggestion=!showSuggestion;boardRender();});
+function save(text,type,name){const url=URL.createObjectURL(new Blob([text],{type})),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+$('pgn').addEventListener('click',()=>save(game.pgn,'application/x-chess-pgn','wetmeat-'+game.stage+'-'+game.round+'.pgn'));
+$('json').addEventListener('click',()=>save(JSON.stringify(study,null,2),'application/json','wetmeat-rapid-study.json'));
+document.addEventListener('keydown',e=>{if(/^(BUTTON|INPUT|SELECT|TEXTAREA)$/.test(e.target.tagName))return;if(e.key==='ArrowLeft'){e.preventDefault();go(ply-1);}else if(e.key==='ArrowRight'){e.preventDefault();go(ply+1);}else if(e.code==='Space'){e.preventDefault();timer===null?start():stop();}});
+if(study.games.length)load(0);
+window.studySnapshot=()=>({game:$('game-select').value,ply,flipped,showBefore,showSuggestion,playing:timer!==null,fen:game.frames[showBefore&&ply?ply-1:ply].fen});
+</script></body></html>

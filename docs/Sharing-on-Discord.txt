@@ -1,0 +1,42 @@
+Sharing this release
+====================
+
+Download the actual release files before sharing them. A private workspace
+path is not a public download URL. Upload the files themselves or use the
+permanent release links described below.
+
+Option 1 — ordinary downloads
+----------------------------
+If your server's upload limit accepts the ZIPs, attach WetMeat-Windows.zip,
+WetMeat-Linux.zip and WetMeat-Source.zip. Add the English PDF and copy the text
+from DISCORD-POST.txt. Full source must stay available alongside the binaries.
+
+For permanent one-click links, you can instead upload those release files to
+your own release-hosting page and replace the filenames in the post with the
+real download links. Nothing in this package has been published automatically.
+
+Option 2 — small Discord attachments
+-------------------------------------
+Use WetMeat-Discord-Upload-Pack.zip. Extract it first, then upload the files
+inside its Windows, Linux and Source folders to the corresponding Discord
+threads. Do not upload just the outer ZIP if it exceeds the server's limit.
+
+Each numbered part is no larger than 8 MiB. Upload all parts, each folder's
+README and its Join helpers. Spread them across messages if needed. Source
+parts belong alongside the engine download, not behind a separate paywall.
+
+Tell Windows users to save every part of their chosen package and its CMD
+helper in one folder, then run the helper. Linux users run the SH helper.
+Numbered parts are pieces of one ZIP; they are not individual ZIP archives.
+The helpers join them in order and verify the full archive before accepting it.
+
+If Discord changes a filename, restore its original name before joining.
+Users need the complete Windows OR Linux set, not both. Developers can also
+download the separate Source set. The source is offered to everyone.
+
+Transferring from iPhone/iPad
+-----------------------------
+Save the downloads to Files / iCloud Drive. Transfer them to your PC through
+your normal file-sharing method, or download again on the PC. Extract the
+engine package and follow its PC instructions there. The PDF can be read on
+the phone, but Windows EXEs and Linux programs cannot run as iOS apps.

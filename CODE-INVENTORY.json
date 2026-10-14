@@ -1,0 +1,2655 @@
+{
+  "files": [
+    {
+      "project": "stable",
+      "file": "stable/.clang-format",
+      "sha256": "b6095a2ffada423b2211e3d65bb45c74844f6b1f05263c58f0aeaff809cad9e0",
+      "bytes": 1291
+    },
+    {
+      "project": "stable",
+      "file": "stable/.gitattributes",
+      "sha256": "450658d7b29478a13d4eb188c340ce1046f7c32acce249d71397a784064e6d83",
+      "bytes": 63
+    },
+    {
+      "project": "stable",
+      "file": "stable/.gitignore",
+      "sha256": "3dac258b0d1e44d98f9ff303b9e1759d5c69a1852e3c3588223158f50f387534",
+      "bytes": 345
+    },
+    {
+      "project": "stable",
+      "file": "stable/AUTHORS",
+      "sha256": "09eb0520ef9aa1caa2c53d6fcde5aa501981cc9f5ab9dff4b1bf8c7f9f688096",
+      "bytes": 7074
+    },
+    {
+      "project": "stable",
+      "file": "stable/CITATION.cff",
+      "sha256": "f98b029076a0aa0a668f03e5e2623a98cfa34854ff6cb66b852e0a736802a701",
+      "bytes": 704
+    },
+    {
+      "project": "stable",
+      "file": "stable/Copying.txt",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "bytes": 35149
+    },
+    {
+      "project": "stable",
+      "file": "stable/Top CPU Contributors.txt",
+      "sha256": "2f5589fb7df96e732605cf4af303f4c126e7adc3f1cbbcd23b48e1cbfc6c50ca",
+      "bytes": 25405
+    },
+    {
+      "project": "stable",
+      "file": "stable/UPSTREAM_README.md",
+      "sha256": "ae3ef5c2282400d643c6e923d0b8b8d8fe35cf98762701f0379c79bde16c3a26",
+      "bytes": 7772
+    },
+    {
+      "project": "stable",
+      "file": "stable/requirements-test.txt",
+      "sha256": "ada6671c19147fac96f35394a627e65d65bbac4103d082428ea837da2d5a2dc7",
+      "bytes": 37
+    },
+    {
+      "project": "stable",
+      "file": "stable/.github/ISSUE_TEMPLATE/BUG-REPORT.yml",
+      "sha256": "7ac0f699d4df7e1dd0a672f6ce70d4827753b83b61d332bcc3c482d09c21cc69",
+      "bytes": 1983
+    },
+    {
+      "project": "stable",
+      "file": "stable/.github/ISSUE_TEMPLATE/config.yml",
+      "sha256": "644df000761c1ae3e80bb68ba98025921483645de974155d7db9e7e774c1f5a1",
+      "bytes": 448
+    },
+    {
+      "project": "stable",
+      "file": "stable/.github/workflows/arm_compilation.yml",
+      "sha256": "8f8d3869ec55a8d695cee7bbe7f040bfada572aac26eb35230c481c143243a8d",
+      "bytes": 3295
+    },
+    {
+      "project": "stable",
+      "file": "stable/.github/workflows/avx2_compilers.yml",
+      "sha256": "0198d503263a531734ae0774bffa44836d79e3e9e29a70d02d2f55396c872ab2",
+      "bytes": 3133
+    },
+    {
+      "project": "stable",
+      "file": "stable/.github/workflows/clang-format.yml",
+      "sha256": "4230ccd6352d504e6fd15ad2e1fbe4615b56b9fd6dff852b614764a96b8ddbd7",
+      "bytes": 2267
+    },
+    {
+      "project": "stable",
+      "file": "stable/.github/workflows/codeql.yml",
+      "sha256": "ad3e3805708a08be8246ba4c5af6c81b8adbbd2d313575f0ada77c1097161435",
+      "bytes": 2166
+    },
+    {
+      "project": "stable",
+      "file": "stable/.github/workflows/games.yml",
+      "sha256": "57897a631ffa7aac9aca507b3c5583629ac3135efd821e3f83a2e210a28ad97b",
+      "bytes": 1591
+    },
+    {
+      "project": "stable",
+      "file": "stable/.github/workflows/iwyu.yml",
+      "sha256": "ba5822e2d779dc3a6146e80c813fc5a1371eceadcb66c3fe5c230b6d42de6028",
+      "bytes": 1674
+    },
+    {
+      "project": "stable",
+      "file": "stable/.github/workflows/matetrack.yml",
+      "sha256": "8accf6b9122b0fdd16aa8655a9ea6f5a59bcc44dadc75d5484dda28d8f4e1b25",
+      "bytes": 7434
+    },
+    {
+      "project": "stable",
+      "file": "stable/.github/workflows/msvc.yml",
+      "sha256": "286f4913823fc72b6d6d6b61b0bc86a9fb365bddf0a59558e1c81969aa71e57b",
+      "bytes": 1887
+    },
+    {
+      "project": "stable",
+      "file": "stable/.github/workflows/official_release.yml",
+      "sha256": "16d5d39161a5bfa91885acff3fbe983c8680162a8e70e28d8b9187bcf61693e1",
+      "bytes": 4444
+    },
+    {
+      "project": "stable",
+      "file": "stable/.github/workflows/sanitizers.yml",
+      "sha256": "fd5de888a6183ab143c083336334eeebec36884ed770dc0ba229d39a38f2e2d7",
+      "bytes": 3076
+    },
+    {
+      "project": "stable",
+      "file": "stable/.github/workflows/stockfish.yml",
+      "sha256": "bb39af94744d74e4467fdfabd4c94973aaeb3d544cb497943ddf8f6d9467dfc8",
+      "bytes": 7854
+    },
+    {
+      "project": "stable",
+      "file": "stable/.github/workflows/tests.yml",
+      "sha256": "187c135c55eb9c4093e83fdb817c366e99006fd4dc13a7191765f9af7da849a9",
+      "bytes": 13416
+    },
+    {
+      "project": "stable",
+      "file": "stable/.github/workflows/universal_compilation.yml",
+      "sha256": "7e05f1ac044f44f1c6f733aefb0abdda422df31fcf9f20558b071e9cdfb28840",
+      "bytes": 11706
+    },
+    {
+      "project": "stable",
+      "file": "stable/.github/workflows/upload_binaries.yml",
+      "sha256": "f550b4f22ae623ce100b6e8bc35b9ca96607166965ba640b59069e691650d3b5",
+      "bytes": 2744
+    },
+    {
+      "project": "stable",
+      "file": "stable/.github/workflows/wasm_compilation.yml",
+      "sha256": "aecf8617c834e2e2799567f8498502c5408e6e47cab7c277ab08734543a2ab66",
+      "bytes": 1708
+    },
+    {
+      "project": "stable",
+      "file": "stable/docs/aurora.patch",
+      "sha256": "c14bbd383f6c5706252b5f5873f850a94a36155cefde5cbcbcc86c5f3a0d2972",
+      "bytes": 6543
+    },
+    {
+      "project": "stable",
+      "file": "stable/docs/wetmeat.patch",
+      "sha256": "eb7d6136e6b87175b81401a9275a0e38e358b0bbdd8d94f44784c82d3d676c6f",
+      "bytes": 19334
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/continuation-20261007-061338/frozen-tools/check_continuation.py",
+      "sha256": "c2616b3736015fe89e7519d86e661b7862063c8816515d3b0845d23c24864389",
+      "bytes": 7219
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/continuation-20261007-061338/frozen-tools/continue_original.py",
+      "sha256": "2ceb54c3686f6f76d78d28919529643ef2e836f355814339b88f028b6b1a1b21",
+      "bytes": 12517
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/continuation-20261007-061338/previous-training-review-verified/positions.epd",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/continuation-20261007-061338/training-review-recovered/positions.epd",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-100ms-1000-20261007-1835/Copying.txt",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "bytes": 35149
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-100ms-1000-20261007-1835/observations/milestone100.py",
+      "sha256": "4477cdbf9ac6ebfc2875218efb2414f9a3ca30ed6456aa8a741b254932369a25",
+      "bytes": 10449
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-100ms-1000-20261007-1835/safety/watch.py",
+      "sha256": "b23844bb7b7983add011345cc9b1809972e57363a5ce2e8f48e33f0674b042d6",
+      "bytes": 4507
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-100ms-1000-20261007-1835/tools/common.py",
+      "sha256": "415a5e9ee7f169a46a0b05c11cc2cbc3b74e86c0a48bf7bb1be4e923df3c3285",
+      "bytes": 1433
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-100ms-1000-20261007-1835/tools/controller.py",
+      "sha256": "ba5d0ce2a36be264cc234df02731ff5a39f212b11fe3e7d9154b64a34c2d8c6b",
+      "bytes": 223
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-100ms-1000-20261007-1835/tools/deadline_policy.py",
+      "sha256": "b98794f7df79f5b03abe4a2bc161a5d3d0a27ee729ff79715b5897a44c88e511",
+      "bytes": 460
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-100ms-1000-20261007-1835/tools/evidence.py",
+      "sha256": "1763ab818f452b0122c5bc5c5a738ce709cb2ffbb2ec2490e6f96360b36a4a08",
+      "bytes": 18570
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-100ms-1000-20261007-1835/tools/final_analysis.py",
+      "sha256": "e1f314333f466155ea95dc72c41e15f9e18dca052c2e8ec42b9e9558b43b5aea",
+      "bytes": 4606
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-100ms-1000-20261007-1835/tools/handoff.py",
+      "sha256": "9dd723cf2261a529a1dd90c8eb064ebeab4dc6880bffd0f32b4817e1d7ab383f",
+      "bytes": 15383
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-100ms-1000-20261007-1835/tools/match_100ms.py",
+      "sha256": "b084a3f44118e3493f8b5dfc6f16c9e0efa9adbfd0bfba2280381f49d52c0196",
+      "bytes": 10288
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-100ms-1000-20261007-1835/tools/preflight.py",
+      "sha256": "0fa2250ab435d45b54986c481f82178f1515a66c6267cf33c265e973e9d5b574",
+      "bytes": 9492
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-100ms-1000-20261007-1835/tools/prepare.py",
+      "sha256": "99b749304b32c12bbaf18aa768912015a75d50087557961c15b32acfe716b093",
+      "bytes": 9316
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-100ms-1000-20261007-1835/tools/queue_runtime.py",
+      "sha256": "77a5ccd585dcf3ffc73679756cb22dea4a767fbd1980d862673e96d569037b07",
+      "bytes": 12945
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-counter-20261007-104016/observations/checkpoint_counter.py",
+      "sha256": "3833a0273425e497092486cfd7c2faed60173a0722d0e2abbfe1c3781e72105f",
+      "bytes": 9977
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-counter-20261007-104016/observations/training_draw_review.py",
+      "sha256": "60a6a2373d282c815055d79d831af5a91736187a43f639cf20406fff50ad9baa",
+      "bytes": 9486
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-counter-20261007-104016/safety/check_watch.py",
+      "sha256": "4545e349a1c81167a60f4f7d38e49bd876bb7c14184bc62b3728701e4bd1aba3",
+      "bytes": 1016
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-counter-20261007-104016/safety/watch.py",
+      "sha256": "6f3c740945cd9dcf7d371bdfa8f42c0902b6a83ce3f64597430820edced30039",
+      "bytes": 3414
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-counter-20261007-104016/tools/check_queue.py",
+      "sha256": "cb8e2e08fbf03b59847ef155493f58e472875c466b1e6b9b1b9cdd3c777469ea",
+      "bytes": 5413
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-counter-20261007-104016/tools/check_setting.py",
+      "sha256": "79d2aa960edec78b2bf36cd1835d13b76271e96801e0f2e16ea75110553c5947",
+      "bytes": 5265
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-counter-20261007-104016/tools/counter_queue.py",
+      "sha256": "30fde2171947a03f82fb1d3dd0fb328630f55eac0edb8b6156ff91f98848d77d",
+      "bytes": 11076
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-counter-20261007-104016/tools/trial_clock.py",
+      "sha256": "5c9e6696dde4ded64a48ba74a65b5837f6e760ad2d4f1c9b5afa45d4087e6f51",
+      "bytes": 2388
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-counter-20261007-104016/training32_opening1-review/positions.epd",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-counter-ongoing-20261007-1557/observations/checkpoint_counter.py",
+      "sha256": "7438075101dd550766fdf80e87065562dcb2b642b355aa5aad31434e0975c7b6",
+      "bytes": 9534
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-counter-ongoing-20261007-1557/observations/training_draw_review.py",
+      "sha256": "60a6a2373d282c815055d79d831af5a91736187a43f639cf20406fff50ad9baa",
+      "bytes": 9486
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-counter-ongoing-20261007-1557/safety/watch.py",
+      "sha256": "b23844bb7b7983add011345cc9b1809972e57363a5ce2e8f48e33f0674b042d6",
+      "bytes": 4507
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-counter-ongoing-20261007-1557/tools/check_handoff.py",
+      "sha256": "af58d1ec06e48a1628faa1424734ead580b7ec168e6b65653cb25f5350681d93",
+      "bytes": 7553
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-counter-ongoing-20261007-1557/tools/check_queue.py",
+      "sha256": "cb8e2e08fbf03b59847ef155493f58e472875c466b1e6b9b1b9cdd3c777469ea",
+      "bytes": 5413
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-counter-ongoing-20261007-1557/tools/counter_queue.py",
+      "sha256": "e0024d953ed86127bc28aaba2601f0259877997e131baef9451c627e8f8f3286",
+      "bytes": 11118
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-counter-ongoing-20261007-1557/tools/deadline_policy.py",
+      "sha256": "b98794f7df79f5b03abe4a2bc161a5d3d0a27ee729ff79715b5897a44c88e511",
+      "bytes": 460
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-counter-ongoing-20261007-1557/tools/handoff.py",
+      "sha256": "e179bd6db15559ce21853f6af7c57b46b88033ba53d7c3ff85a56f3eee7c3aab",
+      "bytes": 18209
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-counter-ongoing-20261007-1557/tools/queue_runtime.py",
+      "sha256": "77a5ccd585dcf3ffc73679756cb22dea4a767fbd1980d862673e96d569037b07",
+      "bytes": 12945
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-counter-ongoing-20261007-1557/tools/trial_clock.py",
+      "sha256": "5c9e6696dde4ded64a48ba74a65b5837f6e760ad2d4f1c9b5afa45d4087e6f51",
+      "bytes": 2388
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/original-counter-ongoing-20261007-1557/training64_opening1-review/positions.epd",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/overnight-fallback/failure-review/positions.epd",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "project": "stable",
+      "file": "study-snapshots/rapid-study/candidate.patch",
+      "sha256": "8527217ab1d4a1d3f180d9e5004e2e4ad31f35ac9b37a138b306083ef485245c",
+      "bytes": 1534
+    },
+    {
+      "project": "stable",
+      "file": "stable/scripts/.gitattributes",
+      "sha256": "1d5d71dcc6ccd28ab46a335349ecc74742ca4b81f4fcad212f8d134f70f1f13e",
+      "bytes": 17
+    },
+    {
+      "project": "stable",
+      "file": "stable/scripts/check_universal.sh",
+      "sha256": "b1e5566a695b519c504cf13e11c2cf58a73e1338d1beb6bcf8b8af04446c781b",
+      "bytes": 2357
+    },
+    {
+      "project": "stable",
+      "file": "stable/scripts/check_universal_arm.sh",
+      "sha256": "26adf3da328e8d1ca4209554841f6d7cc05fb6242df69c67fdde306a64185139",
+      "bytes": 1870
+    },
+    {
+      "project": "stable",
+      "file": "stable/scripts/check_universal_macos.sh",
+      "sha256": "86ce982e76e7c89e2062daeba92ff149e80417789ef02e4450060ca29917cf6b",
+      "bytes": 1767
+    },
+    {
+      "project": "stable",
+      "file": "stable/scripts/check_universal_riscv.sh",
+      "sha256": "75b4cef47585deb04c0cbea9d06df390891076b7c6d971a9f3ac24353792c68c",
+      "bytes": 2078
+    },
+    {
+      "project": "stable",
+      "file": "stable/scripts/get_native_properties.sh",
+      "sha256": "ff5caf017460c2b27e37987c493a4b2be4e726c1c453c3eaac90569dfed155a4",
+      "bytes": 8958
+    },
+    {
+      "project": "stable",
+      "file": "stable/scripts/net.sh",
+      "sha256": "c0df735168d5e4f49109e91319f350f6c4238d74b72396f012fce2e495ae8d32",
+      "bytes": 2419
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/Makefile",
+      "sha256": "8d032219035996701d926761e76459c84b77350f36f31775c1a34fb7f56ff07a",
+      "bytes": 47290
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/attacks.cpp",
+      "sha256": "260c2cceb38d7a87a69e4df0f84d84e6729b1a77bbc321a13fed8cff66b2c704",
+      "bytes": 6182
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/attacks.h",
+      "sha256": "0e6b122913bda3e051e036e4fbc4da02e0349ac13b0f88380ac3317eaf7483af",
+      "bytes": 10807
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/benchmark.cpp",
+      "sha256": "0a8d3f29278ad53abbceee284721a3ac4ddd7c768052de928672a2869bc2da80",
+      "bytes": 27162
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/benchmark.h",
+      "sha256": "bd4822d67e441a0546e49aadfb85c400a3dbe8f8b3bce8131814b156aedf2f27",
+      "bytes": 1356
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/bitboard.cpp",
+      "sha256": "b73064f2270344bce175865174666b92d1f3653c6ee4f98fd075f0fb1865b735",
+      "bytes": 1409
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/bitboard.h",
+      "sha256": "18420178487d2063990f08c8e8c0fc1aa7ad3d4a292e6d8d8d5aaa82586aa84d",
+      "bytes": 8143
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/engine.cpp",
+      "sha256": "53ed5936c580712fd77979f07787bd1348394287ad2f54c3607ccc6fb8478cab",
+      "bytes": 12268
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/engine.h",
+      "sha256": "be37f8052c96707478840fd2e5512eae79d50f581f1a5a1b6471246defaffe86",
+      "bytes": 4894
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/evaluate.cpp",
+      "sha256": "216e9a6400b62f14a6605a484bf92cc4ef31bf2a763a6f3590f8b45229c4270c",
+      "bytes": 4668
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/evaluate.h",
+      "sha256": "b375ca8f8a993400fe1095b6184fc7e1816fc09cfee96bbf7258b0468ab9ad21",
+      "bytes": 1767
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/history.h",
+      "sha256": "f6e957d6e717348f58aa308f88aefddb5975e6a6c1d23e936ecf3548cbb48c39",
+      "bytes": 9247
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/main.cpp",
+      "sha256": "20ecc928260f46dfa3622ef0a4d810fe880322b1444659d155ce295be84b343a",
+      "bytes": 1602
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/memory.cpp",
+      "sha256": "5739783a3ab5627d9a59cd3c26d7b66ff8b35c85af3b5994c3aef75298f9aa5d",
+      "bytes": 7669
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/memory.h",
+      "sha256": "ab7fc8da563807ac89c93b60eee3dc81f30e19c0c4f0f4b6166251635006f1a9",
+      "bytes": 13202
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/misc.cpp",
+      "sha256": "9b199c946b2ce041ff656a50a530cac45953587f76a63e950dc2dcdd1fcc9799",
+      "bytes": 17510
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/misc.h",
+      "sha256": "aba39892e7e6d40975d2df370cb3bac88df003b49261b353f0bdfd6a75c86665",
+      "bytes": 17990
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/movegen.cpp",
+      "sha256": "62ce41a3fd6c60aa668593804168a4ca91ddb0a6c19077d0624bd09239087e54",
+      "bytes": 9759
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/movegen.h",
+      "sha256": "8180128aafed4aacdfc75999b17e7cb64da250b6c94b87e06a2e1bf65b3a6276",
+      "bytes": 2130
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/movepick.cpp",
+      "sha256": "cdf3dfe41a5ec8c582b1a7f0bdb8cef6b88f0f7114b0a7d0f263f9a34e915146",
+      "bytes": 11808
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/movepick.h",
+      "sha256": "6082a59beec9cd7badae9d2463df91d5067af490ae498a377eac9bc94ad1fe06",
+      "bytes": 2794
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/numa.h",
+      "sha256": "d6014e0b9580885edc97d6ea38f2f8849bab37e8b0e71fb27e4fa1320f35bb57",
+      "bytes": 64196
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/perft.h",
+      "sha256": "3fd970d05be7e38299cdeeee8a9dc45b446a5527173245ff7d7296e0d439d356",
+      "bytes": 1994
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/position.cpp",
+      "sha256": "9761cba4d15e763141bcf0c45316e0926264df3f2b20ec2bcccdd88125a66324",
+      "bytes": 58345
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/position.h",
+      "sha256": "3fddd346a1289b7e8879b76f9c6d694cb0000c0047ac142564c0255c37edc7a1",
+      "bytes": 14842
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/score.cpp",
+      "sha256": "c5877628d70984fef345f2ace3f155ea883f316505485f2115701aac313dfb01",
+      "bytes": 1414
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/score.h",
+      "sha256": "b1355a14624fb743e7bde5b68030ae40650e3b34c36a4feac6d4b4704e56efd1",
+      "bytes": 1605
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/search.cpp",
+      "sha256": "adb720a9ea04130def70a6849854c51a382a3657ece4b05f9b6a203dd853f5bd",
+      "bytes": 95467
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/search.h",
+      "sha256": "18e8bab5e8da6043a0b493e9cfc52c19bb23a198b80aae0761a520a6cee9916e",
+      "bytes": 14350
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/shm.h",
+      "sha256": "b33e127ffd444e1382d804d3d84d7023aa09789d94d1f44695710d179d906c92",
+      "bytes": 20147
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/shm_unix.h",
+      "sha256": "9370ad96b19e41f34d85ae6086db5cd2d769803c3c20c63217d90090a9ff4337",
+      "bytes": 20191
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/thread.cpp",
+      "sha256": "dcbc79cf21d744dab41005ed53f53c9de9e3a38e44534744326c6344a33fbfe4",
+      "bytes": 16092
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/thread.h",
+      "sha256": "349f94779f1391453c8bdaa8b2b11e008728bcc2d2d5ab7ba5c254e126345cb9",
+      "bytes": 6295
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/thread_native.h",
+      "sha256": "e716bc066bac3feb1a80d65d03022a9a4a415fd961bf72a4922cbc85b55666d4",
+      "bytes": 5080
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/timeman.cpp",
+      "sha256": "f604f6387ace75d3eb7648f5b278f7d842bc72f5d0100637b26693fafbf6bc7d",
+      "bytes": 6727
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/timeman.h",
+      "sha256": "bb1b4a3124b36ac3cf511a2c5b781a340657aa4b4f17eb2bf965efb08c1121ed",
+      "bytes": 2136
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/tt.cpp",
+      "sha256": "b8332e1dd5c5d1589f2855aa586fda6423197a39167e95b0001a7b4c5049648a",
+      "bytes": 10527
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/tt.h",
+      "sha256": "a13bb0e12e927e3f17015a143cdcb53bdf863f250ffe6036aa97fbed3e838e14",
+      "bytes": 3823
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/tune.cpp",
+      "sha256": "3f0157baeaf981aa1e60aa178a33e9017f73efe82724d3694aa6088307fdaa36",
+      "bytes": 3512
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/tune.h",
+      "sha256": "9298669723766aea05f2d4317e5cd8119cdb6ad3f1d3e48f47ecc63c25bc3703",
+      "bytes": 6712
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/types.h",
+      "sha256": "9a6bae5b151595eb80b56e90c4496fefa92e013f1772bcc7b3ce60c178bb95f6",
+      "bytes": 16233
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/uci.cpp",
+      "sha256": "e50c16f789fd12b3e1ab46a2655c6dd4dd420f169bf5938b9cc84a95aeff0022",
+      "bytes": 22713
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/uci.h",
+      "sha256": "6ad20b4d5f02ad529ccc947d425f182ff68ad17dd8ab6f3984a652709f9307d0",
+      "bytes": 2571
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/ucioption.cpp",
+      "sha256": "5d699e2fa1d57cfa5f3169412dc8fc5d26685563be38c221cdbfde7237305e8a",
+      "bytes": 6326
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/ucioption.h",
+      "sha256": "85468dec1694abd49af3997edac57eb48a897a844369f86ecfb75ea575d546cb",
+      "bytes": 3179
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/incbin/incbin.h",
+      "sha256": "70995329299ec55d414ad6df6929ddcfe0a43a40102cf6c05ff3c74ddd2765cb",
+      "bytes": 16036
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/nnue/network.cpp",
+      "sha256": "e175edbd446cd2b3cf2919b1ea8ad56baa55ba71328f6e344d8e9e466b7c455f",
+      "bytes": 12042
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/nnue/network.h",
+      "sha256": "fcd4c2f5b774a463f115009dcea2ae83cab38d2bf31bac4f2d33e8130aa9c656",
+      "bytes": 3746
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/nnue/nnue_accumulator.cpp",
+      "sha256": "b96618fb98ba7f35d55f05a0745f19f3d907cb7c71a78ec6be796ac9e4349ca2",
+      "bytes": 33202
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/nnue/nnue_accumulator.h",
+      "sha256": "587b99e4a863ae2a37f09c132e1ddbdff62fe7ddfd3420f4da23fc418cf1e1d8",
+      "bytes": 5221
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/nnue/nnue_architecture.h",
+      "sha256": "162bb429eae5f6b2912ecaadaf027fae1f02bc8d2abc86119b5778b43a369a5e",
+      "bytes": 6982
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/nnue/nnue_common.h",
+      "sha256": "c46c47687353992f45a33e2207d46ca618cc12da9b99e2c131e59d48876b6e9b",
+      "bytes": 10515
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/nnue/nnue_feature_transformer.h",
+      "sha256": "87061048701098b3b85239e4b5c8a03d81b6779d49e89633bc9762f18286b5b4",
+      "bytes": 16395
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/nnue/nnue_misc.cpp",
+      "sha256": "e61d58094c174cb5dd8df318320c7c0a8fb7764cb10a7085e87847cb719bc884",
+      "bytes": 2631
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/nnue/nnue_misc.h",
+      "sha256": "a8d3fec5eae59d3bde9bf61879aa8cdb0551067ab929bdfc66333e008cee2144",
+      "bytes": 1934
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/nnue/nnz_helper.h",
+      "sha256": "5118876cd8008d84f397c07785be4f5ad2df9715e5d671b1537888f3d469fd0b",
+      "bytes": 5760
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/nnue/simd.h",
+      "sha256": "5e6758d557796b5479e81b30e6eb07e75b5fc2c8e95723d080c834188c0c4db7",
+      "bytes": 16544
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/nnue/features/full_threats.cpp",
+      "sha256": "4bd9602142ca97cb40ba3c02718236e0e15e41e29913d5917de599288dd23277",
+      "bytes": 12348
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/nnue/features/full_threats.h",
+      "sha256": "dd1d9b1cd360b8c5e41b5e0e9836c335cc250ade8a30fc28357e482f0aeff874",
+      "bytes": 4424
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/nnue/features/half_ka_v2_hm.cpp",
+      "sha256": "1c2ee6f4b5ef26f09815177e061a2cadc21e158d2aba350ab67a22b85c549141",
+      "bytes": 5355
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/nnue/features/half_ka_v2_hm.h",
+      "sha256": "c6c24b6246a10278e992e5494f38a02f96436764fe0fb0e11f21e96e6b3b45d5",
+      "bytes": 5604
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/nnue/features/pp_3wide.cpp",
+      "sha256": "55dad256e38a27149d48958747131afa6c87a41f6b4771e12c6113bc82b6614f",
+      "bytes": 10602
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/nnue/features/pp_3wide.h",
+      "sha256": "3889a046b7eb5c9147d0c89be69514200d414e276a68809b4f512c8fe139e635",
+      "bytes": 3153
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/nnue/layers/affine_transform.h",
+      "sha256": "b0a30ba12d1f11e8fddab66d8592c42ac3ca56233d0117ccf3bb9a9c27fefda2",
+      "bytes": 16937
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/nnue/layers/affine_transform_sparse_input.h",
+      "sha256": "5471180cbe69b91f7f39278bef5c79ce37f538307cb8f11d3f51fafe9a0eab14",
+      "bytes": 18056
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/nnue/layers/clipped_relu.h",
+      "sha256": "13d0f93da3b40df3a7c4b23fe34a4199e5f3cee03f529eac4f060299efa64e76",
+      "bytes": 7033
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/nnue/layers/sqr_clipped_relu.h",
+      "sha256": "d2b6fb4f7045d2851f7ca48c4daa9a6292655ba026dc7b94c34105706eb7504b",
+      "bytes": 11029
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/syzygy/tbprobe.cpp",
+      "sha256": "39d87629573a92ee75c30ea6d76bc53c8aaaa0ea16a706300a840de0a256bc32",
+      "bytes": 70928
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/syzygy/tbprobe.h",
+      "sha256": "5b86ca73b73cd9850f7cd89a766a7d8e861fbb2e0dfa8ae3ebf151801e1d3930",
+      "bytes": 2640
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/universal/entry_arm64.cpp",
+      "sha256": "8d344fa02d4a6315c49bae32a5182578557c8543a8f146cf6690495f48691bdf",
+      "bytes": 2202
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/universal/entry_riscv64.cpp",
+      "sha256": "85ef23b0eeb56620df3dfe149ed2f60b2b6fbee2f66944e22173ac3fd9f718dc",
+      "bytes": 3158
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/universal/entry_x86.cpp",
+      "sha256": "523fa2ebc9bcca8378ce5a8e46ec0fee21385cc50bfae4eadbcabda6ba3c7225",
+      "bytes": 6925
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/universal/nnue_embed.cpp",
+      "sha256": "a1c8960bb0f57ca54d83ea99c0170b79061ebeb103bacc7866212e4aba78a3a2",
+      "bytes": 2838
+    },
+    {
+      "project": "stable",
+      "file": "stable/src/universal/patch_x86_slice.sh",
+      "sha256": "f20555e2a4327077ba4d4f3a83292e4da54c7033516c523d2299219db2cd8bd8",
+      "bytes": 2754
+    },
+    {
+      "project": "stable",
+      "file": "stable/tests/.gitattributes",
+      "sha256": "1d5d71dcc6ccd28ab46a335349ecc74742ca4b81f4fcad212f8d134f70f1f13e",
+      "bytes": 17
+    },
+    {
+      "project": "stable",
+      "file": "stable/tests/instrumented.py",
+      "sha256": "8f4adf30ccea015f9e80318ee18316072c76838644ff71f9cd3c5aca05e370b8",
+      "bytes": 26942
+    },
+    {
+      "project": "stable",
+      "file": "stable/tests/perft.sh",
+      "sha256": "eb197e6d33e0b6b85592d4686103a113f61125a204f1f5a1786de8c7eb457f71",
+      "bytes": 3318
+    },
+    {
+      "project": "stable",
+      "file": "stable/tests/reprosearch.sh",
+      "sha256": "e6226b7cf82ce36a9b5d04dbe8a31dda48651944311d5bfbdfc97d3d2a6f37f7",
+      "bytes": 1309
+    },
+    {
+      "project": "stable",
+      "file": "stable/tests/signature.sh",
+      "sha256": "360a4b30bc99789c5603c8627a21eff45d4b5849f42deaa32f766801bd6eb7c7",
+      "bytes": 1081
+    },
+    {
+      "project": "stable",
+      "file": "stable/tests/testing.py",
+      "sha256": "0a002681606fc2e9ed57c00e8a576c9c230e0868ac325f39a4d86539bfe72465",
+      "bytes": 13218
+    },
+    {
+      "project": "stable",
+      "file": "stable/tests/syzygy/SOURCE-5.txt",
+      "sha256": "8eb40b15a41fd7d10c47c6b70949261bba85aa01cf70309329cfab20391bfdb8",
+      "bytes": 15000
+    },
+    {
+      "project": "stable",
+      "file": "stable/tests/syzygy/SOURCE-6.txt",
+      "sha256": "38aa47cbc59c2f9ed6f2baa77312e2f886bcad9df0328e291c401ef4f237e818",
+      "bytes": 38690
+    },
+    {
+      "project": "stable",
+      "file": "stable/tests/syzygy/SOURCE.txt",
+      "sha256": "e09df94798ad6d4e81490588d4fe7360c6dc5ac04b6a26ea5bb705dfc819002c",
+      "bytes": 158
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/analyse_games.py",
+      "sha256": "8b1d06674e61ce2b57f8ccc6d860f5e39a0ddfc7b4bfe383c98aded7eaac108c",
+      "bytes": 14997
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/benchmark.py",
+      "sha256": "6d7dccdec77b196c6e7e33bac213672b4937d6767adb04a6c4a4d1f91084c50c",
+      "bytes": 1960
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/build.sh",
+      "sha256": "53bda16115f1b449de93ed764a66f4d28d736741c6ba47d1baa93cf95189e6f5",
+      "bytes": 587
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/clock_match.py",
+      "sha256": "2aec2f962f48e1a6b6079fd29e69195239d53646fea13b538e5c49e29fe9996c",
+      "bytes": 11542
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/differential.py",
+      "sha256": "c83f4bd8cd5660b095edf401fcef3507f4f28d1d5158b75f3d7de9171bad646b",
+      "bytes": 5218
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/finalize_study.py",
+      "sha256": "8a03ccd83ccc57fa705deda8eed6fedf7e116666caecea85c5165ace805d2ef1",
+      "bytes": 15610
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/match.py",
+      "sha256": "7d03343b3e67d45b0973755a7efe6e0b9b94f7d10612b5d9a199e4ee8d4d0cf7",
+      "bytes": 8037
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/package.py",
+      "sha256": "9e88931c1e00dec8147f42e0ddd40101ffd448ffe6e775f3333ccbb5dab193b7",
+      "bytes": 2887
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/package_study.py",
+      "sha256": "6d0d65dc4539ba392590d56661ba3563daa5b6be845661421828cc97b85606ad",
+      "bytes": 5323
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/protocol_regression.py",
+      "sha256": "d9b2df654ed370e4291f0df2c14205ac3a9504632dd0da1a84c22d69ae854e6f",
+      "bytes": 3710
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/regression.py",
+      "sha256": "bcc529e4fc37ed41c17b1584f4c1578a2f579ad0900b188ed5dc5e4f3b428e75",
+      "bytes": 2822
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/stress.py",
+      "sha256": "52150b0b0271488dce79a34a5977b2740e8ae90c6ca20572d178219fa4af0f7b",
+      "bytes": 5218
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/uci_client.py",
+      "sha256": "f0af81891371ea38a3140cb547cfbaa2579313a286fba09fef24f303a619161d",
+      "bytes": 4339
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/analyse_games.py",
+      "sha256": "2119599b27d16fb80698541026c5b2a45e65cabac97a6732299c8717339c8d42",
+      "bytes": 16070
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/check_atomic_audits.py",
+      "sha256": "f3421302eee06d18050a4780347daae99c3c6c83139514f5b9e2bf58bbaf6380",
+      "bytes": 4048
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/check_audit_scores.py",
+      "sha256": "d49fd7fe5dccac6dd490d1a42eadf57d4c5bc84ff5968a8fc3672a9917585b68",
+      "bytes": 1494
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/check_continuation.py",
+      "sha256": "c2616b3736015fe89e7519d86e661b7862063c8816515d3b0845d23c24864389",
+      "bytes": 7219
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/check_cumulative_report.py",
+      "sha256": "3dfa41d00bd7509b00975f539f45f1412a6081209b4ed965bac6f61b410caf4b",
+      "bytes": 4391
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/check_draw_policy.py",
+      "sha256": "ecb86caae4444a083bd5d6f512f13aaafcc696eeae57b3d0d22a3a293fd82b09",
+      "bytes": 3552
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/check_export_failures.py",
+      "sha256": "1309079e99a6167b7e21cfbc605511d61a2f728bec8b54120323d118f73eba17",
+      "bytes": 4973
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/check_match_failures.py",
+      "sha256": "37c87c9209db10a7362a95f80b00792c9f8db20e0401c62b333c3cfe4e3ad46a",
+      "bytes": 6059
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/check_pipeline_safety.py",
+      "sha256": "70fa24877b740445c601e28e8ca72b205580cb4ab240ed3c6711de0f203aa421",
+      "bytes": 6399
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/check_pipelined_queue.py",
+      "sha256": "58d2bc778e956c68a4452e2e855f8a5a61ef01f84c55283b3e924c0e4c935e0a",
+      "bytes": 4999
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/check_report_evidence.py",
+      "sha256": "fc420d3d3f70e8c2d01840eab5b5663e3a6f093c80b2c16415fc153d6f45f64e",
+      "bytes": 7987
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/clock_match.py",
+      "sha256": "2bc076aafe09c4d8da7b4f63f976a7231c14a40da7b2819b63ba3f225e64b756",
+      "bytes": 18561
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/combined_report.py",
+      "sha256": "99b4d01f9cb2b3e24e0e43d8e17297d1f69edf4f9ac84015d1456d7bdffbc94b",
+      "bytes": 7841
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/combined_report_v2.py",
+      "sha256": "97cf98ecc98f7d740e8e11e68a2dde7abb4dcedb903fd6003eccb7cf68140aff",
+      "bytes": 5432
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/continue_original.py",
+      "sha256": "2ceb54c3686f6f76d78d28919529643ef2e836f355814339b88f028b6b1a1b21",
+      "bytes": 12517
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/cutoff_watch.py",
+      "sha256": "cd14a92ecdcacb954414b79787486f4679a0567904d99d27d69046d0158d7410",
+      "bytes": 6783
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/cutoff_watch_multi.py",
+      "sha256": "edf871cb29a30e05cdc7b456e852db21cbf45bdbdd8655515ab3f9886ed670ee",
+      "bytes": 7453
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/export_failures.py",
+      "sha256": "2033b50e2eb4ec3705c1f17a86df0cd4eb7fbaa4399bd2df8a06d3159ef88d42",
+      "bytes": 8366
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/journal_replay.py",
+      "sha256": "583f4fd8e106abe930c2269f754d4219860137c6a30c9968f5269081f80aab78",
+      "bytes": 4208
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/match.py",
+      "sha256": "7d03343b3e67d45b0973755a7efe6e0b9b94f7d10612b5d9a199e4ee8d4d0cf7",
+      "bytes": 8037
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/morning_report.py",
+      "sha256": "9e12a4f5dc2b3fe6e1b1b6be9e3dff89dd64fd58e17504003740d87d62b40259",
+      "bytes": 13865
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/overnight.py",
+      "sha256": "4147ac77f7b013b5f45e64f892242d141fbd3e6a4b1dcdeedc4c70b6e7e9e47f",
+      "bytes": 11450
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/pipeline_handoff.py",
+      "sha256": "18af7a46712d35b8ca74c95067bc513c12e85d5d314369ed0d6c12809f440161",
+      "bytes": 7473
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/pipelined_analyse_games.py",
+      "sha256": "c991c23fad0340b94ac009de3d88a2a83465c6a05d0dfc65917529e4fd513637",
+      "bytes": 16246
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/pipelined_clock_match.py",
+      "sha256": "b186ce6f2ffaa5ce4d3d82c9825c5bf00aa8d86773dc2eb1fa69403aeab2d8b8",
+      "bytes": 20878
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/pipelined_overnight.py",
+      "sha256": "1b0087e248ee353336804eebf814c30d5f8618e57e66f9f1b2fec0e804729f8e",
+      "bytes": 11467
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/prepare_original.py",
+      "sha256": "2a06472cf3a65847a61ae5807cd4dee91c5dc6b2594b3fefd929be7dd4cb405f",
+      "bytes": 10480
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/route_overnight.py",
+      "sha256": "2cef05af462d6ccb58fd903a10885341fa7c2976b95fb7fb4c9549c42eff1315",
+      "bytes": 9568
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/summarize_study.py",
+      "sha256": "5b27671f2950740fb362a759ff71ea6ef76f471d19d23b92785457219a1aa2bf",
+      "bytes": 9958
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/night-study/verify_records.py",
+      "sha256": "49a75dea88bd2e011cb59f66c4d9497c0e5d6475fda794a56d4b3127eaaeb121",
+      "bytes": 9623
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/replays/create_replay.py",
+      "sha256": "7cbf1d09bc08d4e085f8de4e850bf18119411e83abc92612f7c6dbdfed897682",
+      "bytes": 3001
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/replays/create_study_report.py",
+      "sha256": "ca9bc25a56c69c33a666f318c3922b077f5822811c7133757c713a75e85e4a26",
+      "bytes": 4575
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/replays/replay.template.html",
+      "sha256": "e10c465773398160752b989bdbcbe444870133cc3140af1d8790edeb60e53754",
+      "bytes": 14644
+    },
+    {
+      "project": "stable",
+      "file": "stable/tools/replays/study.template.html",
+      "sha256": "1770a5107ef293ce297963fadb567c70ec0766d46847427a1207c05ff1e1edfd",
+      "bytes": 16918
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/AUTHORS",
+      "sha256": "09eb0520ef9aa1caa2c53d6fcde5aa501981cc9f5ab9dff4b1bf8c7f9f688096",
+      "bytes": 7074
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/Copying.txt",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "bytes": 35149
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/UPSTREAM_README.md",
+      "sha256": "ae3ef5c2282400d643c6e923d0b8b8d8fe35cf98762701f0379c79bde16c3a26",
+      "bytes": 7772
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/scripts/.gitattributes",
+      "sha256": "1d5d71dcc6ccd28ab46a335349ecc74742ca4b81f4fcad212f8d134f70f1f13e",
+      "bytes": 17
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/scripts/check_universal.sh",
+      "sha256": "b1e5566a695b519c504cf13e11c2cf58a73e1338d1beb6bcf8b8af04446c781b",
+      "bytes": 2357
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/scripts/check_universal_arm.sh",
+      "sha256": "26adf3da328e8d1ca4209554841f6d7cc05fb6242df69c67fdde306a64185139",
+      "bytes": 1870
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/scripts/check_universal_macos.sh",
+      "sha256": "86ce982e76e7c89e2062daeba92ff149e80417789ef02e4450060ca29917cf6b",
+      "bytes": 1767
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/scripts/check_universal_riscv.sh",
+      "sha256": "75b4cef47585deb04c0cbea9d06df390891076b7c6d971a9f3ac24353792c68c",
+      "bytes": 2078
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/scripts/get_native_properties.sh",
+      "sha256": "ff5caf017460c2b27e37987c493a4b2be4e726c1c453c3eaac90569dfed155a4",
+      "bytes": 8958
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/scripts/net.sh",
+      "sha256": "c0df735168d5e4f49109e91319f350f6c4238d74b72396f012fce2e495ae8d32",
+      "bytes": 2419
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/Makefile",
+      "sha256": "8d032219035996701d926761e76459c84b77350f36f31775c1a34fb7f56ff07a",
+      "bytes": 47290
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/attacks.cpp",
+      "sha256": "260c2cceb38d7a87a69e4df0f84d84e6729b1a77bbc321a13fed8cff66b2c704",
+      "bytes": 6182
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/attacks.h",
+      "sha256": "0e6b122913bda3e051e036e4fbc4da02e0349ac13b0f88380ac3317eaf7483af",
+      "bytes": 10807
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/benchmark.cpp",
+      "sha256": "0a8d3f29278ad53abbceee284721a3ac4ddd7c768052de928672a2869bc2da80",
+      "bytes": 27162
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/benchmark.h",
+      "sha256": "bd4822d67e441a0546e49aadfb85c400a3dbe8f8b3bce8131814b156aedf2f27",
+      "bytes": 1356
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/bitboard.cpp",
+      "sha256": "b73064f2270344bce175865174666b92d1f3653c6ee4f98fd075f0fb1865b735",
+      "bytes": 1409
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/bitboard.h",
+      "sha256": "18420178487d2063990f08c8e8c0fc1aa7ad3d4a292e6d8d8d5aaa82586aa84d",
+      "bytes": 8143
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/engine.cpp",
+      "sha256": "69412cf6e4a024f76f0a40f80695501b1f6cb658258da0712930d9ea5cb78d8c",
+      "bytes": 12406
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/engine.h",
+      "sha256": "be37f8052c96707478840fd2e5512eae79d50f581f1a5a1b6471246defaffe86",
+      "bytes": 4894
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/evaluate.cpp",
+      "sha256": "216e9a6400b62f14a6605a484bf92cc4ef31bf2a763a6f3590f8b45229c4270c",
+      "bytes": 4668
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/evaluate.h",
+      "sha256": "b375ca8f8a993400fe1095b6184fc7e1816fc09cfee96bbf7258b0468ab9ad21",
+      "bytes": 1767
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/history.h",
+      "sha256": "f6e957d6e717348f58aa308f88aefddb5975e6a6c1d23e936ecf3548cbb48c39",
+      "bytes": 9247
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/main.cpp",
+      "sha256": "20ecc928260f46dfa3622ef0a4d810fe880322b1444659d155ce295be84b343a",
+      "bytes": 1602
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/memory.cpp",
+      "sha256": "5739783a3ab5627d9a59cd3c26d7b66ff8b35c85af3b5994c3aef75298f9aa5d",
+      "bytes": 7669
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/memory.h",
+      "sha256": "ab7fc8da563807ac89c93b60eee3dc81f30e19c0c4f0f4b6166251635006f1a9",
+      "bytes": 13202
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/misc.cpp",
+      "sha256": "1f053fbfd682664ab5fea2a17e5aa8419c599136b7a6efcb9e136a6bc49f65ab",
+      "bytes": 17523
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/misc.h",
+      "sha256": "aba39892e7e6d40975d2df370cb3bac88df003b49261b353f0bdfd6a75c86665",
+      "bytes": 17990
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/movegen.cpp",
+      "sha256": "62ce41a3fd6c60aa668593804168a4ca91ddb0a6c19077d0624bd09239087e54",
+      "bytes": 9759
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/movegen.h",
+      "sha256": "8180128aafed4aacdfc75999b17e7cb64da250b6c94b87e06a2e1bf65b3a6276",
+      "bytes": 2130
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/movepick.cpp",
+      "sha256": "cdf3dfe41a5ec8c582b1a7f0bdb8cef6b88f0f7114b0a7d0f263f9a34e915146",
+      "bytes": 11808
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/movepick.h",
+      "sha256": "6082a59beec9cd7badae9d2463df91d5067af490ae498a377eac9bc94ad1fe06",
+      "bytes": 2794
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/numa.h",
+      "sha256": "d6014e0b9580885edc97d6ea38f2f8849bab37e8b0e71fb27e4fa1320f35bb57",
+      "bytes": 64196
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/perft.h",
+      "sha256": "3fd970d05be7e38299cdeeee8a9dc45b446a5527173245ff7d7296e0d439d356",
+      "bytes": 1994
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/position.cpp",
+      "sha256": "9761cba4d15e763141bcf0c45316e0926264df3f2b20ec2bcccdd88125a66324",
+      "bytes": 58345
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/position.h",
+      "sha256": "3fddd346a1289b7e8879b76f9c6d694cb0000c0047ac142564c0255c37edc7a1",
+      "bytes": 14842
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/score.cpp",
+      "sha256": "c5877628d70984fef345f2ace3f155ea883f316505485f2115701aac313dfb01",
+      "bytes": 1414
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/score.h",
+      "sha256": "b1355a14624fb743e7bde5b68030ae40650e3b34c36a4feac6d4b4704e56efd1",
+      "bytes": 1605
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/search.cpp",
+      "sha256": "055db55480af20af0d9d64d7b95a9af0e1a4fd03076c6c7f1e2e5fa3944d14a6",
+      "bytes": 95858
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/search.h",
+      "sha256": "18e8bab5e8da6043a0b493e9cfc52c19bb23a198b80aae0761a520a6cee9916e",
+      "bytes": 14350
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/shm.h",
+      "sha256": "b33e127ffd444e1382d804d3d84d7023aa09789d94d1f44695710d179d906c92",
+      "bytes": 20147
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/shm_unix.h",
+      "sha256": "9370ad96b19e41f34d85ae6086db5cd2d769803c3c20c63217d90090a9ff4337",
+      "bytes": 20191
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/thread.cpp",
+      "sha256": "dcbc79cf21d744dab41005ed53f53c9de9e3a38e44534744326c6344a33fbfe4",
+      "bytes": 16092
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/thread.h",
+      "sha256": "349f94779f1391453c8bdaa8b2b11e008728bcc2d2d5ab7ba5c254e126345cb9",
+      "bytes": 6295
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/thread_native.h",
+      "sha256": "e716bc066bac3feb1a80d65d03022a9a4a415fd961bf72a4922cbc85b55666d4",
+      "bytes": 5080
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/timeman.cpp",
+      "sha256": "f604f6387ace75d3eb7648f5b278f7d842bc72f5d0100637b26693fafbf6bc7d",
+      "bytes": 6727
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/timeman.h",
+      "sha256": "bb1b4a3124b36ac3cf511a2c5b781a340657aa4b4f17eb2bf965efb08c1121ed",
+      "bytes": 2136
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/tt.cpp",
+      "sha256": "b8332e1dd5c5d1589f2855aa586fda6423197a39167e95b0001a7b4c5049648a",
+      "bytes": 10527
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/tt.h",
+      "sha256": "a13bb0e12e927e3f17015a143cdcb53bdf863f250ffe6036aa97fbed3e838e14",
+      "bytes": 3823
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/tune.cpp",
+      "sha256": "3f0157baeaf981aa1e60aa178a33e9017f73efe82724d3694aa6088307fdaa36",
+      "bytes": 3512
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/tune.h",
+      "sha256": "9298669723766aea05f2d4317e5cd8119cdb6ad3f1d3e48f47ecc63c25bc3703",
+      "bytes": 6712
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/types.h",
+      "sha256": "9a6bae5b151595eb80b56e90c4496fefa92e013f1772bcc7b3ce60c178bb95f6",
+      "bytes": 16233
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/uci.cpp",
+      "sha256": "e50c16f789fd12b3e1ab46a2655c6dd4dd420f169bf5938b9cc84a95aeff0022",
+      "bytes": 22713
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/uci.h",
+      "sha256": "6ad20b4d5f02ad529ccc947d425f182ff68ad17dd8ab6f3984a652709f9307d0",
+      "bytes": 2571
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/ucioption.cpp",
+      "sha256": "5d699e2fa1d57cfa5f3169412dc8fc5d26685563be38c221cdbfde7237305e8a",
+      "bytes": 6326
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/ucioption.h",
+      "sha256": "85468dec1694abd49af3997edac57eb48a897a844369f86ecfb75ea575d546cb",
+      "bytes": 3179
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/incbin/incbin.h",
+      "sha256": "70995329299ec55d414ad6df6929ddcfe0a43a40102cf6c05ff3c74ddd2765cb",
+      "bytes": 16036
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/nnue/network.cpp",
+      "sha256": "e175edbd446cd2b3cf2919b1ea8ad56baa55ba71328f6e344d8e9e466b7c455f",
+      "bytes": 12042
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/nnue/network.h",
+      "sha256": "fcd4c2f5b774a463f115009dcea2ae83cab38d2bf31bac4f2d33e8130aa9c656",
+      "bytes": 3746
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/nnue/nnue_accumulator.cpp",
+      "sha256": "b96618fb98ba7f35d55f05a0745f19f3d907cb7c71a78ec6be796ac9e4349ca2",
+      "bytes": 33202
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/nnue/nnue_accumulator.h",
+      "sha256": "587b99e4a863ae2a37f09c132e1ddbdff62fe7ddfd3420f4da23fc418cf1e1d8",
+      "bytes": 5221
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/nnue/nnue_architecture.h",
+      "sha256": "162bb429eae5f6b2912ecaadaf027fae1f02bc8d2abc86119b5778b43a369a5e",
+      "bytes": 6982
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/nnue/nnue_common.h",
+      "sha256": "c46c47687353992f45a33e2207d46ca618cc12da9b99e2c131e59d48876b6e9b",
+      "bytes": 10515
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/nnue/nnue_feature_transformer.h",
+      "sha256": "87061048701098b3b85239e4b5c8a03d81b6779d49e89633bc9762f18286b5b4",
+      "bytes": 16395
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/nnue/nnue_misc.cpp",
+      "sha256": "e61d58094c174cb5dd8df318320c7c0a8fb7764cb10a7085e87847cb719bc884",
+      "bytes": 2631
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/nnue/nnue_misc.h",
+      "sha256": "a8d3fec5eae59d3bde9bf61879aa8cdb0551067ab929bdfc66333e008cee2144",
+      "bytes": 1934
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/nnue/nnz_helper.h",
+      "sha256": "5118876cd8008d84f397c07785be4f5ad2df9715e5d671b1537888f3d469fd0b",
+      "bytes": 5760
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/nnue/simd.h",
+      "sha256": "5e6758d557796b5479e81b30e6eb07e75b5fc2c8e95723d080c834188c0c4db7",
+      "bytes": 16544
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/nnue/features/full_threats.cpp",
+      "sha256": "4bd9602142ca97cb40ba3c02718236e0e15e41e29913d5917de599288dd23277",
+      "bytes": 12348
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/nnue/features/full_threats.h",
+      "sha256": "dd1d9b1cd360b8c5e41b5e0e9836c335cc250ade8a30fc28357e482f0aeff874",
+      "bytes": 4424
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/nnue/features/half_ka_v2_hm.cpp",
+      "sha256": "1c2ee6f4b5ef26f09815177e061a2cadc21e158d2aba350ab67a22b85c549141",
+      "bytes": 5355
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/nnue/features/half_ka_v2_hm.h",
+      "sha256": "c6c24b6246a10278e992e5494f38a02f96436764fe0fb0e11f21e96e6b3b45d5",
+      "bytes": 5604
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/nnue/features/pp_3wide.cpp",
+      "sha256": "55dad256e38a27149d48958747131afa6c87a41f6b4771e12c6113bc82b6614f",
+      "bytes": 10602
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/nnue/features/pp_3wide.h",
+      "sha256": "3889a046b7eb5c9147d0c89be69514200d414e276a68809b4f512c8fe139e635",
+      "bytes": 3153
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/nnue/layers/affine_transform.h",
+      "sha256": "b0a30ba12d1f11e8fddab66d8592c42ac3ca56233d0117ccf3bb9a9c27fefda2",
+      "bytes": 16937
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/nnue/layers/affine_transform_sparse_input.h",
+      "sha256": "5471180cbe69b91f7f39278bef5c79ce37f538307cb8f11d3f51fafe9a0eab14",
+      "bytes": 18056
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/nnue/layers/clipped_relu.h",
+      "sha256": "13d0f93da3b40df3a7c4b23fe34a4199e5f3cee03f529eac4f060299efa64e76",
+      "bytes": 7033
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/nnue/layers/sqr_clipped_relu.h",
+      "sha256": "d2b6fb4f7045d2851f7ca48c4daa9a6292655ba026dc7b94c34105706eb7504b",
+      "bytes": 11029
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/syzygy/tbprobe.cpp",
+      "sha256": "39d87629573a92ee75c30ea6d76bc53c8aaaa0ea16a706300a840de0a256bc32",
+      "bytes": 70928
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/syzygy/tbprobe.h",
+      "sha256": "5b86ca73b73cd9850f7cd89a766a7d8e861fbb2e0dfa8ae3ebf151801e1d3930",
+      "bytes": 2640
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/universal/entry_arm64.cpp",
+      "sha256": "8d344fa02d4a6315c49bae32a5182578557c8543a8f146cf6690495f48691bdf",
+      "bytes": 2202
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/universal/entry_riscv64.cpp",
+      "sha256": "85ef23b0eeb56620df3dfe149ed2f60b2b6fbee2f66944e22173ac3fd9f718dc",
+      "bytes": 3158
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/universal/entry_x86.cpp",
+      "sha256": "523fa2ebc9bcca8378ce5a8e46ec0fee21385cc50bfae4eadbcabda6ba3c7225",
+      "bytes": 6925
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/universal/nnue_embed.cpp",
+      "sha256": "a1c8960bb0f57ca54d83ea99c0170b79061ebeb103bacc7866212e4aba78a3a2",
+      "bytes": 2838
+    },
+    {
+      "project": "research/timing",
+      "file": "research/timing/src/universal/patch_x86_slice.sh",
+      "sha256": "f20555e2a4327077ba4d4f3a83292e4da54c7033516c523d2299219db2cd8bd8",
+      "bytes": 2754
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/AUTHORS",
+      "sha256": "09eb0520ef9aa1caa2c53d6fcde5aa501981cc9f5ab9dff4b1bf8c7f9f688096",
+      "bytes": 7074
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/Copying.txt",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "bytes": 35149
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/check_experiment.py",
+      "sha256": "de9c838f9d0431a0ccb9dde5c5125536452452f7c9e2cb9ffeec43d50d687adb",
+      "bytes": 5814
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/scripts/.gitattributes",
+      "sha256": "1d5d71dcc6ccd28ab46a335349ecc74742ca4b81f4fcad212f8d134f70f1f13e",
+      "bytes": 17
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/scripts/check_universal.sh",
+      "sha256": "b1e5566a695b519c504cf13e11c2cf58a73e1338d1beb6bcf8b8af04446c781b",
+      "bytes": 2357
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/scripts/check_universal_arm.sh",
+      "sha256": "26adf3da328e8d1ca4209554841f6d7cc05fb6242df69c67fdde306a64185139",
+      "bytes": 1870
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/scripts/check_universal_macos.sh",
+      "sha256": "86ce982e76e7c89e2062daeba92ff149e80417789ef02e4450060ca29917cf6b",
+      "bytes": 1767
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/scripts/check_universal_riscv.sh",
+      "sha256": "75b4cef47585deb04c0cbea9d06df390891076b7c6d971a9f3ac24353792c68c",
+      "bytes": 2078
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/scripts/get_native_properties.sh",
+      "sha256": "ff5caf017460c2b27e37987c493a4b2be4e726c1c453c3eaac90569dfed155a4",
+      "bytes": 8958
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/scripts/net.sh",
+      "sha256": "c0df735168d5e4f49109e91319f350f6c4238d74b72396f012fce2e495ae8d32",
+      "bytes": 2419
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/Makefile",
+      "sha256": "8d032219035996701d926761e76459c84b77350f36f31775c1a34fb7f56ff07a",
+      "bytes": 47290
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/attacks.cpp",
+      "sha256": "260c2cceb38d7a87a69e4df0f84d84e6729b1a77bbc321a13fed8cff66b2c704",
+      "bytes": 6182
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/attacks.h",
+      "sha256": "0e6b122913bda3e051e036e4fbc4da02e0349ac13b0f88380ac3317eaf7483af",
+      "bytes": 10807
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/benchmark.cpp",
+      "sha256": "0a8d3f29278ad53abbceee284721a3ac4ddd7c768052de928672a2869bc2da80",
+      "bytes": 27162
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/benchmark.h",
+      "sha256": "bd4822d67e441a0546e49aadfb85c400a3dbe8f8b3bce8131814b156aedf2f27",
+      "bytes": 1356
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/bitboard.cpp",
+      "sha256": "b73064f2270344bce175865174666b92d1f3653c6ee4f98fd075f0fb1865b735",
+      "bytes": 1409
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/bitboard.h",
+      "sha256": "18420178487d2063990f08c8e8c0fc1aa7ad3d4a292e6d8d8d5aaa82586aa84d",
+      "bytes": 8143
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/engine.cpp",
+      "sha256": "a6876453c86d4320bdd3570e9a211d10ff133cb40ba9c28c46efa7497e4925b3",
+      "bytes": 13010
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/engine.h",
+      "sha256": "18eea586469f06ec99893df76faaba8c93a14ee37c6f6a81bc78689c1b8a2143",
+      "bytes": 4963
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/evaluate.cpp",
+      "sha256": "216e9a6400b62f14a6605a484bf92cc4ef31bf2a763a6f3590f8b45229c4270c",
+      "bytes": 4668
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/evaluate.h",
+      "sha256": "b375ca8f8a993400fe1095b6184fc7e1816fc09cfee96bbf7258b0468ab9ad21",
+      "bytes": 1767
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/history.h",
+      "sha256": "f6e957d6e717348f58aa308f88aefddb5975e6a6c1d23e936ecf3548cbb48c39",
+      "bytes": 9247
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/main.cpp",
+      "sha256": "20ecc928260f46dfa3622ef0a4d810fe880322b1444659d155ce295be84b343a",
+      "bytes": 1602
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/memory.cpp",
+      "sha256": "5739783a3ab5627d9a59cd3c26d7b66ff8b35c85af3b5994c3aef75298f9aa5d",
+      "bytes": 7669
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/memory.h",
+      "sha256": "ab7fc8da563807ac89c93b60eee3dc81f30e19c0c4f0f4b6166251635006f1a9",
+      "bytes": 13202
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/misc.cpp",
+      "sha256": "008eeb6ee97b1b3a16f335d8116c7a8ddd59c8f847642c8167cc4473ef5c7432",
+      "bytes": 17531
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/misc.h",
+      "sha256": "aba39892e7e6d40975d2df370cb3bac88df003b49261b353f0bdfd6a75c86665",
+      "bytes": 17990
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/movegen.cpp",
+      "sha256": "62ce41a3fd6c60aa668593804168a4ca91ddb0a6c19077d0624bd09239087e54",
+      "bytes": 9759
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/movegen.h",
+      "sha256": "8180128aafed4aacdfc75999b17e7cb64da250b6c94b87e06a2e1bf65b3a6276",
+      "bytes": 2130
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/movepick.cpp",
+      "sha256": "cdf3dfe41a5ec8c582b1a7f0bdb8cef6b88f0f7114b0a7d0f263f9a34e915146",
+      "bytes": 11808
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/movepick.h",
+      "sha256": "6082a59beec9cd7badae9d2463df91d5067af490ae498a377eac9bc94ad1fe06",
+      "bytes": 2794
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/numa.h",
+      "sha256": "d6014e0b9580885edc97d6ea38f2f8849bab37e8b0e71fb27e4fa1320f35bb57",
+      "bytes": 64196
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/perft.h",
+      "sha256": "3fd970d05be7e38299cdeeee8a9dc45b446a5527173245ff7d7296e0d439d356",
+      "bytes": 1994
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/position.cpp",
+      "sha256": "9761cba4d15e763141bcf0c45316e0926264df3f2b20ec2bcccdd88125a66324",
+      "bytes": 58345
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/position.h",
+      "sha256": "3fddd346a1289b7e8879b76f9c6d694cb0000c0047ac142564c0255c37edc7a1",
+      "bytes": 14842
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/score.cpp",
+      "sha256": "c5877628d70984fef345f2ace3f155ea883f316505485f2115701aac313dfb01",
+      "bytes": 1414
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/score.h",
+      "sha256": "b1355a14624fb743e7bde5b68030ae40650e3b34c36a4feac6d4b4704e56efd1",
+      "bytes": 1605
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/search.cpp",
+      "sha256": "926959a279189cbcd784a4340fdb3b50b91d541b27d4d989e348e7b0dfa0606f",
+      "bytes": 96194
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/search.h",
+      "sha256": "f68580c05f33bcc5aba3f02fb4bf98efbca6d5020086f260373372f84e46acd7",
+      "bytes": 14394
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/shm.h",
+      "sha256": "b33e127ffd444e1382d804d3d84d7023aa09789d94d1f44695710d179d906c92",
+      "bytes": 20147
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/shm_unix.h",
+      "sha256": "9370ad96b19e41f34d85ae6086db5cd2d769803c3c20c63217d90090a9ff4337",
+      "bytes": 20191
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/thread.cpp",
+      "sha256": "dcbc79cf21d744dab41005ed53f53c9de9e3a38e44534744326c6344a33fbfe4",
+      "bytes": 16092
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/thread.h",
+      "sha256": "349f94779f1391453c8bdaa8b2b11e008728bcc2d2d5ab7ba5c254e126345cb9",
+      "bytes": 6295
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/thread_native.h",
+      "sha256": "e716bc066bac3feb1a80d65d03022a9a4a415fd961bf72a4922cbc85b55666d4",
+      "bytes": 5080
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/timeman.cpp",
+      "sha256": "f604f6387ace75d3eb7648f5b278f7d842bc72f5d0100637b26693fafbf6bc7d",
+      "bytes": 6727
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/timeman.h",
+      "sha256": "bb1b4a3124b36ac3cf511a2c5b781a340657aa4b4f17eb2bf965efb08c1121ed",
+      "bytes": 2136
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/tt.cpp",
+      "sha256": "b8332e1dd5c5d1589f2855aa586fda6423197a39167e95b0001a7b4c5049648a",
+      "bytes": 10527
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/tt.h",
+      "sha256": "a13bb0e12e927e3f17015a143cdcb53bdf863f250ffe6036aa97fbed3e838e14",
+      "bytes": 3823
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/tune.cpp",
+      "sha256": "3f0157baeaf981aa1e60aa178a33e9017f73efe82724d3694aa6088307fdaa36",
+      "bytes": 3512
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/tune.h",
+      "sha256": "9298669723766aea05f2d4317e5cd8119cdb6ad3f1d3e48f47ecc63c25bc3703",
+      "bytes": 6712
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/types.h",
+      "sha256": "9a6bae5b151595eb80b56e90c4496fefa92e013f1772bcc7b3ce60c178bb95f6",
+      "bytes": 16233
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/uci.cpp",
+      "sha256": "e50c16f789fd12b3e1ab46a2655c6dd4dd420f169bf5938b9cc84a95aeff0022",
+      "bytes": 22713
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/uci.h",
+      "sha256": "6ad20b4d5f02ad529ccc947d425f182ff68ad17dd8ab6f3984a652709f9307d0",
+      "bytes": 2571
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/ucioption.cpp",
+      "sha256": "5d699e2fa1d57cfa5f3169412dc8fc5d26685563be38c221cdbfde7237305e8a",
+      "bytes": 6326
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/ucioption.h",
+      "sha256": "85468dec1694abd49af3997edac57eb48a897a844369f86ecfb75ea575d546cb",
+      "bytes": 3179
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/incbin/incbin.h",
+      "sha256": "70995329299ec55d414ad6df6929ddcfe0a43a40102cf6c05ff3c74ddd2765cb",
+      "bytes": 16036
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/nnue/network.cpp",
+      "sha256": "e175edbd446cd2b3cf2919b1ea8ad56baa55ba71328f6e344d8e9e466b7c455f",
+      "bytes": 12042
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/nnue/network.h",
+      "sha256": "fcd4c2f5b774a463f115009dcea2ae83cab38d2bf31bac4f2d33e8130aa9c656",
+      "bytes": 3746
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/nnue/nnue_accumulator.cpp",
+      "sha256": "b96618fb98ba7f35d55f05a0745f19f3d907cb7c71a78ec6be796ac9e4349ca2",
+      "bytes": 33202
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/nnue/nnue_accumulator.h",
+      "sha256": "587b99e4a863ae2a37f09c132e1ddbdff62fe7ddfd3420f4da23fc418cf1e1d8",
+      "bytes": 5221
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/nnue/nnue_architecture.h",
+      "sha256": "162bb429eae5f6b2912ecaadaf027fae1f02bc8d2abc86119b5778b43a369a5e",
+      "bytes": 6982
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/nnue/nnue_common.h",
+      "sha256": "c46c47687353992f45a33e2207d46ca618cc12da9b99e2c131e59d48876b6e9b",
+      "bytes": 10515
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/nnue/nnue_feature_transformer.h",
+      "sha256": "87061048701098b3b85239e4b5c8a03d81b6779d49e89633bc9762f18286b5b4",
+      "bytes": 16395
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/nnue/nnue_misc.cpp",
+      "sha256": "e61d58094c174cb5dd8df318320c7c0a8fb7764cb10a7085e87847cb719bc884",
+      "bytes": 2631
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/nnue/nnue_misc.h",
+      "sha256": "a8d3fec5eae59d3bde9bf61879aa8cdb0551067ab929bdfc66333e008cee2144",
+      "bytes": 1934
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/nnue/nnz_helper.h",
+      "sha256": "5118876cd8008d84f397c07785be4f5ad2df9715e5d671b1537888f3d469fd0b",
+      "bytes": 5760
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/nnue/simd.h",
+      "sha256": "5e6758d557796b5479e81b30e6eb07e75b5fc2c8e95723d080c834188c0c4db7",
+      "bytes": 16544
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/nnue/features/full_threats.cpp",
+      "sha256": "4bd9602142ca97cb40ba3c02718236e0e15e41e29913d5917de599288dd23277",
+      "bytes": 12348
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/nnue/features/full_threats.h",
+      "sha256": "dd1d9b1cd360b8c5e41b5e0e9836c335cc250ade8a30fc28357e482f0aeff874",
+      "bytes": 4424
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/nnue/features/half_ka_v2_hm.cpp",
+      "sha256": "1c2ee6f4b5ef26f09815177e061a2cadc21e158d2aba350ab67a22b85c549141",
+      "bytes": 5355
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/nnue/features/half_ka_v2_hm.h",
+      "sha256": "c6c24b6246a10278e992e5494f38a02f96436764fe0fb0e11f21e96e6b3b45d5",
+      "bytes": 5604
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/nnue/features/pp_3wide.cpp",
+      "sha256": "55dad256e38a27149d48958747131afa6c87a41f6b4771e12c6113bc82b6614f",
+      "bytes": 10602
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/nnue/features/pp_3wide.h",
+      "sha256": "3889a046b7eb5c9147d0c89be69514200d414e276a68809b4f512c8fe139e635",
+      "bytes": 3153
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/nnue/layers/affine_transform.h",
+      "sha256": "b0a30ba12d1f11e8fddab66d8592c42ac3ca56233d0117ccf3bb9a9c27fefda2",
+      "bytes": 16937
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/nnue/layers/affine_transform_sparse_input.h",
+      "sha256": "5471180cbe69b91f7f39278bef5c79ce37f538307cb8f11d3f51fafe9a0eab14",
+      "bytes": 18056
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/nnue/layers/clipped_relu.h",
+      "sha256": "13d0f93da3b40df3a7c4b23fe34a4199e5f3cee03f529eac4f060299efa64e76",
+      "bytes": 7033
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/nnue/layers/sqr_clipped_relu.h",
+      "sha256": "d2b6fb4f7045d2851f7ca48c4daa9a6292655ba026dc7b94c34105706eb7504b",
+      "bytes": 11029
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/syzygy/tbprobe.cpp",
+      "sha256": "39d87629573a92ee75c30ea6d76bc53c8aaaa0ea16a706300a840de0a256bc32",
+      "bytes": 70928
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/syzygy/tbprobe.h",
+      "sha256": "5b86ca73b73cd9850f7cd89a766a7d8e861fbb2e0dfa8ae3ebf151801e1d3930",
+      "bytes": 2640
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/universal/entry_arm64.cpp",
+      "sha256": "8d344fa02d4a6315c49bae32a5182578557c8543a8f146cf6690495f48691bdf",
+      "bytes": 2202
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/universal/entry_riscv64.cpp",
+      "sha256": "85ef23b0eeb56620df3dfe149ed2f60b2b6fbee2f66944e22173ac3fd9f718dc",
+      "bytes": 3158
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/universal/entry_x86.cpp",
+      "sha256": "523fa2ebc9bcca8378ce5a8e46ec0fee21385cc50bfae4eadbcabda6ba3c7225",
+      "bytes": 6925
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/universal/nnue_embed.cpp",
+      "sha256": "a1c8960bb0f57ca54d83ea99c0170b79061ebeb103bacc7866212e4aba78a3a2",
+      "bytes": 2838
+    },
+    {
+      "project": "research/draw-aversion",
+      "file": "research/draw-aversion/src/universal/patch_x86_slice.sh",
+      "sha256": "f20555e2a4327077ba4d4f3a83292e4da54c7033516c523d2299219db2cd8bd8",
+      "bytes": 2754
+    },
+    {
+      "project": "research/independent",
+      "file": "research/independent/CMakeLists.txt",
+      "sha256": "a6b6c315fbeb2b05c504823a79bd93b85e4a767dcbc81d488e0c06d251fc1773",
+      "bytes": 413
+    },
+    {
+      "project": "research/independent",
+      "file": "research/independent/COPYING",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "bytes": 35149
+    },
+    {
+      "project": "research/independent",
+      "file": "research/independent/releases/candidate/wetmeat.cpp",
+      "sha256": "b848089d61aeb7e39eab4b297bcc987b18bea780805aea1e624224b72e7028c2",
+      "bytes": 32954
+    },
+    {
+      "project": "research/independent",
+      "file": "research/independent/releases/initial/wetmeat.cpp",
+      "sha256": "15611c78cf290a037c27267059b71203eba9a51485c51a4535dd5db72561bd08",
+      "bytes": 31721
+    },
+    {
+      "project": "research/independent",
+      "file": "research/independent/src/wetmeat.cpp",
+      "sha256": "b848089d61aeb7e39eab4b297bcc987b18bea780805aea1e624224b72e7028c2",
+      "bytes": 32954
+    },
+    {
+      "project": "research/independent",
+      "file": "research/independent/tools/build.sh",
+      "sha256": "3875549d76bbfbc5ebc1190a222af63a90664845fe57c41e7f9c38acdc3afd55",
+      "bytes": 332
+    },
+    {
+      "project": "research/independent",
+      "file": "research/independent/tools/compare.py",
+      "sha256": "356a38c3756de9d1f6e1dfcc0128b9d5f5d88be10521042908210a8b1ff21031",
+      "bytes": 6297
+    },
+    {
+      "project": "research/independent",
+      "file": "research/independent/tools/overnight.py",
+      "sha256": "0b3a10fabd545773bcd8c88cf791fd782b0d4a97e4f941d83fb24e2ba39fc3f7",
+      "bytes": 10218
+    },
+    {
+      "project": "research/independent",
+      "file": "research/independent/tools/package.py",
+      "sha256": "d9c90bf46d68a1339887eba249afa98e94d64b4d9eac2a9a6cb72fe9d7cda75b",
+      "bytes": 2325
+    },
+    {
+      "project": "research/independent",
+      "file": "research/independent/tools/protocol.py",
+      "sha256": "50e37d8febb99a32ca04f5b7833106380eabf8751b37f4e1304e082d30358b41",
+      "bytes": 4132
+    },
+    {
+      "project": "research/independent",
+      "file": "research/independent/tools/run-windows-local.sh",
+      "sha256": "718afcee57a0a4ed0b5e7fe01c35be2f407803cf31e133174395476197ffade4",
+      "bytes": 277
+    },
+    {
+      "project": "research/independent",
+      "file": "research/independent/tools/start-overnight.sh",
+      "sha256": "b1f7a55ff3578214c16124e7ffa1e8435a76e6c790502a4995ea90498aa4d59d",
+      "bytes": 754
+    },
+    {
+      "project": "research/independent",
+      "file": "research/independent/tools/tactics.py",
+      "sha256": "b83f0109d6f322ee0724169ab8e363ecfb2f65b881688ca48529695ec2b3ca39",
+      "bytes": 2203
+    },
+    {
+      "project": "research/independent",
+      "file": "research/independent/tools/verify.py",
+      "sha256": "b4ec9c7e0fd8f45279d5da4981a31007cc2aa7a35b1158217cdbdd2de00e80b4",
+      "bytes": 4454
+    },
+    {
+      "project": "research/independent",
+      "file": "research/independent/tools/study/analyse_games.py",
+      "sha256": "8b1d06674e61ce2b57f8ccc6d860f5e39a0ddfc7b4bfe383c98aded7eaac108c",
+      "bytes": 14997
+    },
+    {
+      "project": "research/independent",
+      "file": "research/independent/tools/study/clock_match.py",
+      "sha256": "619ccc613c316350effab8d4e68464091a7f5b543437fb9b85addf3692f9d4ef",
+      "bytes": 12946
+    },
+    {
+      "project": "research/independent",
+      "file": "research/independent/tools/study/match.py",
+      "sha256": "7d03343b3e67d45b0973755a7efe6e0b9b94f7d10612b5d9a199e4ee8d4d0cf7",
+      "bytes": 8037
+    },
+    {
+      "project": "research/aurora",
+      "file": "research/aurora/.gitignore",
+      "sha256": "609e8fd8e9f0a9c4793bed9dda97df43d5a6576d0c449966e8111f1f076d593e",
+      "bytes": 44
+    },
+    {
+      "project": "research/aurora",
+      "file": "research/aurora/CMakeLists.txt",
+      "sha256": "bfa041aa94548bd72a72dded8baf95f17791a6c241a58f5293e5a18be7f2164a",
+      "bytes": 1278
+    },
+    {
+      "project": "research/aurora",
+      "file": "research/aurora/LICENSE",
+      "sha256": "ddf4a47ec28ebf021f914bdc1f3eeb042ca6cea6914894143982299ce92a7f29",
+      "bytes": 1076
+    },
+    {
+      "project": "research/aurora",
+      "file": "research/aurora/Makefile",
+      "sha256": "f50708d873a2bf0eb4d8ddb36aff9435dd9ffa13ab7f135e159f147649d00aae",
+      "bytes": 1677
+    },
+    {
+      "project": "research/aurora",
+      "file": "research/aurora/requirements-dev.txt",
+      "sha256": "743b47c2d3cae7d0827e7e23a68e880e7739f279527cd7eb6f5a6f68e9b64fe0",
+      "bytes": 166
+    },
+    {
+      "project": "research/aurora",
+      "file": "research/aurora/.github/workflows/tests.yml",
+      "sha256": "c0904f382653105719c7e4f8f9500f00cf0e0c36e97555c1254ef879de39a777",
+      "bytes": 948
+    },
+    {
+      "project": "research/aurora",
+      "file": "research/aurora/docs/search-cache-change.patch",
+      "sha256": "4b109544ad4f19b6bf8663764e23e75cafc076ab5bc8fd2bd407b29e8cdd315f",
+      "bytes": 2739
+    },
+    {
+      "project": "research/aurora",
+      "file": "research/aurora/src/chess.cpp",
+      "sha256": "7200181aa3cb7513bd007c8588f4116b3e2931d398347779c1660d082c829e9d",
+      "bytes": 23819
+    },
+    {
+      "project": "research/aurora",
+      "file": "research/aurora/src/chess.hpp",
+      "sha256": "c742f5e9ad071f7c138b71ee338cd187e4c0e2f5011a4964cf52afa01e1f6d5f",
+      "bytes": 5077
+    },
+    {
+      "project": "research/aurora",
+      "file": "research/aurora/src/evaluate.cpp",
+      "sha256": "d13f2d62ea40318682880e5d1555b7b7b4515d3d3aa4bfd59247945cbb560f74",
+      "bytes": 9363
+    },
+    {
+      "project": "research/aurora",
+      "file": "research/aurora/src/evaluate.hpp",
+      "sha256": "50565f1b47b951bbb720a1c842ece4be3fddd0b3c6a916edbf3ba4ac0dc49866",
+      "bytes": 596
+    },
+    {
+      "project": "research/aurora",
+      "file": "research/aurora/src/main.cpp",
+      "sha256": "25bf7cc114d08269df580f8f529bbf393a92406b36f3a92e19558f42e0fb6a33",
+      "bytes": 12800
+    },
+    {
+      "project": "research/aurora",
+      "file": "research/aurora/src/search.cpp",
+      "sha256": "8a0ba4c476e0c8e518b537da3ced37b827e1f503de3eb27ea794033ee73a0369",
+      "bytes": 25047
+    },
+    {
+      "project": "research/aurora",
+      "file": "research/aurora/src/search.hpp",
+      "sha256": "1a9b083bcbe8ce2a364dcfd1b391dc9ac00f1c8224ab43b3bf61834ddacbf42d",
+      "bytes": 4390
+    },
+    {
+      "project": "research/aurora",
+      "file": "research/aurora/tests/core_tests.cpp",
+      "sha256": "0e55eea03810db9a2d29fecb2d91a48a9ea4a16e940e7db63f7e43fbbe2561fe",
+      "bytes": 10654
+    },
+    {
+      "project": "research/aurora",
+      "file": "research/aurora/tests/test_uci.py",
+      "sha256": "a77ce1b8b6bfb20767ce0f27711d6ff678d9fe70a6da6af5cb7c8977e3f11314",
+      "bytes": 7139
+    },
+    {
+      "project": "research/aurora",
+      "file": "research/aurora/tools/differential.py",
+      "sha256": "9c0c4407615336b2ea4561e337544d8449f7c19810a37537606421844e07f4a0",
+      "bytes": 4487
+    },
+    {
+      "project": "research/aurora",
+      "file": "research/aurora/tools/match.py",
+      "sha256": "631511b0e739b57dcdff6c44fdff8623a720a48cae34a6ddea2342fe865d1014",
+      "bytes": 7941
+    },
+    {
+      "project": "research/aurora",
+      "file": "research/aurora/tools/stress.py",
+      "sha256": "e21d88ddc196c73308c45042e242f6e4e369dbd6eb67f89e76d67997797d1b38",
+      "bytes": 3876
+    },
+    {
+      "project": "research/aurora",
+      "file": "research/aurora/tools/tactics.py",
+      "sha256": "2d137d934d663c63483cdb699131ce612d2610cd392e6fb346b631b320037cb7",
+      "bytes": 5085
+    },
+    {
+      "project": "research/aurora",
+      "file": "research/aurora/tools/uci_client.py",
+      "sha256": "a1e612975ef020ee02b2e8e6edf49b6cc8e51295a1022afe084f6fbf657b3f8a",
+      "bytes": 3861
+    },
+    {
+      "project": "research/aurora-lab",
+      "file": "research/aurora-lab/CMakeLists.txt",
+      "sha256": "bbad9de44b53982f9f9a9d7d11b08924a1adf441784a40ba6a8f1713bf096fd6",
+      "bytes": 1293
+    },
+    {
+      "project": "research/aurora-lab",
+      "file": "research/aurora-lab/LICENSE",
+      "sha256": "ddf4a47ec28ebf021f914bdc1f3eeb042ca6cea6914894143982299ce92a7f29",
+      "bytes": 1076
+    },
+    {
+      "project": "research/aurora-lab",
+      "file": "research/aurora-lab/Makefile",
+      "sha256": "31014187a1cde81b4f84b4a1b03fda50077d9e0c64b5225cfecd82308ffbf781",
+      "bytes": 1692
+    },
+    {
+      "project": "research/aurora-lab",
+      "file": "research/aurora-lab/requirements-dev.txt",
+      "sha256": "743b47c2d3cae7d0827e7e23a68e880e7739f279527cd7eb6f5a6f68e9b64fe0",
+      "bytes": 166
+    },
+    {
+      "project": "research/aurora-lab",
+      "file": "research/aurora-lab/requirements-training.txt",
+      "sha256": "b8585932a627c272edb33f9eb3b6593f546fb0d08b30124d6ce7f351e3b9ca5e",
+      "bytes": 131
+    },
+    {
+      "project": "research/aurora-lab",
+      "file": "research/aurora-lab/data/training-v1.jsonl",
+      "sha256": "39aabea1ce0e5a1c15f120a1236bd614bdf347ee301f4949dc1536211e87b357",
+      "bytes": 3248790
+    },
+    {
+      "project": "research/aurora-lab",
+      "file": "research/aurora-lab/src/chess.cpp",
+      "sha256": "7200181aa3cb7513bd007c8588f4116b3e2931d398347779c1660d082c829e9d",
+      "bytes": 23819
+    },
+    {
+      "project": "research/aurora-lab",
+      "file": "research/aurora-lab/src/chess.hpp",
+      "sha256": "c742f5e9ad071f7c138b71ee338cd187e4c0e2f5011a4964cf52afa01e1f6d5f",
+      "bytes": 5077
+    },
+    {
+      "project": "research/aurora-lab",
+      "file": "research/aurora-lab/src/evaluate.cpp",
+      "sha256": "1730fd9243464aee4461ca9535afc39caa4d304adfa513cb74eb877f4a94fc6c",
+      "bytes": 9572
+    },
+    {
+      "project": "research/aurora-lab",
+      "file": "research/aurora-lab/src/evaluate.hpp",
+      "sha256": "bfdc33309609898edb638eca88bae4c1bdf309cb78643e5afa72874073e43180",
+      "bytes": 701
+    },
+    {
+      "project": "research/aurora-lab",
+      "file": "research/aurora-lab/src/main.cpp",
+      "sha256": "03eeb16dfd7339e2d5cab49a4bd506230a105db39a925478a8e5720f4d0bb901",
+      "bytes": 13423
+    },
+    {
+      "project": "research/aurora-lab",
+      "file": "research/aurora-lab/src/neural.cpp",
+      "sha256": "7bdbe6aa245f17d8a94a3bd52d19c261bf193afb828fdd88a113592442ec497a",
+      "bytes": 4575
+    },
+    {
+      "project": "research/aurora-lab",
+      "file": "research/aurora-lab/src/neural.hpp",
+      "sha256": "00face7d278d1862cefdc8cced338992587a2c5b1648962c8fc0e3cc20261329",
+      "bytes": 1277
+    },
+    {
+      "project": "research/aurora-lab",
+      "file": "research/aurora-lab/src/search.cpp",
+      "sha256": "0a05dccd5c1d76bead7c646d9c1cce1bf19939ef13a7669d2ffeb9936e00130b",
+      "bytes": 25518
+    },
+    {
+      "project": "research/aurora-lab",
+      "file": "research/aurora-lab/src/search.hpp",
+      "sha256": "6967331c3b568e026d3073385429a22a50b1ca9c9233ca56459c08b8f472e0fd",
+      "bytes": 4611
+    },
+    {
+      "project": "research/aurora-lab",
+      "file": "research/aurora-lab/src/generated/neural_weights.hpp",
+      "sha256": "70c934eacf357a299ff337f330573e361a971f05d63570fa7089ef768d5d290e",
+      "bytes": 1135236
+    },
+    {
+      "project": "research/aurora-lab",
+      "file": "research/aurora-lab/tests/core_tests.cpp",
+      "sha256": "0e55eea03810db9a2d29fecb2d91a48a9ea4a16e940e7db63f7e43fbbe2561fe",
+      "bytes": 10654
+    },
+    {
+      "project": "research/aurora-lab",
+      "file": "research/aurora-lab/tests/test_uci.py",
+      "sha256": "a77ce1b8b6bfb20767ce0f27711d6ff678d9fe70a6da6af5cb7c8977e3f11314",
+      "bytes": 7139
+    },
+    {
+      "project": "research/aurora-lab",
+      "file": "research/aurora-lab/tools/differential.py",
+      "sha256": "9c0c4407615336b2ea4561e337544d8449f7c19810a37537606421844e07f4a0",
+      "bytes": 4487
+    },
+    {
+      "project": "research/aurora-lab",
+      "file": "research/aurora-lab/tools/generate_training.py",
+      "sha256": "a999862d083a6ac12bfc7a6697fd3dd733ac8420954e43776ba45bc0f682d149",
+      "bytes": 8066
+    },
+    {
+      "project": "research/aurora-lab",
+      "file": "research/aurora-lab/tools/match.py",
+      "sha256": "631511b0e739b57dcdff6c44fdff8623a720a48cae34a6ddea2342fe865d1014",
+      "bytes": 7941
+    },
+    {
+      "project": "research/aurora-lab",
+      "file": "research/aurora-lab/tools/stress.py",
+      "sha256": "e21d88ddc196c73308c45042e242f6e4e369dbd6eb67f89e76d67997797d1b38",
+      "bytes": 3876
+    },
+    {
+      "project": "research/aurora-lab",
+      "file": "research/aurora-lab/tools/tactics.py",
+      "sha256": "2d137d934d663c63483cdb699131ce612d2610cd392e6fb346b631b320037cb7",
+      "bytes": 5085
+    },
+    {
+      "project": "research/aurora-lab",
+      "file": "research/aurora-lab/tools/train_neural.py",
+      "sha256": "97a9ae17a90c6ea69fe9a5041983b1553d47ec0936b1494ddabd86ac9a81c596",
+      "bytes": 11717
+    },
+    {
+      "project": "research/aurora-lab",
+      "file": "research/aurora-lab/tools/uci_client.py",
+      "sha256": "a1e612975ef020ee02b2e8e6edf49b6cc8e51295a1022afe084f6fbf657b3f8a",
+      "bytes": 3861
+    },
+    {
+      "project": "release-tools",
+      "file": "release-tools/wetmeat-1.0-stable-20261010/prepare_release.py",
+      "sha256": "dbe70e78016c34340cd13d8514ef7c59b42f310931748a1e4b2486256afae2da",
+      "bytes": 16601
+    },
+    {
+      "project": "release-tools",
+      "file": "release-tools/wetmeat-english-discord-20261014/build_release.py",
+      "sha256": "47e4760b125167628eafb7dcc9a18589847777850d0fb829317b7900e7c8a40a",
+      "bytes": 16964
+    },
+    {
+      "project": "release-tools",
+      "file": "release-tools/wetmeat-english-discord-20261014/helpers/Install-WetMeat.cmd",
+      "sha256": "bcb19c7a0cad2b4ae9c5bce7eadb86ac4310a08623808a9ef7811196b2e5efe5",
+      "bytes": 1322
+    },
+    {
+      "project": "release-tools",
+      "file": "release-tools/wetmeat-english-discord-20261014/helpers/install.sh",
+      "sha256": "4aea6ff5739949af5bd2478b5343152c8e0ef70b44815e54c88d6420655dccb6",
+      "bytes": 1338
+    },
+    {
+      "project": "release-tools",
+      "file": "release-tools/wetmeat-english-discord-20261014/helpers/prepare-research.py",
+      "sha256": "17c2cfbbf4207222dd7bc03406eda339d90e0c15ff57033234c8574f82009ffc",
+      "bytes": 1105
+    }
+  ],
+  "count": 440,
+  "stable_model_sha256": "252f33942263bc8b8f740ba8aec3fed5a159ff148113c47a55c18c33d6627ab3",
+  "stable_cpp_unmodified": true,
+  "source_of_build_tools": "release-tools/wetmeat-english-discord-20261014",
+  "excluded": [
+    "compiled objects",
+    "virtual environments",
+    "caches",
+    "raw run outputs",
+    "private continuation records"
+  ]
+}
