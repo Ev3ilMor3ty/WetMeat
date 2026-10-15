@@ -1,0 +1,23 @@
+WetMeat 1.0 Stable
+=================
+
+Stockfish project: https://github.com/official-stockfish/Stockfish
+Upstream source: 49ea5ded38315cff8e67f4a677a9e7811612fbf6, 30 September 2026.
+Official reference opponent used in the studies: Stockfish 19.
+Model: nn-252f33942263.nnue, unchanged official Stockfish weights.
+
+Stockfish's authors supply the chess search, evaluation and neural-network
+weights. Their notices remain in the source, AUTHORS and Copying.txt.
+
+WetMeat's project changes include the UCI stop/ponder correction, a Windows
+CPU-topology fallback, release builds, test infrastructure and documentation.
+The name change does not make the Stockfish core an independent implementation.
+
+The Stockfish-derived engine is GPL v3 or later. The source collection also
+includes independent prototypes and research tools, with their own licence
+files preserved. Those projects are clearly separated from the stable release.
+
+The supplied executables are the previously verified stable binaries. This
+distribution refresh changes the English documentation and delivery helpers,
+not the engine algorithms or weights. Measured match results belong to the
+specific binary and settings identified in the test notes.
