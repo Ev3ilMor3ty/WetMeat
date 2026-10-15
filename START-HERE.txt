@@ -1,0 +1,12 @@
+WetMeat 1.0 Stable
+
+Open the WetMeat-Linux folder inside this download.
+Read its README before running the installer or engine.
+On Windows, use Install-WetMeat.cmd or add the EXE in bin to a UCI interface.
+On Linux, run bash install.sh in the WetMeat-Linux folder.
+The source collection has its own README and build instructions.
+The optional Discord pack contains numbered parts and Join helpers.
+
+Windows and Linux executables need a compatible PC.
+Stockfish/GPL credits and the corresponding source are included or linked.
+All downloads and instructions: https://github.com/mwmwqxzk5h-del/WetMeat/releases/tag/v1.0.0
