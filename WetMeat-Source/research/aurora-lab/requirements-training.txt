@@ -1,0 +1,4 @@
+# Training only; the shipped C++ engine has no Python or PyTorch runtime dependency.
+python-chess==1.999
+numpy==2.2.6
+torch==2.7.1

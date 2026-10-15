@@ -1,0 +1,18 @@
+{
+  "positions": 20000,
+  "candidates": 29696,
+  "teacher_nodes": 8192,
+  "teacher_minimum_depth": 6,
+  "teacher_average_depth": 14.7776,
+  "seed": 20261007,
+  "workers": 2,
+  "elapsed_seconds": 260.88,
+  "baseline_sha256": "7acc9ea4bcb7a4179959777eb3824dc9644e7869912cfd15242e64be80f56206",
+  "teacher_sha256": "0f83d24cc46d2c66c60f16001af5444873bc112b7d028594513426894c12da19",
+  "dataset_sha256": "39aabea1ce0e5a1c15f120a1236bd614bdf347ee301f4949dc1536211e87b357",
+  "notes": [
+    "Original local positions; separate teacher process supplies numeric targets.",
+    "No teacher code or network weights are imported.",
+    "Game groups allow held-out validation without neighboring positions crossing the split."
+  ]
+}

@@ -1,0 +1,61 @@
+--- a/src/search.cpp
++++ b/src/search.cpp
+@@ -192,18 +192,30 @@
+     if (position.drawn(ply)) return 0;
+     bool check = position.in_check();
+     if (ply >= MAX_PLY - 1) return evaluator.evaluate(position);
+-    int evaluation = check ? -INFINITY_SCORE : evaluator.evaluate(position);
++    const int original_alpha = alpha;
++    const bool pv_node = beta - alpha > 1;
++    TTRecord record;
++    bool hit = tt.probe(position.key, record);
++    int cached_score = hit ? score_from_tt(record.score, ply) : 0;
++    if (hit && !pv_node && position.halfmove < 90
++        && (record.bound == EXACT || (record.bound == LOWER && cached_score >= beta)
++            || (record.bound == UPPER && cached_score <= alpha))) return cached_score;
++    int evaluation = check ? -INFINITY_SCORE : hit ? record.evaluation : evaluator.evaluate(position);
+     int best = evaluation;
++    Move best_move = NO_MOVE;
+     if (!check) {
+         // Standing pat is invalid in stalemate, even when there are no captures.
+         if (!position.has_legal_move()) return 0;
+-        if (evaluation >= beta) return evaluation;
++        if (evaluation >= beta) {
++            tt.store(position.key, NO_MOVE, evaluation, evaluation, 0, LOWER);
++            return evaluation;
++        }
+         alpha = std::max(alpha, evaluation);
+     }
+     MoveList moves;
+     position.generate(moves, !check);
+     std::array<int, 256> scores{};
+-    for (int index = 0; index < moves.size; ++index) scores[index] = move_score(position, moves.moves[index], NO_MOVE, ply);
++    for (int index = 0; index < moves.size; ++index) scores[index] = move_score(position, moves.moves[index], hit ? record.move : NO_MOVE, ply);
+     int legal = 0;
+     for (int index = 0; index < moves.size; ++index) {
+         int next = index;
+@@ -228,14 +240,19 @@
+         int score = -quiescence(position, -beta, -alpha, ply + 1);
+         position.unmake();
+         if (control.stop.load(std::memory_order_relaxed)) return 0;
+-        best = std::max(best, score);
++        if (score > best) { best = score; best_move = move; }
+         if (score > alpha) {
+             alpha = score;
+             update_pv(ply, move);
+-            if (alpha >= beta) return score;
+-        }
+-    }
+-    if (check && !legal) return -MATE_SCORE + ply;
++            if (alpha >= beta) {
++                tt.store(position.key, move, score_to_tt(score, ply), check ? 0 : evaluation, 0, LOWER);
++                return score;
++            }
++        }
++    }
++    if (check && !legal) best = -MATE_SCORE + ply;
++    Bound bound = best >= beta ? LOWER : best > original_alpha ? EXACT : UPPER;
++    tt.store(position.key, best_move, score_to_tt(best, ply), check ? 0 : evaluation, 0, bound);
+     return best;
+ }
+ 

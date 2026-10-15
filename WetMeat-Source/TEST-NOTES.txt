@@ -1,0 +1,47 @@
+WetMeat 1.0 Stable — test notes
+==============================
+
+Stable release files
+--------------------
+Windows AVX2:
+ba3b51c100e2f7525b61d0a3fed9ffebc587d4b596c4264974cac500dc715282
+Linux AVX2:
+80ef6e114018f3ee823ba6c7411ff4f6160bc8d1f72f9ced399ed3144aa9ab6b
+Linux AVX-512:
+53a537c92e0ecf1ba5c1170e1f0724879bad871062ffbcd47dbffa9ff343d2c2
+
+The 10 October checks passed 36 protocol cases and 9 functional cases across
+these three binaries. Linux ran natively; Windows ran under Wine. That is
+not a native Windows hardware test. The executables have not changed since.
+
+Recorded head-to-head study
+---------------------------
+420 completed training games against Stockfish 19 at 100 ms per move:
+55 wins, 318 draws, 47 losses for the Linux AVX-512 WetMeat binary.
+Both engines: one thread, 128 MB hash, full Skill Level 20, no Elo limit,
+no ponder or tablebases, paired colours and rotating matched CPU assignments.
+
+The first 100 fully audited games scored 14 wins, 72 draws and 14 losses.
+Twenty completed batch exports cover 400 fully audited games:
+
+                  Moves checked    Mistakes    Blunders    Shallower judge depth
+WetMeat           25379 / 25379     169         36          1523
+Stockfish 19      25355 / 25355     163         35          1040
+
+Mistakes are 50–199 cp loss; blunders are at least 200 cp, under a finite
+Stockfish-family judge with larger node budgets and common completed-depth
+comparisons. Opening-book moves are excluded. Moves and opening pairs are
+correlated. Won/lost positions can produce large cp changes without a meaningful
+change in practical result. These are finite sample classifications.
+
+The remaining 20 completed games have partial audits. The planned 1000-game
+study is incomplete, so there is no complete 420-game error rate or final
+1000-game strength conclusion. The sample does not establish a lower error
+rate, general superiority, a calibrated Elo or perfect play.
+
+The head-to-head scores were measured with Linux AVX-512 only. Other builds
+use the same source and model but retain their own identities and do not
+inherit that binary's match measurements. No experimental candidate was adopted.
+
+Earlier studies, prototypes and experiments remain separate. Research source
+is included for reference, not as a stronger replacement for the stable engine.
