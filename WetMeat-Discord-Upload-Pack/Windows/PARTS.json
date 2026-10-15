@@ -1,0 +1,56 @@
+{
+  "archive": "WetMeat-Windows.zip",
+  "archive_sha256": "9970fac79458cac93ddc8974d58571606a0d0f7419c9cbf1136a98e8efd6ce53",
+  "parts": [
+    {
+      "name": "WetMeat-Windows.zip.part001",
+      "bytes": 8388608,
+      "sha256": "d3b5fda2f19b826a6c617fb3935ea3531237fef27f87bf5d25783152aa92db5e"
+    },
+    {
+      "name": "WetMeat-Windows.zip.part002",
+      "bytes": 8388608,
+      "sha256": "87f756293338793ff0b23c0e8e0170002fd716d1196e0f13b99c4fc2fd60eecf"
+    },
+    {
+      "name": "WetMeat-Windows.zip.part003",
+      "bytes": 8388608,
+      "sha256": "45705491dcd5b221c3c1e8108276f07800e9196c8fd1066fb8eb49af964c5b94"
+    },
+    {
+      "name": "WetMeat-Windows.zip.part004",
+      "bytes": 8388608,
+      "sha256": "161641e034e42fe8f0a681040772368292a340c93e64bac1e65372ec13695f94"
+    },
+    {
+      "name": "WetMeat-Windows.zip.part005",
+      "bytes": 8388608,
+      "sha256": "3f5cefe500586bcdb761c953172768e8b6b63aacc52cc1450356449977306633"
+    },
+    {
+      "name": "WetMeat-Windows.zip.part006",
+      "bytes": 8388608,
+      "sha256": "9b921cb053ce6f2c837e825b40acafa79f00f8ffede4c3019eff4d7bbc9fd86f"
+    },
+    {
+      "name": "WetMeat-Windows.zip.part007",
+      "bytes": 8388608,
+      "sha256": "f529121a8a46b406e62aef4bd630dfe7c6f89e803558499b3ded30697c3a7eb7"
+    },
+    {
+      "name": "WetMeat-Windows.zip.part008",
+      "bytes": 8388608,
+      "sha256": "495586899cd77d3cc559209c305693698e0ef98b0b5bad8b0aef2b9475c6422e"
+    },
+    {
+      "name": "WetMeat-Windows.zip.part009",
+      "bytes": 8388608,
+      "sha256": "6e8206d0990f93881d6272092df62872dc39c0ce9d07ef27174e16a8d9f8868a"
+    },
+    {
+      "name": "WetMeat-Windows.zip.part010",
+      "bytes": 4840665,
+      "sha256": "beb366900bd71b26b6770c5421c5e7234faa796b988982dc838e8c394e48a050"
+    }
+  ]
+}

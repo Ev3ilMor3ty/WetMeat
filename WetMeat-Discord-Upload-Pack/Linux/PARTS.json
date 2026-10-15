@@ -1,0 +1,106 @@
+{
+  "archive": "WetMeat-Linux.zip",
+  "archive_sha256": "37cb4bb1ee041f8f01fdfd11264df1589d76633e6a70843c0c1c85f80bbfc252",
+  "parts": [
+    {
+      "name": "WetMeat-Linux.zip.part001",
+      "bytes": 8388608,
+      "sha256": "ca6880f9943c5367191c384fde606982f5853ca8e09815d8ad00eb541524b746"
+    },
+    {
+      "name": "WetMeat-Linux.zip.part002",
+      "bytes": 8388608,
+      "sha256": "5fe2b6dac07f8fa10e445e596e4aecc57baa40dc4e456c642c9c700997060551"
+    },
+    {
+      "name": "WetMeat-Linux.zip.part003",
+      "bytes": 8388608,
+      "sha256": "fead24726d0591764a8135da92d3ef72c16eb7f7a5015fa0b0c162272f8810f1"
+    },
+    {
+      "name": "WetMeat-Linux.zip.part004",
+      "bytes": 8388608,
+      "sha256": "de2377ef779ab46ee58197b922321b9929735816a4387b8fe6ab82c002c81952"
+    },
+    {
+      "name": "WetMeat-Linux.zip.part005",
+      "bytes": 8388608,
+      "sha256": "02470ba3a124dc542214d4bee39368e339f4bdcc226818374df621b6b9029a0a"
+    },
+    {
+      "name": "WetMeat-Linux.zip.part006",
+      "bytes": 8388608,
+      "sha256": "9b49bbb141540360994790c5ef9affd50330b8ddd3315a8789525946473f96ac"
+    },
+    {
+      "name": "WetMeat-Linux.zip.part007",
+      "bytes": 8388608,
+      "sha256": "79d5b7ee3e20bbcffaa06a1e92d3996cb9af0bed47f0cb6f534a8a99cbbf78c4"
+    },
+    {
+      "name": "WetMeat-Linux.zip.part008",
+      "bytes": 8388608,
+      "sha256": "8749f86c3ee18c7d83ae154c7dab73419bbd4985d8be8a2ec5207c054ae1b7fb"
+    },
+    {
+      "name": "WetMeat-Linux.zip.part009",
+      "bytes": 8388608,
+      "sha256": "c83e8aa71b3173c08c6c31c410ce981fca867c4760c1cf9978106ee8ac93a214"
+    },
+    {
+      "name": "WetMeat-Linux.zip.part010",
+      "bytes": 8388608,
+      "sha256": "95d3f59895d541ac34d486f121f2fee15d0d1dc638080fc4127eb4c04b816743"
+    },
+    {
+      "name": "WetMeat-Linux.zip.part011",
+      "bytes": 8388608,
+      "sha256": "0e3269927753dbbea275c1c6ab39847607ec02ebb4c306e7ebad0a618434f798"
+    },
+    {
+      "name": "WetMeat-Linux.zip.part012",
+      "bytes": 8388608,
+      "sha256": "324f0e5a18e002aac8ddf5445607cce3c6767e6b81f483da8094eefe17659580"
+    },
+    {
+      "name": "WetMeat-Linux.zip.part013",
+      "bytes": 8388608,
+      "sha256": "6deee3d08a02e43a74715d9cc5a46073dd814323bd7e83d44630ae1cb5fa9311"
+    },
+    {
+      "name": "WetMeat-Linux.zip.part014",
+      "bytes": 8388608,
+      "sha256": "6c80f0e4c3d8e8cf738ba04550adbbbea781b78140400557822a9104b2aaa9b5"
+    },
+    {
+      "name": "WetMeat-Linux.zip.part015",
+      "bytes": 8388608,
+      "sha256": "80bbf3f8793bd47f3f788308163e095bffcd6df1643b9f26ed0d5e22b70d7640"
+    },
+    {
+      "name": "WetMeat-Linux.zip.part016",
+      "bytes": 8388608,
+      "sha256": "5317f5f85fcd354580f6bd286df7431d79e90ded703a098288d09f3093a7e30a"
+    },
+    {
+      "name": "WetMeat-Linux.zip.part017",
+      "bytes": 8388608,
+      "sha256": "669c74f88f40bd0bdfcd9b81dbf49b7b5b869779db101b6ea675761515bfa2a7"
+    },
+    {
+      "name": "WetMeat-Linux.zip.part018",
+      "bytes": 8388608,
+      "sha256": "e568c053863b62ad30272130826336e646d4f26b6f6334379effba76cf1482f9"
+    },
+    {
+      "name": "WetMeat-Linux.zip.part019",
+      "bytes": 8388608,
+      "sha256": "22723300272bdcffd57c0bf0670b1534324c24366a1fcab7ea439ccae44b912b"
+    },
+    {
+      "name": "WetMeat-Linux.zip.part020",
+      "bytes": 1642122,
+      "sha256": "028c18d4f3d2967566caad39b7d9c9a827a7951d04bec0a3c1d644bcdb51dd35"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "archive": "WetMeat-Source.zip",
+  "archive_sha256": "d2c58b9aea067f9ddf9a57393c369cceea2d22f365bedd8035efe6039edcb603",
+  "parts": [
+    {
+      "name": "WetMeat-Source.zip.part001",
+      "bytes": 8388608,
+      "sha256": "187328a5a615bfbbd313e48186ec17784670ff2e18ed2be7562b1670cfebaac5"
+    },
+    {
+      "name": "WetMeat-Source.zip.part002",
+      "bytes": 8388608,
+      "sha256": "caf799ea3d1786c251f03e6af496bd027e6430886dde16a725e51ccaf1e120a0"
+    },
+    {
+      "name": "WetMeat-Source.zip.part003",
+      "bytes": 8388608,
+      "sha256": "d7c16b8bd78e2bf8334be986b8afc58bca5845f138dbf5da4ef1cf497cd008f8"
+    },
+    {
+      "name": "WetMeat-Source.zip.part004",
+      "bytes": 8388608,
+      "sha256": "8447b2f3a886bc9966a318b1cdd8f3f2d5d27d0286a8b848f8260b29539dc527"
+    },
+    {
+      "name": "WetMeat-Source.zip.part005",
+      "bytes": 8388608,
+      "sha256": "1c208a0ab62d95ea7eab73dcd72153765747a4e9df61042ea4949b5af4bfb500"
+    },
+    {
+      "name": "WetMeat-Source.zip.part006",
+      "bytes": 8388608,
+      "sha256": "e6a34d1f5ed65e0b9dbe0e72c93d1e83da192d0b4a9d45ba3b35b34cb6d4ce06"
+    },
+    {
+      "name": "WetMeat-Source.zip.part007",
+      "bytes": 8388608,
+      "sha256": "e2dc9692c9d4d2ee2ecdfb34757f072993cd66df9f4553e1bbb5edbdaf1100b0"
+    },
+    {
+      "name": "WetMeat-Source.zip.part008",
+      "bytes": 8388608,
+      "sha256": "369c391d43b508f6435a0422a4f2f2a94b984ee8449b01007089fdd082233582"
+    },
+    {
+      "name": "WetMeat-Source.zip.part009",
+      "bytes": 8388608,
+      "sha256": "9be91b41787cdfba1815c74d97f34e134ccffd697d4a17a609e59863ddd14629"
+    },
+    {
+      "name": "WetMeat-Source.zip.part010",
+      "bytes": 5996863,
+      "sha256": "8c00e55f9a61c1e3a73a6af97898c20936d4fde3a77c64b0d3a14923ccd020b1"
+    }
+  ]
+}
