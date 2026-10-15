@@ -1,22 +1,24 @@
 **WetMeat 1.0 Stable — Windows & Linux**
 
 I've put together a release of WetMeat, my Stockfish-based chess-engine project.
-It comes with English setup instructions, optional installers and the full source.
+It includes English instructions, optional installers and the full source.
 
-**Download:** https://github.com/mwmwqxzk5h-del/WetMeat/releases/tag/v1.0.0
+**Download page:** https://github.com/mwmwqxzk5h-del/WetMeat/releases/tag/v1.0.0
 
-• Windows: https://github.com/mwmwqxzk5h-del/WetMeat/releases/download/v1.0.0/WetMeat-Windows.zip
-• Linux: https://github.com/mwmwqxzk5h-del/WetMeat/releases/download/v1.0.0/WetMeat-Linux.zip
-• Complete source and the actual model: https://github.com/mwmwqxzk5h-del/WetMeat/releases/download/v1.0.0/WetMeat-Source.zip
-• English setup guide: https://github.com/mwmwqxzk5h-del/WetMeat/releases/download/v1.0.0/WetMeat-Setup-English.pdf
+Windows: https://github.com/mwmwqxzk5h-del/WetMeat/archive/refs/tags/v1.0.0-windows.zip
+Linux: https://github.com/mwmwqxzk5h-del/WetMeat/archive/refs/tags/v1.0.0-linux.zip
+Complete source and actual model: https://github.com/mwmwqxzk5h-del/WetMeat/archive/refs/tags/v1.0.0-source.zip
+English guide: https://raw.githubusercontent.com/mwmwqxzk5h-del/WetMeat/main/docs/WetMeat-Setup-English.pdf
 
-Extract the Windows or Linux ZIP on your PC. Follow the README, then add the
-engine to Cute Chess or Arena as a UCI engine. You can run the optional installer
-to copy it to your user folder. Use Skill Level 20, UCI_LimitStrength off and
-MultiPV 1. The network is embedded; there is no extra model download for playing.
+Extract the ZIP on your PC. Open the versioned outer folder, then WetMeat-Windows
+or WetMeat-Linux. Follow the README and add the engine to Cute Chess or Arena
+as a UCI engine. The optional installer copies it to your user folder.
 
-Cute Chess downloads: https://github.com/cutechess/cutechess/releases
-These are x64 PC builds and do not run directly on an iPhone or iPad.
+Use Skill Level 20, UCI_LimitStrength off and MultiPV 1. The network is embedded;
+there is no extra model download for playing. These are x64 PC programs and
+do not run directly on iPhone or iPad.
+
+Cute Chess GUI: https://github.com/cutechess/cutechess/releases
 
 WetMeat Stable uses Stockfish's search, evaluation and official NNUE weights.
 Stockfish credits, GPL notices and the corresponding source are included.

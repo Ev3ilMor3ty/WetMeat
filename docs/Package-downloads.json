@@ -1,0 +1,30 @@
+[
+  {
+    "kind": "windows",
+    "tag": "v1.0.0-windows",
+    "commit": "d9cc8541ffa268ed540a36f51866f0d7a408846f",
+    "folder": "WetMeat-Windows",
+    "download_url": "https://github.com/mwmwqxzk5h-del/WetMeat/archive/refs/tags/v1.0.0-windows.zip"
+  },
+  {
+    "kind": "linux",
+    "tag": "v1.0.0-linux",
+    "commit": "f41782b6101fc99dc09d78babc7311fa49ffc5b3",
+    "folder": "WetMeat-Linux",
+    "download_url": "https://github.com/mwmwqxzk5h-del/WetMeat/archive/refs/tags/v1.0.0-linux.zip"
+  },
+  {
+    "kind": "source",
+    "tag": "v1.0.0-source",
+    "commit": "973ddc963851852f6eb3c34f82eb337e2bde2dc4",
+    "folder": "WetMeat-Source",
+    "download_url": "https://github.com/mwmwqxzk5h-del/WetMeat/archive/refs/tags/v1.0.0-source.zip"
+  },
+  {
+    "kind": "discord",
+    "tag": "v1.0.0-discord",
+    "commit": "b4426dc7f811ae9a20e6e6366f4a9960bd9a79ed",
+    "folder": "WetMeat-Discord-Upload-Pack",
+    "download_url": "https://github.com/mwmwqxzk5h-del/WetMeat/archive/refs/tags/v1.0.0-discord.zip"
+  }
+]
