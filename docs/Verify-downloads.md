@@ -32,3 +32,6 @@ Stable Linux AVX-512 engine SHA256:
 
 The packaging checks do not measure engine strength. Native Windows installer
 execution remains untested; the unchanged EXE had earlier checks under Wine.
+
+The [public download verification report](PUBLIC-DOWNLOAD-VERIFICATION.json)
+records the observed HTTP results, full file checks and Linux installation check.

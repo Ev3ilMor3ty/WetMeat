@@ -1,0 +1,2745 @@
+{
+  "prepared_utc": "2026-10-15T00:18:01.299505+00:00",
+  "packages": [
+    {
+      "kind": "windows",
+      "folder": "WetMeat-Windows",
+      "tag": "v1.0.0-windows",
+      "commit": "d9cc8541ffa268ed540a36f51866f0d7a408846f",
+      "tree": "8292ae240ec1c8368697cd9cc3a0d6678471854d",
+      "files": [
+        {
+          "path": "WetMeat-Windows/AUTHORS",
+          "bytes": 7074,
+          "sha256": "09eb0520ef9aa1caa2c53d6fcde5aa501981cc9f5ab9dff4b1bf8c7f9f688096"
+        },
+        {
+          "path": "WetMeat-Windows/CREDITS.txt",
+          "bytes": 1212,
+          "sha256": "c2e4da53ded351d1e61f6919a57f1b371ab71f9d254ad177f394c7b10909ab63"
+        },
+        {
+          "path": "WetMeat-Windows/Copying.txt",
+          "bytes": 35149,
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+        },
+        {
+          "path": "WetMeat-Windows/Install-WetMeat.cmd",
+          "bytes": 1360,
+          "sha256": "8a956f61497a97f037109d2e6e4c4ab2ed4cf618bf4f25fa53a03182a010052a"
+        },
+        {
+          "path": "WetMeat-Windows/README.txt",
+          "bytes": 3236,
+          "sha256": "9e288b9b745cca69252ee26b6a078083664959838c4836643e5615b4a25503f4"
+        },
+        {
+          "path": "WetMeat-Windows/SHA256SUMS.txt",
+          "bytes": 738,
+          "sha256": "854f2f303c640d428c3603732823bd58628a0356345b0a2d6d7ac4802409aea1"
+        },
+        {
+          "path": "WetMeat-Windows/Setup-English.pdf",
+          "bytes": 70916,
+          "sha256": "2b20cfd02299d48d95d9934b5f55b61ff3164ee6c4a7d37176a15c5d3692a0bd"
+        },
+        {
+          "path": "WetMeat-Windows/TEST-NOTES.txt",
+          "bytes": 2320,
+          "sha256": "ea2d0230cd0cb13a5fecc4a51fa294ab15c5aed6a9723df83e5dc23d3e9f4c8b"
+        },
+        {
+          "path": "WetMeat-Windows/UPSTREAM_README.md",
+          "bytes": 7772,
+          "sha256": "ae3ef5c2282400d643c6e923d0b8b8d8fe35cf98762701f0379c79bde16c3a26"
+        },
+        {
+          "path": "WetMeat-Windows/bin/wetmeat-windows-avx2.exe",
+          "bytes": 102092752,
+          "sha256": "ba3b51c100e2f7525b61d0a3fed9ffebc587d4b596c4264974cac500dc715282"
+        },
+        {
+          "path": "START-HERE.txt",
+          "bytes": 622,
+          "sha256": "72840c61c2218a370c340a1bdbb25d046d8a57f428cd38640e70d9664856c8d3"
+        }
+      ],
+      "download_url": "https://github.com/mwmwqxzk5h-del/WetMeat/archive/refs/tags/v1.0.0-windows.zip"
+    },
+    {
+      "kind": "linux",
+      "folder": "WetMeat-Linux",
+      "tag": "v1.0.0-linux",
+      "commit": "f41782b6101fc99dc09d78babc7311fa49ffc5b3",
+      "tree": "2e269a45a3c5b4aa4d83ab4e43f6c80937a0ef19",
+      "files": [
+        {
+          "path": "WetMeat-Linux/AUTHORS",
+          "bytes": 7074,
+          "sha256": "09eb0520ef9aa1caa2c53d6fcde5aa501981cc9f5ab9dff4b1bf8c7f9f688096"
+        },
+        {
+          "path": "WetMeat-Linux/CREDITS.txt",
+          "bytes": 1212,
+          "sha256": "c2e4da53ded351d1e61f6919a57f1b371ab71f9d254ad177f394c7b10909ab63"
+        },
+        {
+          "path": "WetMeat-Linux/Copying.txt",
+          "bytes": 35149,
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+        },
+        {
+          "path": "WetMeat-Linux/README.txt",
+          "bytes": 3172,
+          "sha256": "2db9e256a34fec66bb5644d31b89ab7924d2e0f130b63b85676b131cc6e99a87"
+        },
+        {
+          "path": "WetMeat-Linux/SHA256SUMS.txt",
+          "bytes": 814,
+          "sha256": "f9bbaf88ca699de3e286f14da1f124306dc496545b22c77cd6605b1bafdf2d82"
+        },
+        {
+          "path": "WetMeat-Linux/Setup-English.pdf",
+          "bytes": 70916,
+          "sha256": "2b20cfd02299d48d95d9934b5f55b61ff3164ee6c4a7d37176a15c5d3692a0bd"
+        },
+        {
+          "path": "WetMeat-Linux/TEST-NOTES.txt",
+          "bytes": 2320,
+          "sha256": "ea2d0230cd0cb13a5fecc4a51fa294ab15c5aed6a9723df83e5dc23d3e9f4c8b"
+        },
+        {
+          "path": "WetMeat-Linux/UPSTREAM_README.md",
+          "bytes": 7772,
+          "sha256": "ae3ef5c2282400d643c6e923d0b8b8d8fe35cf98762701f0379c79bde16c3a26"
+        },
+        {
+          "path": "WetMeat-Linux/bin/wetmeat-linux-avx2",
+          "bytes": 101793304,
+          "sha256": "80ef6e114018f3ee823ba6c7411ff4f6160bc8d1f72f9ced399ed3144aa9ab6b"
+        },
+        {
+          "path": "WetMeat-Linux/bin/wetmeat-linux-avx512",
+          "bytes": 101797752,
+          "sha256": "53a537c92e0ecf1ba5c1170e1f0724879bad871062ffbcd47dbffa9ff343d2c2"
+        },
+        {
+          "path": "WetMeat-Linux/install.sh",
+          "bytes": 1338,
+          "sha256": "4aea6ff5739949af5bd2478b5343152c8e0ef70b44815e54c88d6420655dccb6"
+        },
+        {
+          "path": "START-HERE.txt",
+          "bytes": 620,
+          "sha256": "f0d2f06791ea68f040fed467f000365d6ab10d8d7cc9a2b62f7ab508887f9ec2"
+        }
+      ],
+      "download_url": "https://github.com/mwmwqxzk5h-del/WetMeat/archive/refs/tags/v1.0.0-linux.zip"
+    },
+    {
+      "kind": "source",
+      "folder": "WetMeat-Source",
+      "tag": "v1.0.0-source",
+      "commit": "973ddc963851852f6eb3c34f82eb337e2bde2dc4",
+      "tree": "2a78b1fe4b9bb448c425d97d7f1c3806e97e14d9",
+      "files": [
+        {
+          "path": "WetMeat-Source/CODE-INVENTORY.json",
+          "bytes": 91817,
+          "sha256": "6ee87c12c6d9cf4e70af328ee310f73c9dc7a8cf6d298b33a2589ca4dd38dfbb"
+        },
+        {
+          "path": "WetMeat-Source/CREDITS.txt",
+          "bytes": 1212,
+          "sha256": "c2e4da53ded351d1e61f6919a57f1b371ab71f9d254ad177f394c7b10909ab63"
+        },
+        {
+          "path": "WetMeat-Source/README.txt",
+          "bytes": 2905,
+          "sha256": "875ccd7f17734049152a76026325326ce0836aa5c8a91834bc63bcc997d28403"
+        },
+        {
+          "path": "WetMeat-Source/SHA256SUMS.txt",
+          "bytes": 48567,
+          "sha256": "0c2e470e46f8140ed210469e389ebde1f76e2f5833a679ef57c7ce708301ec07"
+        },
+        {
+          "path": "WetMeat-Source/TEST-NOTES.txt",
+          "bytes": 2320,
+          "sha256": "ea2d0230cd0cb13a5fecc4a51fa294ab15c5aed6a9723df83e5dc23d3e9f4c8b"
+        },
+        {
+          "path": "WetMeat-Source/prepare-research.py",
+          "bytes": 1105,
+          "sha256": "17c2cfbbf4207222dd7bc03406eda339d90e0c15ff57033234c8574f82009ffc"
+        },
+        {
+          "path": "WetMeat-Source/release-tools/wetmeat-1.0-stable-20261010/prepare_release.py",
+          "bytes": 16601,
+          "sha256": "dbe70e78016c34340cd13d8514ef7c59b42f310931748a1e4b2486256afae2da"
+        },
+        {
+          "path": "WetMeat-Source/release-tools/wetmeat-english-discord-20261014/build_release.py",
+          "bytes": 16964,
+          "sha256": "47e4760b125167628eafb7dcc9a18589847777850d0fb829317b7900e7c8a40a"
+        },
+        {
+          "path": "WetMeat-Source/release-tools/wetmeat-english-discord-20261014/docs/CREDITS.txt",
+          "bytes": 1212,
+          "sha256": "c2e4da53ded351d1e61f6919a57f1b371ab71f9d254ad177f394c7b10909ab63"
+        },
+        {
+          "path": "WetMeat-Source/release-tools/wetmeat-english-discord-20261014/docs/DISCORD-POST.txt",
+          "bytes": 1474,
+          "sha256": "63ffdde809308270237ee707c96189b708cecd062026d439268642a3e64024bf"
+        },
+        {
+          "path": "WetMeat-Source/release-tools/wetmeat-english-discord-20261014/docs/README-LINUX.txt",
+          "bytes": 3172,
+          "sha256": "2db9e256a34fec66bb5644d31b89ab7924d2e0f130b63b85676b131cc6e99a87"
+        },
+        {
+          "path": "WetMeat-Source/release-tools/wetmeat-english-discord-20261014/docs/README-WINDOWS.txt",
+          "bytes": 3236,
+          "sha256": "9e288b9b745cca69252ee26b6a078083664959838c4836643e5615b4a25503f4"
+        },
+        {
+          "path": "WetMeat-Source/release-tools/wetmeat-english-discord-20261014/docs/SHARING-ON-DISCORD.txt",
+          "bytes": 2179,
+          "sha256": "1fcad37df74b57a2ac36adda56847fe508e4abb02e5e71cc4811aa0a86e2feeb"
+        },
+        {
+          "path": "WetMeat-Source/release-tools/wetmeat-english-discord-20261014/docs/SOURCE-BUILD.txt",
+          "bytes": 1766,
+          "sha256": "200e73f046b2174c7f35bfabfac8b28b10e01ab30441c35f7e8439f2a20ed225"
+        },
+        {
+          "path": "WetMeat-Source/release-tools/wetmeat-english-discord-20261014/docs/SOURCE-README.txt",
+          "bytes": 2905,
+          "sha256": "875ccd7f17734049152a76026325326ce0836aa5c8a91834bc63bcc997d28403"
+        },
+        {
+          "path": "WetMeat-Source/release-tools/wetmeat-english-discord-20261014/docs/TEST-NOTES.txt",
+          "bytes": 2320,
+          "sha256": "ea2d0230cd0cb13a5fecc4a51fa294ab15c5aed6a9723df83e5dc23d3e9f4c8b"
+        },
+        {
+          "path": "WetMeat-Source/release-tools/wetmeat-english-discord-20261014/helpers/Install-WetMeat.cmd",
+          "bytes": 1322,
+          "sha256": "bcb19c7a0cad2b4ae9c5bce7eadb86ac4310a08623808a9ef7811196b2e5efe5"
+        },
+        {
+          "path": "WetMeat-Source/release-tools/wetmeat-english-discord-20261014/helpers/install.sh",
+          "bytes": 1338,
+          "sha256": "4aea6ff5739949af5bd2478b5343152c8e0ef70b44815e54c88d6420655dccb6"
+        },
+        {
+          "path": "WetMeat-Source/release-tools/wetmeat-english-discord-20261014/helpers/prepare-research.py",
+          "bytes": 1105,
+          "sha256": "17c2cfbbf4207222dd7bc03406eda339d90e0c15ff57033234c8574f82009ffc"
+        },
+        {
+          "path": "WetMeat-Source/release-tools/wetmeat-english-discord-20261014/requirements-release.txt",
+          "bytes": 16,
+          "sha256": "040e150fc36c71fe02eb2f91b27e30a1266fcd234980b60efb2bc2e2c2308b14"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora/.github/workflows/tests.yml",
+          "bytes": 948,
+          "sha256": "c0904f382653105719c7e4f8f9500f00cf0e0c36e97555c1254ef879de39a777"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora/.gitignore",
+          "bytes": 44,
+          "sha256": "609e8fd8e9f0a9c4793bed9dda97df43d5a6576d0c449966e8111f1f076d593e"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora/CMakeLists.txt",
+          "bytes": 1278,
+          "sha256": "bfa041aa94548bd72a72dded8baf95f17791a6c241a58f5293e5a18be7f2164a"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora/LICENSE",
+          "bytes": 1076,
+          "sha256": "ddf4a47ec28ebf021f914bdc1f3eeb042ca6cea6914894143982299ce92a7f29"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora/Makefile",
+          "bytes": 1677,
+          "sha256": "f50708d873a2bf0eb4d8ddb36aff9435dd9ffa13ab7f135e159f147649d00aae"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora/docs/search-cache-change.patch",
+          "bytes": 2739,
+          "sha256": "4b109544ad4f19b6bf8663764e23e75cafc076ab5bc8fd2bd407b29e8cdd315f"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora/requirements-dev.txt",
+          "bytes": 166,
+          "sha256": "743b47c2d3cae7d0827e7e23a68e880e7739f279527cd7eb6f5a6f68e9b64fe0"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora/src/chess.cpp",
+          "bytes": 23819,
+          "sha256": "7200181aa3cb7513bd007c8588f4116b3e2931d398347779c1660d082c829e9d"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora/src/chess.hpp",
+          "bytes": 5077,
+          "sha256": "c742f5e9ad071f7c138b71ee338cd187e4c0e2f5011a4964cf52afa01e1f6d5f"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora/src/evaluate.cpp",
+          "bytes": 9363,
+          "sha256": "d13f2d62ea40318682880e5d1555b7b7b4515d3d3aa4bfd59247945cbb560f74"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora/src/evaluate.hpp",
+          "bytes": 596,
+          "sha256": "50565f1b47b951bbb720a1c842ece4be3fddd0b3c6a916edbf3ba4ac0dc49866"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora/src/main.cpp",
+          "bytes": 12800,
+          "sha256": "25bf7cc114d08269df580f8f529bbf393a92406b36f3a92e19558f42e0fb6a33"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora/src/search.cpp",
+          "bytes": 25047,
+          "sha256": "8a0ba4c476e0c8e518b537da3ced37b827e1f503de3eb27ea794033ee73a0369"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora/src/search.hpp",
+          "bytes": 4390,
+          "sha256": "1a9b083bcbe8ce2a364dcfd1b391dc9ac00f1c8224ab43b3bf61834ddacbf42d"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora/tests/core_tests.cpp",
+          "bytes": 10654,
+          "sha256": "0e55eea03810db9a2d29fecb2d91a48a9ea4a16e940e7db63f7e43fbbe2561fe"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora/tests/test_uci.py",
+          "bytes": 7139,
+          "sha256": "a77ce1b8b6bfb20767ce0f27711d6ff678d9fe70a6da6af5cb7c8977e3f11314"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora/tools/differential.py",
+          "bytes": 4487,
+          "sha256": "9c0c4407615336b2ea4561e337544d8449f7c19810a37537606421844e07f4a0"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora/tools/match.py",
+          "bytes": 7941,
+          "sha256": "631511b0e739b57dcdff6c44fdff8623a720a48cae34a6ddea2342fe865d1014"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora/tools/stress.py",
+          "bytes": 3876,
+          "sha256": "e21d88ddc196c73308c45042e242f6e4e369dbd6eb67f89e76d67997797d1b38"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora/tools/tactics.py",
+          "bytes": 5085,
+          "sha256": "2d137d934d663c63483cdb699131ce612d2610cd392e6fb346b631b320037cb7"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora/tools/uci_client.py",
+          "bytes": 3861,
+          "sha256": "a1e612975ef020ee02b2e8e6edf49b6cc8e51295a1022afe084f6fbf657b3f8a"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora-lab/CMakeLists.txt",
+          "bytes": 1293,
+          "sha256": "bbad9de44b53982f9f9a9d7d11b08924a1adf441784a40ba6a8f1713bf096fd6"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora-lab/LICENSE",
+          "bytes": 1076,
+          "sha256": "ddf4a47ec28ebf021f914bdc1f3eeb042ca6cea6914894143982299ce92a7f29"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora-lab/Makefile",
+          "bytes": 1692,
+          "sha256": "31014187a1cde81b4f84b4a1b03fda50077d9e0c64b5225cfecd82308ffbf781"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora-lab/data/training-v1.jsonl",
+          "bytes": 3248790,
+          "sha256": "39aabea1ce0e5a1c15f120a1236bd614bdf347ee301f4949dc1536211e87b357"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora-lab/data/training-v1.metadata.json",
+          "bytes": 721,
+          "sha256": "c62bb17676ba183f29d7df4cd698fcd0ee87cab77f0b209dbc4bdd6fc0e90aed"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora-lab/requirements-dev.txt",
+          "bytes": 166,
+          "sha256": "743b47c2d3cae7d0827e7e23a68e880e7739f279527cd7eb6f5a6f68e9b64fe0"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora-lab/requirements-training.txt",
+          "bytes": 131,
+          "sha256": "b8585932a627c272edb33f9eb3b6593f546fb0d08b30124d6ce7f351e3b9ca5e"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora-lab/src/chess.cpp",
+          "bytes": 23819,
+          "sha256": "7200181aa3cb7513bd007c8588f4116b3e2931d398347779c1660d082c829e9d"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora-lab/src/chess.hpp",
+          "bytes": 5077,
+          "sha256": "c742f5e9ad071f7c138b71ee338cd187e4c0e2f5011a4964cf52afa01e1f6d5f"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora-lab/src/evaluate.cpp",
+          "bytes": 9572,
+          "sha256": "1730fd9243464aee4461ca9535afc39caa4d304adfa513cb74eb877f4a94fc6c"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora-lab/src/evaluate.hpp",
+          "bytes": 701,
+          "sha256": "bfdc33309609898edb638eca88bae4c1bdf309cb78643e5afa72874073e43180"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora-lab/src/generated/neural_weights.hpp",
+          "bytes": 1135236,
+          "sha256": "70c934eacf357a299ff337f330573e361a971f05d63570fa7089ef768d5d290e"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora-lab/src/main.cpp",
+          "bytes": 13423,
+          "sha256": "03eeb16dfd7339e2d5cab49a4bd506230a105db39a925478a8e5720f4d0bb901"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora-lab/src/neural.cpp",
+          "bytes": 4575,
+          "sha256": "7bdbe6aa245f17d8a94a3bd52d19c261bf193afb828fdd88a113592442ec497a"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora-lab/src/neural.hpp",
+          "bytes": 1277,
+          "sha256": "00face7d278d1862cefdc8cced338992587a2c5b1648962c8fc0e3cc20261329"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora-lab/src/search.cpp",
+          "bytes": 25518,
+          "sha256": "0a05dccd5c1d76bead7c646d9c1cce1bf19939ef13a7669d2ffeb9936e00130b"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora-lab/src/search.hpp",
+          "bytes": 4611,
+          "sha256": "6967331c3b568e026d3073385429a22a50b1ca9c9233ca56459c08b8f472e0fd"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora-lab/tests/core_tests.cpp",
+          "bytes": 10654,
+          "sha256": "0e55eea03810db9a2d29fecb2d91a48a9ea4a16e940e7db63f7e43fbbe2561fe"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora-lab/tests/test_uci.py",
+          "bytes": 7139,
+          "sha256": "a77ce1b8b6bfb20767ce0f27711d6ff678d9fe70a6da6af5cb7c8977e3f11314"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora-lab/tools/differential.py",
+          "bytes": 4487,
+          "sha256": "9c0c4407615336b2ea4561e337544d8449f7c19810a37537606421844e07f4a0"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora-lab/tools/generate_training.py",
+          "bytes": 8066,
+          "sha256": "a999862d083a6ac12bfc7a6697fd3dd733ac8420954e43776ba45bc0f682d149"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora-lab/tools/match.py",
+          "bytes": 7941,
+          "sha256": "631511b0e739b57dcdff6c44fdff8623a720a48cae34a6ddea2342fe865d1014"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora-lab/tools/stress.py",
+          "bytes": 3876,
+          "sha256": "e21d88ddc196c73308c45042e242f6e4e369dbd6eb67f89e76d67997797d1b38"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora-lab/tools/tactics.py",
+          "bytes": 5085,
+          "sha256": "2d137d934d663c63483cdb699131ce612d2610cd392e6fb346b631b320037cb7"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora-lab/tools/train_neural.py",
+          "bytes": 11717,
+          "sha256": "97a9ae17a90c6ea69fe9a5041983b1553d47ec0936b1494ddabd86ac9a81c596"
+        },
+        {
+          "path": "WetMeat-Source/research/aurora-lab/tools/uci_client.py",
+          "bytes": 3861,
+          "sha256": "a1e612975ef020ee02b2e8e6edf49b6cc8e51295a1022afe084f6fbf657b3f8a"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/AUTHORS",
+          "bytes": 7074,
+          "sha256": "09eb0520ef9aa1caa2c53d6fcde5aa501981cc9f5ab9dff4b1bf8c7f9f688096"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/Copying.txt",
+          "bytes": 35149,
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/check_experiment.py",
+          "bytes": 5814,
+          "sha256": "de9c838f9d0431a0ccb9dde5c5125536452452f7c9e2cb9ffeec43d50d687adb"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/scripts/.gitattributes",
+          "bytes": 17,
+          "sha256": "1d5d71dcc6ccd28ab46a335349ecc74742ca4b81f4fcad212f8d134f70f1f13e"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/scripts/check_universal.sh",
+          "bytes": 2357,
+          "sha256": "b1e5566a695b519c504cf13e11c2cf58a73e1338d1beb6bcf8b8af04446c781b"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/scripts/check_universal_arm.sh",
+          "bytes": 1870,
+          "sha256": "26adf3da328e8d1ca4209554841f6d7cc05fb6242df69c67fdde306a64185139"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/scripts/check_universal_macos.sh",
+          "bytes": 1767,
+          "sha256": "86ce982e76e7c89e2062daeba92ff149e80417789ef02e4450060ca29917cf6b"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/scripts/check_universal_riscv.sh",
+          "bytes": 2078,
+          "sha256": "75b4cef47585deb04c0cbea9d06df390891076b7c6d971a9f3ac24353792c68c"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/scripts/get_native_properties.sh",
+          "bytes": 8958,
+          "sha256": "ff5caf017460c2b27e37987c493a4b2be4e726c1c453c3eaac90569dfed155a4"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/scripts/net.sh",
+          "bytes": 2419,
+          "sha256": "c0df735168d5e4f49109e91319f350f6c4238d74b72396f012fce2e495ae8d32"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/Makefile",
+          "bytes": 47290,
+          "sha256": "8d032219035996701d926761e76459c84b77350f36f31775c1a34fb7f56ff07a"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/attacks.cpp",
+          "bytes": 6182,
+          "sha256": "260c2cceb38d7a87a69e4df0f84d84e6729b1a77bbc321a13fed8cff66b2c704"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/attacks.h",
+          "bytes": 10807,
+          "sha256": "0e6b122913bda3e051e036e4fbc4da02e0349ac13b0f88380ac3317eaf7483af"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/benchmark.cpp",
+          "bytes": 27162,
+          "sha256": "0a8d3f29278ad53abbceee284721a3ac4ddd7c768052de928672a2869bc2da80"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/benchmark.h",
+          "bytes": 1356,
+          "sha256": "bd4822d67e441a0546e49aadfb85c400a3dbe8f8b3bce8131814b156aedf2f27"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/bitboard.cpp",
+          "bytes": 1409,
+          "sha256": "b73064f2270344bce175865174666b92d1f3653c6ee4f98fd075f0fb1865b735"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/bitboard.h",
+          "bytes": 8143,
+          "sha256": "18420178487d2063990f08c8e8c0fc1aa7ad3d4a292e6d8d8d5aaa82586aa84d"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/engine.cpp",
+          "bytes": 13010,
+          "sha256": "a6876453c86d4320bdd3570e9a211d10ff133cb40ba9c28c46efa7497e4925b3"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/engine.h",
+          "bytes": 4963,
+          "sha256": "18eea586469f06ec99893df76faaba8c93a14ee37c6f6a81bc78689c1b8a2143"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/evaluate.cpp",
+          "bytes": 4668,
+          "sha256": "216e9a6400b62f14a6605a484bf92cc4ef31bf2a763a6f3590f8b45229c4270c"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/evaluate.h",
+          "bytes": 1767,
+          "sha256": "b375ca8f8a993400fe1095b6184fc7e1816fc09cfee96bbf7258b0468ab9ad21"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/history.h",
+          "bytes": 9247,
+          "sha256": "f6e957d6e717348f58aa308f88aefddb5975e6a6c1d23e936ecf3548cbb48c39"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/incbin/incbin.h",
+          "bytes": 16036,
+          "sha256": "70995329299ec55d414ad6df6929ddcfe0a43a40102cf6c05ff3c74ddd2765cb"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/main.cpp",
+          "bytes": 1602,
+          "sha256": "20ecc928260f46dfa3622ef0a4d810fe880322b1444659d155ce295be84b343a"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/memory.cpp",
+          "bytes": 7669,
+          "sha256": "5739783a3ab5627d9a59cd3c26d7b66ff8b35c85af3b5994c3aef75298f9aa5d"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/memory.h",
+          "bytes": 13202,
+          "sha256": "ab7fc8da563807ac89c93b60eee3dc81f30e19c0c4f0f4b6166251635006f1a9"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/misc.cpp",
+          "bytes": 17531,
+          "sha256": "008eeb6ee97b1b3a16f335d8116c7a8ddd59c8f847642c8167cc4473ef5c7432"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/misc.h",
+          "bytes": 17990,
+          "sha256": "aba39892e7e6d40975d2df370cb3bac88df003b49261b353f0bdfd6a75c86665"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/movegen.cpp",
+          "bytes": 9759,
+          "sha256": "62ce41a3fd6c60aa668593804168a4ca91ddb0a6c19077d0624bd09239087e54"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/movegen.h",
+          "bytes": 2130,
+          "sha256": "8180128aafed4aacdfc75999b17e7cb64da250b6c94b87e06a2e1bf65b3a6276"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/movepick.cpp",
+          "bytes": 11808,
+          "sha256": "cdf3dfe41a5ec8c582b1a7f0bdb8cef6b88f0f7114b0a7d0f263f9a34e915146"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/movepick.h",
+          "bytes": 2794,
+          "sha256": "6082a59beec9cd7badae9d2463df91d5067af490ae498a377eac9bc94ad1fe06"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/nnue/features/full_threats.cpp",
+          "bytes": 12348,
+          "sha256": "4bd9602142ca97cb40ba3c02718236e0e15e41e29913d5917de599288dd23277"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/nnue/features/full_threats.h",
+          "bytes": 4424,
+          "sha256": "dd1d9b1cd360b8c5e41b5e0e9836c335cc250ade8a30fc28357e482f0aeff874"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/nnue/features/half_ka_v2_hm.cpp",
+          "bytes": 5355,
+          "sha256": "1c2ee6f4b5ef26f09815177e061a2cadc21e158d2aba350ab67a22b85c549141"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/nnue/features/half_ka_v2_hm.h",
+          "bytes": 5604,
+          "sha256": "c6c24b6246a10278e992e5494f38a02f96436764fe0fb0e11f21e96e6b3b45d5"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/nnue/features/pp_3wide.cpp",
+          "bytes": 10602,
+          "sha256": "55dad256e38a27149d48958747131afa6c87a41f6b4771e12c6113bc82b6614f"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/nnue/features/pp_3wide.h",
+          "bytes": 3153,
+          "sha256": "3889a046b7eb5c9147d0c89be69514200d414e276a68809b4f512c8fe139e635"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/nnue/layers/affine_transform.h",
+          "bytes": 16937,
+          "sha256": "b0a30ba12d1f11e8fddab66d8592c42ac3ca56233d0117ccf3bb9a9c27fefda2"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/nnue/layers/affine_transform_sparse_input.h",
+          "bytes": 18056,
+          "sha256": "5471180cbe69b91f7f39278bef5c79ce37f538307cb8f11d3f51fafe9a0eab14"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/nnue/layers/clipped_relu.h",
+          "bytes": 7033,
+          "sha256": "13d0f93da3b40df3a7c4b23fe34a4199e5f3cee03f529eac4f060299efa64e76"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/nnue/layers/sqr_clipped_relu.h",
+          "bytes": 11029,
+          "sha256": "d2b6fb4f7045d2851f7ca48c4daa9a6292655ba026dc7b94c34105706eb7504b"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/nnue/network.cpp",
+          "bytes": 12042,
+          "sha256": "e175edbd446cd2b3cf2919b1ea8ad56baa55ba71328f6e344d8e9e466b7c455f"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/nnue/network.h",
+          "bytes": 3746,
+          "sha256": "fcd4c2f5b774a463f115009dcea2ae83cab38d2bf31bac4f2d33e8130aa9c656"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/nnue/nnue_accumulator.cpp",
+          "bytes": 33202,
+          "sha256": "b96618fb98ba7f35d55f05a0745f19f3d907cb7c71a78ec6be796ac9e4349ca2"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/nnue/nnue_accumulator.h",
+          "bytes": 5221,
+          "sha256": "587b99e4a863ae2a37f09c132e1ddbdff62fe7ddfd3420f4da23fc418cf1e1d8"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/nnue/nnue_architecture.h",
+          "bytes": 6982,
+          "sha256": "162bb429eae5f6b2912ecaadaf027fae1f02bc8d2abc86119b5778b43a369a5e"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/nnue/nnue_common.h",
+          "bytes": 10515,
+          "sha256": "c46c47687353992f45a33e2207d46ca618cc12da9b99e2c131e59d48876b6e9b"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/nnue/nnue_feature_transformer.h",
+          "bytes": 16395,
+          "sha256": "87061048701098b3b85239e4b5c8a03d81b6779d49e89633bc9762f18286b5b4"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/nnue/nnue_misc.cpp",
+          "bytes": 2631,
+          "sha256": "e61d58094c174cb5dd8df318320c7c0a8fb7764cb10a7085e87847cb719bc884"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/nnue/nnue_misc.h",
+          "bytes": 1934,
+          "sha256": "a8d3fec5eae59d3bde9bf61879aa8cdb0551067ab929bdfc66333e008cee2144"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/nnue/nnz_helper.h",
+          "bytes": 5760,
+          "sha256": "5118876cd8008d84f397c07785be4f5ad2df9715e5d671b1537888f3d469fd0b"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/nnue/simd.h",
+          "bytes": 16544,
+          "sha256": "5e6758d557796b5479e81b30e6eb07e75b5fc2c8e95723d080c834188c0c4db7"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/numa.h",
+          "bytes": 64196,
+          "sha256": "d6014e0b9580885edc97d6ea38f2f8849bab37e8b0e71fb27e4fa1320f35bb57"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/perft.h",
+          "bytes": 1994,
+          "sha256": "3fd970d05be7e38299cdeeee8a9dc45b446a5527173245ff7d7296e0d439d356"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/position.cpp",
+          "bytes": 58345,
+          "sha256": "9761cba4d15e763141bcf0c45316e0926264df3f2b20ec2bcccdd88125a66324"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/position.h",
+          "bytes": 14842,
+          "sha256": "3fddd346a1289b7e8879b76f9c6d694cb0000c0047ac142564c0255c37edc7a1"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/score.cpp",
+          "bytes": 1414,
+          "sha256": "c5877628d70984fef345f2ace3f155ea883f316505485f2115701aac313dfb01"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/score.h",
+          "bytes": 1605,
+          "sha256": "b1355a14624fb743e7bde5b68030ae40650e3b34c36a4feac6d4b4704e56efd1"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/search.cpp",
+          "bytes": 96194,
+          "sha256": "926959a279189cbcd784a4340fdb3b50b91d541b27d4d989e348e7b0dfa0606f"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/search.h",
+          "bytes": 14394,
+          "sha256": "f68580c05f33bcc5aba3f02fb4bf98efbca6d5020086f260373372f84e46acd7"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/shm.h",
+          "bytes": 20147,
+          "sha256": "b33e127ffd444e1382d804d3d84d7023aa09789d94d1f44695710d179d906c92"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/shm_unix.h",
+          "bytes": 20191,
+          "sha256": "9370ad96b19e41f34d85ae6086db5cd2d769803c3c20c63217d90090a9ff4337"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/syzygy/tbprobe.cpp",
+          "bytes": 70928,
+          "sha256": "39d87629573a92ee75c30ea6d76bc53c8aaaa0ea16a706300a840de0a256bc32"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/syzygy/tbprobe.h",
+          "bytes": 2640,
+          "sha256": "5b86ca73b73cd9850f7cd89a766a7d8e861fbb2e0dfa8ae3ebf151801e1d3930"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/thread.cpp",
+          "bytes": 16092,
+          "sha256": "dcbc79cf21d744dab41005ed53f53c9de9e3a38e44534744326c6344a33fbfe4"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/thread.h",
+          "bytes": 6295,
+          "sha256": "349f94779f1391453c8bdaa8b2b11e008728bcc2d2d5ab7ba5c254e126345cb9"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/thread_native.h",
+          "bytes": 5080,
+          "sha256": "e716bc066bac3feb1a80d65d03022a9a4a415fd961bf72a4922cbc85b55666d4"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/timeman.cpp",
+          "bytes": 6727,
+          "sha256": "f604f6387ace75d3eb7648f5b278f7d842bc72f5d0100637b26693fafbf6bc7d"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/timeman.h",
+          "bytes": 2136,
+          "sha256": "bb1b4a3124b36ac3cf511a2c5b781a340657aa4b4f17eb2bf965efb08c1121ed"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/tt.cpp",
+          "bytes": 10527,
+          "sha256": "b8332e1dd5c5d1589f2855aa586fda6423197a39167e95b0001a7b4c5049648a"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/tt.h",
+          "bytes": 3823,
+          "sha256": "a13bb0e12e927e3f17015a143cdcb53bdf863f250ffe6036aa97fbed3e838e14"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/tune.cpp",
+          "bytes": 3512,
+          "sha256": "3f0157baeaf981aa1e60aa178a33e9017f73efe82724d3694aa6088307fdaa36"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/tune.h",
+          "bytes": 6712,
+          "sha256": "9298669723766aea05f2d4317e5cd8119cdb6ad3f1d3e48f47ecc63c25bc3703"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/types.h",
+          "bytes": 16233,
+          "sha256": "9a6bae5b151595eb80b56e90c4496fefa92e013f1772bcc7b3ce60c178bb95f6"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/uci.cpp",
+          "bytes": 22713,
+          "sha256": "e50c16f789fd12b3e1ab46a2655c6dd4dd420f169bf5938b9cc84a95aeff0022"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/uci.h",
+          "bytes": 2571,
+          "sha256": "6ad20b4d5f02ad529ccc947d425f182ff68ad17dd8ab6f3984a652709f9307d0"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/ucioption.cpp",
+          "bytes": 6326,
+          "sha256": "5d699e2fa1d57cfa5f3169412dc8fc5d26685563be38c221cdbfde7237305e8a"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/ucioption.h",
+          "bytes": 3179,
+          "sha256": "85468dec1694abd49af3997edac57eb48a897a844369f86ecfb75ea575d546cb"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/universal/entry_arm64.cpp",
+          "bytes": 2202,
+          "sha256": "8d344fa02d4a6315c49bae32a5182578557c8543a8f146cf6690495f48691bdf"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/universal/entry_riscv64.cpp",
+          "bytes": 3158,
+          "sha256": "85ef23b0eeb56620df3dfe149ed2f60b2b6fbee2f66944e22173ac3fd9f718dc"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/universal/entry_x86.cpp",
+          "bytes": 6925,
+          "sha256": "523fa2ebc9bcca8378ce5a8e46ec0fee21385cc50bfae4eadbcabda6ba3c7225"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/universal/nnue_embed.cpp",
+          "bytes": 2838,
+          "sha256": "a1c8960bb0f57ca54d83ea99c0170b79061ebeb103bacc7866212e4aba78a3a2"
+        },
+        {
+          "path": "WetMeat-Source/research/draw-aversion/src/universal/patch_x86_slice.sh",
+          "bytes": 2754,
+          "sha256": "f20555e2a4327077ba4d4f3a83292e4da54c7033516c523d2299219db2cd8bd8"
+        },
+        {
+          "path": "WetMeat-Source/research/independent/CMakeLists.txt",
+          "bytes": 413,
+          "sha256": "a6b6c315fbeb2b05c504823a79bd93b85e4a767dcbc81d488e0c06d251fc1773"
+        },
+        {
+          "path": "WetMeat-Source/research/independent/COPYING",
+          "bytes": 35149,
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+        },
+        {
+          "path": "WetMeat-Source/research/independent/releases/candidate/wetmeat.cpp",
+          "bytes": 32954,
+          "sha256": "b848089d61aeb7e39eab4b297bcc987b18bea780805aea1e624224b72e7028c2"
+        },
+        {
+          "path": "WetMeat-Source/research/independent/releases/initial/wetmeat.cpp",
+          "bytes": 31721,
+          "sha256": "15611c78cf290a037c27267059b71203eba9a51485c51a4535dd5db72561bd08"
+        },
+        {
+          "path": "WetMeat-Source/research/independent/src/wetmeat.cpp",
+          "bytes": 32954,
+          "sha256": "b848089d61aeb7e39eab4b297bcc987b18bea780805aea1e624224b72e7028c2"
+        },
+        {
+          "path": "WetMeat-Source/research/independent/tools/build.sh",
+          "bytes": 332,
+          "sha256": "3875549d76bbfbc5ebc1190a222af63a90664845fe57c41e7f9c38acdc3afd55"
+        },
+        {
+          "path": "WetMeat-Source/research/independent/tools/compare.py",
+          "bytes": 6297,
+          "sha256": "356a38c3756de9d1f6e1dfcc0128b9d5f5d88be10521042908210a8b1ff21031"
+        },
+        {
+          "path": "WetMeat-Source/research/independent/tools/overnight.py",
+          "bytes": 10218,
+          "sha256": "0b3a10fabd545773bcd8c88cf791fd782b0d4a97e4f941d83fb24e2ba39fc3f7"
+        },
+        {
+          "path": "WetMeat-Source/research/independent/tools/package.py",
+          "bytes": 2325,
+          "sha256": "d9c90bf46d68a1339887eba249afa98e94d64b4d9eac2a9a6cb72fe9d7cda75b"
+        },
+        {
+          "path": "WetMeat-Source/research/independent/tools/protocol.py",
+          "bytes": 4132,
+          "sha256": "50e37d8febb99a32ca04f5b7833106380eabf8751b37f4e1304e082d30358b41"
+        },
+        {
+          "path": "WetMeat-Source/research/independent/tools/run-windows-local.sh",
+          "bytes": 277,
+          "sha256": "718afcee57a0a4ed0b5e7fe01c35be2f407803cf31e133174395476197ffade4"
+        },
+        {
+          "path": "WetMeat-Source/research/independent/tools/start-overnight.sh",
+          "bytes": 754,
+          "sha256": "b1f7a55ff3578214c16124e7ffa1e8435a76e6c790502a4995ea90498aa4d59d"
+        },
+        {
+          "path": "WetMeat-Source/research/independent/tools/study/analyse_games.py",
+          "bytes": 14997,
+          "sha256": "8b1d06674e61ce2b57f8ccc6d860f5e39a0ddfc7b4bfe383c98aded7eaac108c"
+        },
+        {
+          "path": "WetMeat-Source/research/independent/tools/study/clock_match.py",
+          "bytes": 12946,
+          "sha256": "619ccc613c316350effab8d4e68464091a7f5b543437fb9b85addf3692f9d4ef"
+        },
+        {
+          "path": "WetMeat-Source/research/independent/tools/study/match.py",
+          "bytes": 8037,
+          "sha256": "7d03343b3e67d45b0973755a7efe6e0b9b94f7d10612b5d9a199e4ee8d4d0cf7"
+        },
+        {
+          "path": "WetMeat-Source/research/independent/tools/tactics.py",
+          "bytes": 2203,
+          "sha256": "b83f0109d6f322ee0724169ab8e363ecfb2f65b881688ca48529695ec2b3ca39"
+        },
+        {
+          "path": "WetMeat-Source/research/independent/tools/verify.py",
+          "bytes": 4454,
+          "sha256": "b4ec9c7e0fd8f45279d5da4981a31007cc2aa7a35b1158217cdbdd2de00e80b4"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/AUTHORS",
+          "bytes": 7074,
+          "sha256": "09eb0520ef9aa1caa2c53d6fcde5aa501981cc9f5ab9dff4b1bf8c7f9f688096"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/Copying.txt",
+          "bytes": 35149,
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/UPSTREAM_README.md",
+          "bytes": 7772,
+          "sha256": "ae3ef5c2282400d643c6e923d0b8b8d8fe35cf98762701f0379c79bde16c3a26"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/scripts/.gitattributes",
+          "bytes": 17,
+          "sha256": "1d5d71dcc6ccd28ab46a335349ecc74742ca4b81f4fcad212f8d134f70f1f13e"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/scripts/check_universal.sh",
+          "bytes": 2357,
+          "sha256": "b1e5566a695b519c504cf13e11c2cf58a73e1338d1beb6bcf8b8af04446c781b"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/scripts/check_universal_arm.sh",
+          "bytes": 1870,
+          "sha256": "26adf3da328e8d1ca4209554841f6d7cc05fb6242df69c67fdde306a64185139"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/scripts/check_universal_macos.sh",
+          "bytes": 1767,
+          "sha256": "86ce982e76e7c89e2062daeba92ff149e80417789ef02e4450060ca29917cf6b"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/scripts/check_universal_riscv.sh",
+          "bytes": 2078,
+          "sha256": "75b4cef47585deb04c0cbea9d06df390891076b7c6d971a9f3ac24353792c68c"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/scripts/get_native_properties.sh",
+          "bytes": 8958,
+          "sha256": "ff5caf017460c2b27e37987c493a4b2be4e726c1c453c3eaac90569dfed155a4"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/scripts/net.sh",
+          "bytes": 2419,
+          "sha256": "c0df735168d5e4f49109e91319f350f6c4238d74b72396f012fce2e495ae8d32"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/Makefile",
+          "bytes": 47290,
+          "sha256": "8d032219035996701d926761e76459c84b77350f36f31775c1a34fb7f56ff07a"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/attacks.cpp",
+          "bytes": 6182,
+          "sha256": "260c2cceb38d7a87a69e4df0f84d84e6729b1a77bbc321a13fed8cff66b2c704"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/attacks.h",
+          "bytes": 10807,
+          "sha256": "0e6b122913bda3e051e036e4fbc4da02e0349ac13b0f88380ac3317eaf7483af"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/benchmark.cpp",
+          "bytes": 27162,
+          "sha256": "0a8d3f29278ad53abbceee284721a3ac4ddd7c768052de928672a2869bc2da80"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/benchmark.h",
+          "bytes": 1356,
+          "sha256": "bd4822d67e441a0546e49aadfb85c400a3dbe8f8b3bce8131814b156aedf2f27"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/bitboard.cpp",
+          "bytes": 1409,
+          "sha256": "b73064f2270344bce175865174666b92d1f3653c6ee4f98fd075f0fb1865b735"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/bitboard.h",
+          "bytes": 8143,
+          "sha256": "18420178487d2063990f08c8e8c0fc1aa7ad3d4a292e6d8d8d5aaa82586aa84d"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/engine.cpp",
+          "bytes": 12406,
+          "sha256": "69412cf6e4a024f76f0a40f80695501b1f6cb658258da0712930d9ea5cb78d8c"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/engine.h",
+          "bytes": 4894,
+          "sha256": "be37f8052c96707478840fd2e5512eae79d50f581f1a5a1b6471246defaffe86"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/evaluate.cpp",
+          "bytes": 4668,
+          "sha256": "216e9a6400b62f14a6605a484bf92cc4ef31bf2a763a6f3590f8b45229c4270c"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/evaluate.h",
+          "bytes": 1767,
+          "sha256": "b375ca8f8a993400fe1095b6184fc7e1816fc09cfee96bbf7258b0468ab9ad21"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/history.h",
+          "bytes": 9247,
+          "sha256": "f6e957d6e717348f58aa308f88aefddb5975e6a6c1d23e936ecf3548cbb48c39"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/incbin/incbin.h",
+          "bytes": 16036,
+          "sha256": "70995329299ec55d414ad6df6929ddcfe0a43a40102cf6c05ff3c74ddd2765cb"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/main.cpp",
+          "bytes": 1602,
+          "sha256": "20ecc928260f46dfa3622ef0a4d810fe880322b1444659d155ce295be84b343a"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/memory.cpp",
+          "bytes": 7669,
+          "sha256": "5739783a3ab5627d9a59cd3c26d7b66ff8b35c85af3b5994c3aef75298f9aa5d"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/memory.h",
+          "bytes": 13202,
+          "sha256": "ab7fc8da563807ac89c93b60eee3dc81f30e19c0c4f0f4b6166251635006f1a9"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/misc.cpp",
+          "bytes": 17523,
+          "sha256": "1f053fbfd682664ab5fea2a17e5aa8419c599136b7a6efcb9e136a6bc49f65ab"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/misc.h",
+          "bytes": 17990,
+          "sha256": "aba39892e7e6d40975d2df370cb3bac88df003b49261b353f0bdfd6a75c86665"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/movegen.cpp",
+          "bytes": 9759,
+          "sha256": "62ce41a3fd6c60aa668593804168a4ca91ddb0a6c19077d0624bd09239087e54"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/movegen.h",
+          "bytes": 2130,
+          "sha256": "8180128aafed4aacdfc75999b17e7cb64da250b6c94b87e06a2e1bf65b3a6276"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/movepick.cpp",
+          "bytes": 11808,
+          "sha256": "cdf3dfe41a5ec8c582b1a7f0bdb8cef6b88f0f7114b0a7d0f263f9a34e915146"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/movepick.h",
+          "bytes": 2794,
+          "sha256": "6082a59beec9cd7badae9d2463df91d5067af490ae498a377eac9bc94ad1fe06"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/nnue/features/full_threats.cpp",
+          "bytes": 12348,
+          "sha256": "4bd9602142ca97cb40ba3c02718236e0e15e41e29913d5917de599288dd23277"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/nnue/features/full_threats.h",
+          "bytes": 4424,
+          "sha256": "dd1d9b1cd360b8c5e41b5e0e9836c335cc250ade8a30fc28357e482f0aeff874"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/nnue/features/half_ka_v2_hm.cpp",
+          "bytes": 5355,
+          "sha256": "1c2ee6f4b5ef26f09815177e061a2cadc21e158d2aba350ab67a22b85c549141"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/nnue/features/half_ka_v2_hm.h",
+          "bytes": 5604,
+          "sha256": "c6c24b6246a10278e992e5494f38a02f96436764fe0fb0e11f21e96e6b3b45d5"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/nnue/features/pp_3wide.cpp",
+          "bytes": 10602,
+          "sha256": "55dad256e38a27149d48958747131afa6c87a41f6b4771e12c6113bc82b6614f"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/nnue/features/pp_3wide.h",
+          "bytes": 3153,
+          "sha256": "3889a046b7eb5c9147d0c89be69514200d414e276a68809b4f512c8fe139e635"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/nnue/layers/affine_transform.h",
+          "bytes": 16937,
+          "sha256": "b0a30ba12d1f11e8fddab66d8592c42ac3ca56233d0117ccf3bb9a9c27fefda2"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/nnue/layers/affine_transform_sparse_input.h",
+          "bytes": 18056,
+          "sha256": "5471180cbe69b91f7f39278bef5c79ce37f538307cb8f11d3f51fafe9a0eab14"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/nnue/layers/clipped_relu.h",
+          "bytes": 7033,
+          "sha256": "13d0f93da3b40df3a7c4b23fe34a4199e5f3cee03f529eac4f060299efa64e76"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/nnue/layers/sqr_clipped_relu.h",
+          "bytes": 11029,
+          "sha256": "d2b6fb4f7045d2851f7ca48c4daa9a6292655ba026dc7b94c34105706eb7504b"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/nnue/network.cpp",
+          "bytes": 12042,
+          "sha256": "e175edbd446cd2b3cf2919b1ea8ad56baa55ba71328f6e344d8e9e466b7c455f"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/nnue/network.h",
+          "bytes": 3746,
+          "sha256": "fcd4c2f5b774a463f115009dcea2ae83cab38d2bf31bac4f2d33e8130aa9c656"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/nnue/nnue_accumulator.cpp",
+          "bytes": 33202,
+          "sha256": "b96618fb98ba7f35d55f05a0745f19f3d907cb7c71a78ec6be796ac9e4349ca2"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/nnue/nnue_accumulator.h",
+          "bytes": 5221,
+          "sha256": "587b99e4a863ae2a37f09c132e1ddbdff62fe7ddfd3420f4da23fc418cf1e1d8"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/nnue/nnue_architecture.h",
+          "bytes": 6982,
+          "sha256": "162bb429eae5f6b2912ecaadaf027fae1f02bc8d2abc86119b5778b43a369a5e"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/nnue/nnue_common.h",
+          "bytes": 10515,
+          "sha256": "c46c47687353992f45a33e2207d46ca618cc12da9b99e2c131e59d48876b6e9b"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/nnue/nnue_feature_transformer.h",
+          "bytes": 16395,
+          "sha256": "87061048701098b3b85239e4b5c8a03d81b6779d49e89633bc9762f18286b5b4"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/nnue/nnue_misc.cpp",
+          "bytes": 2631,
+          "sha256": "e61d58094c174cb5dd8df318320c7c0a8fb7764cb10a7085e87847cb719bc884"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/nnue/nnue_misc.h",
+          "bytes": 1934,
+          "sha256": "a8d3fec5eae59d3bde9bf61879aa8cdb0551067ab929bdfc66333e008cee2144"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/nnue/nnz_helper.h",
+          "bytes": 5760,
+          "sha256": "5118876cd8008d84f397c07785be4f5ad2df9715e5d671b1537888f3d469fd0b"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/nnue/simd.h",
+          "bytes": 16544,
+          "sha256": "5e6758d557796b5479e81b30e6eb07e75b5fc2c8e95723d080c834188c0c4db7"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/numa.h",
+          "bytes": 64196,
+          "sha256": "d6014e0b9580885edc97d6ea38f2f8849bab37e8b0e71fb27e4fa1320f35bb57"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/perft.h",
+          "bytes": 1994,
+          "sha256": "3fd970d05be7e38299cdeeee8a9dc45b446a5527173245ff7d7296e0d439d356"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/position.cpp",
+          "bytes": 58345,
+          "sha256": "9761cba4d15e763141bcf0c45316e0926264df3f2b20ec2bcccdd88125a66324"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/position.h",
+          "bytes": 14842,
+          "sha256": "3fddd346a1289b7e8879b76f9c6d694cb0000c0047ac142564c0255c37edc7a1"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/score.cpp",
+          "bytes": 1414,
+          "sha256": "c5877628d70984fef345f2ace3f155ea883f316505485f2115701aac313dfb01"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/score.h",
+          "bytes": 1605,
+          "sha256": "b1355a14624fb743e7bde5b68030ae40650e3b34c36a4feac6d4b4704e56efd1"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/search.cpp",
+          "bytes": 95858,
+          "sha256": "055db55480af20af0d9d64d7b95a9af0e1a4fd03076c6c7f1e2e5fa3944d14a6"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/search.h",
+          "bytes": 14350,
+          "sha256": "18e8bab5e8da6043a0b493e9cfc52c19bb23a198b80aae0761a520a6cee9916e"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/shm.h",
+          "bytes": 20147,
+          "sha256": "b33e127ffd444e1382d804d3d84d7023aa09789d94d1f44695710d179d906c92"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/shm_unix.h",
+          "bytes": 20191,
+          "sha256": "9370ad96b19e41f34d85ae6086db5cd2d769803c3c20c63217d90090a9ff4337"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/syzygy/tbprobe.cpp",
+          "bytes": 70928,
+          "sha256": "39d87629573a92ee75c30ea6d76bc53c8aaaa0ea16a706300a840de0a256bc32"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/syzygy/tbprobe.h",
+          "bytes": 2640,
+          "sha256": "5b86ca73b73cd9850f7cd89a766a7d8e861fbb2e0dfa8ae3ebf151801e1d3930"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/thread.cpp",
+          "bytes": 16092,
+          "sha256": "dcbc79cf21d744dab41005ed53f53c9de9e3a38e44534744326c6344a33fbfe4"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/thread.h",
+          "bytes": 6295,
+          "sha256": "349f94779f1391453c8bdaa8b2b11e008728bcc2d2d5ab7ba5c254e126345cb9"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/thread_native.h",
+          "bytes": 5080,
+          "sha256": "e716bc066bac3feb1a80d65d03022a9a4a415fd961bf72a4922cbc85b55666d4"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/timeman.cpp",
+          "bytes": 6727,
+          "sha256": "f604f6387ace75d3eb7648f5b278f7d842bc72f5d0100637b26693fafbf6bc7d"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/timeman.h",
+          "bytes": 2136,
+          "sha256": "bb1b4a3124b36ac3cf511a2c5b781a340657aa4b4f17eb2bf965efb08c1121ed"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/tt.cpp",
+          "bytes": 10527,
+          "sha256": "b8332e1dd5c5d1589f2855aa586fda6423197a39167e95b0001a7b4c5049648a"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/tt.h",
+          "bytes": 3823,
+          "sha256": "a13bb0e12e927e3f17015a143cdcb53bdf863f250ffe6036aa97fbed3e838e14"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/tune.cpp",
+          "bytes": 3512,
+          "sha256": "3f0157baeaf981aa1e60aa178a33e9017f73efe82724d3694aa6088307fdaa36"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/tune.h",
+          "bytes": 6712,
+          "sha256": "9298669723766aea05f2d4317e5cd8119cdb6ad3f1d3e48f47ecc63c25bc3703"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/types.h",
+          "bytes": 16233,
+          "sha256": "9a6bae5b151595eb80b56e90c4496fefa92e013f1772bcc7b3ce60c178bb95f6"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/uci.cpp",
+          "bytes": 22713,
+          "sha256": "e50c16f789fd12b3e1ab46a2655c6dd4dd420f169bf5938b9cc84a95aeff0022"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/uci.h",
+          "bytes": 2571,
+          "sha256": "6ad20b4d5f02ad529ccc947d425f182ff68ad17dd8ab6f3984a652709f9307d0"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/ucioption.cpp",
+          "bytes": 6326,
+          "sha256": "5d699e2fa1d57cfa5f3169412dc8fc5d26685563be38c221cdbfde7237305e8a"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/ucioption.h",
+          "bytes": 3179,
+          "sha256": "85468dec1694abd49af3997edac57eb48a897a844369f86ecfb75ea575d546cb"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/universal/entry_arm64.cpp",
+          "bytes": 2202,
+          "sha256": "8d344fa02d4a6315c49bae32a5182578557c8543a8f146cf6690495f48691bdf"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/universal/entry_riscv64.cpp",
+          "bytes": 3158,
+          "sha256": "85ef23b0eeb56620df3dfe149ed2f60b2b6fbee2f66944e22173ac3fd9f718dc"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/universal/entry_x86.cpp",
+          "bytes": 6925,
+          "sha256": "523fa2ebc9bcca8378ce5a8e46ec0fee21385cc50bfae4eadbcabda6ba3c7225"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/universal/nnue_embed.cpp",
+          "bytes": 2838,
+          "sha256": "a1c8960bb0f57ca54d83ea99c0170b79061ebeb103bacc7866212e4aba78a3a2"
+        },
+        {
+          "path": "WetMeat-Source/research/timing/src/universal/patch_x86_slice.sh",
+          "bytes": 2754,
+          "sha256": "f20555e2a4327077ba4d4f3a83292e4da54c7033516c523d2299219db2cd8bd8"
+        },
+        {
+          "path": "WetMeat-Source/stable/.clang-format",
+          "bytes": 1291,
+          "sha256": "b6095a2ffada423b2211e3d65bb45c74844f6b1f05263c58f0aeaff809cad9e0"
+        },
+        {
+          "path": "WetMeat-Source/stable/.gitattributes",
+          "bytes": 63,
+          "sha256": "450658d7b29478a13d4eb188c340ce1046f7c32acce249d71397a784064e6d83"
+        },
+        {
+          "path": "WetMeat-Source/stable/.github/ISSUE_TEMPLATE/BUG-REPORT.yml",
+          "bytes": 1983,
+          "sha256": "7ac0f699d4df7e1dd0a672f6ce70d4827753b83b61d332bcc3c482d09c21cc69"
+        },
+        {
+          "path": "WetMeat-Source/stable/.github/ISSUE_TEMPLATE/config.yml",
+          "bytes": 448,
+          "sha256": "644df000761c1ae3e80bb68ba98025921483645de974155d7db9e7e774c1f5a1"
+        },
+        {
+          "path": "WetMeat-Source/stable/.github/workflows/arm_compilation.yml",
+          "bytes": 3295,
+          "sha256": "8f8d3869ec55a8d695cee7bbe7f040bfada572aac26eb35230c481c143243a8d"
+        },
+        {
+          "path": "WetMeat-Source/stable/.github/workflows/avx2_compilers.yml",
+          "bytes": 3133,
+          "sha256": "0198d503263a531734ae0774bffa44836d79e3e9e29a70d02d2f55396c872ab2"
+        },
+        {
+          "path": "WetMeat-Source/stable/.github/workflows/clang-format.yml",
+          "bytes": 2267,
+          "sha256": "4230ccd6352d504e6fd15ad2e1fbe4615b56b9fd6dff852b614764a96b8ddbd7"
+        },
+        {
+          "path": "WetMeat-Source/stable/.github/workflows/codeql.yml",
+          "bytes": 2166,
+          "sha256": "ad3e3805708a08be8246ba4c5af6c81b8adbbd2d313575f0ada77c1097161435"
+        },
+        {
+          "path": "WetMeat-Source/stable/.github/workflows/games.yml",
+          "bytes": 1591,
+          "sha256": "57897a631ffa7aac9aca507b3c5583629ac3135efd821e3f83a2e210a28ad97b"
+        },
+        {
+          "path": "WetMeat-Source/stable/.github/workflows/iwyu.yml",
+          "bytes": 1674,
+          "sha256": "ba5822e2d779dc3a6146e80c813fc5a1371eceadcb66c3fe5c230b6d42de6028"
+        },
+        {
+          "path": "WetMeat-Source/stable/.github/workflows/matetrack.yml",
+          "bytes": 7434,
+          "sha256": "8accf6b9122b0fdd16aa8655a9ea6f5a59bcc44dadc75d5484dda28d8f4e1b25"
+        },
+        {
+          "path": "WetMeat-Source/stable/.github/workflows/msvc.yml",
+          "bytes": 1887,
+          "sha256": "286f4913823fc72b6d6d6b61b0bc86a9fb365bddf0a59558e1c81969aa71e57b"
+        },
+        {
+          "path": "WetMeat-Source/stable/.github/workflows/official_release.yml",
+          "bytes": 4444,
+          "sha256": "16d5d39161a5bfa91885acff3fbe983c8680162a8e70e28d8b9187bcf61693e1"
+        },
+        {
+          "path": "WetMeat-Source/stable/.github/workflows/sanitizers.yml",
+          "bytes": 3076,
+          "sha256": "fd5de888a6183ab143c083336334eeebec36884ed770dc0ba229d39a38f2e2d7"
+        },
+        {
+          "path": "WetMeat-Source/stable/.github/workflows/stockfish.yml",
+          "bytes": 7854,
+          "sha256": "bb39af94744d74e4467fdfabd4c94973aaeb3d544cb497943ddf8f6d9467dfc8"
+        },
+        {
+          "path": "WetMeat-Source/stable/.github/workflows/tests.yml",
+          "bytes": 13416,
+          "sha256": "187c135c55eb9c4093e83fdb817c366e99006fd4dc13a7191765f9af7da849a9"
+        },
+        {
+          "path": "WetMeat-Source/stable/.github/workflows/universal_compilation.yml",
+          "bytes": 11706,
+          "sha256": "7e05f1ac044f44f1c6f733aefb0abdda422df31fcf9f20558b071e9cdfb28840"
+        },
+        {
+          "path": "WetMeat-Source/stable/.github/workflows/upload_binaries.yml",
+          "bytes": 2744,
+          "sha256": "f550b4f22ae623ce100b6e8bc35b9ca96607166965ba640b59069e691650d3b5"
+        },
+        {
+          "path": "WetMeat-Source/stable/.github/workflows/wasm_compilation.yml",
+          "bytes": 1708,
+          "sha256": "aecf8617c834e2e2799567f8498502c5408e6e47cab7c277ab08734543a2ab66"
+        },
+        {
+          "path": "WetMeat-Source/stable/.gitignore",
+          "bytes": 345,
+          "sha256": "3dac258b0d1e44d98f9ff303b9e1759d5c69a1852e3c3588223158f50f387534"
+        },
+        {
+          "path": "WetMeat-Source/stable/AUTHORS",
+          "bytes": 7074,
+          "sha256": "09eb0520ef9aa1caa2c53d6fcde5aa501981cc9f5ab9dff4b1bf8c7f9f688096"
+        },
+        {
+          "path": "WetMeat-Source/stable/CITATION.cff",
+          "bytes": 704,
+          "sha256": "f98b029076a0aa0a668f03e5e2623a98cfa34854ff6cb66b852e0a736802a701"
+        },
+        {
+          "path": "WetMeat-Source/stable/Copying.txt",
+          "bytes": 35149,
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+        },
+        {
+          "path": "WetMeat-Source/stable/README.txt",
+          "bytes": 1766,
+          "sha256": "200e73f046b2174c7f35bfabfac8b28b10e01ab30441c35f7e8439f2a20ed225"
+        },
+        {
+          "path": "WetMeat-Source/stable/Top CPU Contributors.txt",
+          "bytes": 25405,
+          "sha256": "2f5589fb7df96e732605cf4af303f4c126e7adc3f1cbbcd23b48e1cbfc6c50ca"
+        },
+        {
+          "path": "WetMeat-Source/stable/UPSTREAM_README.md",
+          "bytes": 7772,
+          "sha256": "ae3ef5c2282400d643c6e923d0b8b8d8fe35cf98762701f0379c79bde16c3a26"
+        },
+        {
+          "path": "WetMeat-Source/stable/docs/aurora.patch",
+          "bytes": 6543,
+          "sha256": "c14bbd383f6c5706252b5f5873f850a94a36155cefde5cbcbcc86c5f3a0d2972"
+        },
+        {
+          "path": "WetMeat-Source/stable/docs/wetmeat.patch",
+          "bytes": 19334,
+          "sha256": "eb7d6136e6b87175b81401a9275a0e38e358b0bbdd8d94f44784c82d3d676c6f"
+        },
+        {
+          "path": "WetMeat-Source/stable/requirements-test.txt",
+          "bytes": 37,
+          "sha256": "ada6671c19147fac96f35394a627e65d65bbac4103d082428ea837da2d5a2dc7"
+        },
+        {
+          "path": "WetMeat-Source/stable/scripts/.gitattributes",
+          "bytes": 17,
+          "sha256": "1d5d71dcc6ccd28ab46a335349ecc74742ca4b81f4fcad212f8d134f70f1f13e"
+        },
+        {
+          "path": "WetMeat-Source/stable/scripts/check_universal.sh",
+          "bytes": 2357,
+          "sha256": "b1e5566a695b519c504cf13e11c2cf58a73e1338d1beb6bcf8b8af04446c781b"
+        },
+        {
+          "path": "WetMeat-Source/stable/scripts/check_universal_arm.sh",
+          "bytes": 1870,
+          "sha256": "26adf3da328e8d1ca4209554841f6d7cc05fb6242df69c67fdde306a64185139"
+        },
+        {
+          "path": "WetMeat-Source/stable/scripts/check_universal_macos.sh",
+          "bytes": 1767,
+          "sha256": "86ce982e76e7c89e2062daeba92ff149e80417789ef02e4450060ca29917cf6b"
+        },
+        {
+          "path": "WetMeat-Source/stable/scripts/check_universal_riscv.sh",
+          "bytes": 2078,
+          "sha256": "75b4cef47585deb04c0cbea9d06df390891076b7c6d971a9f3ac24353792c68c"
+        },
+        {
+          "path": "WetMeat-Source/stable/scripts/get_native_properties.sh",
+          "bytes": 8958,
+          "sha256": "ff5caf017460c2b27e37987c493a4b2be4e726c1c453c3eaac90569dfed155a4"
+        },
+        {
+          "path": "WetMeat-Source/stable/scripts/net.sh",
+          "bytes": 2419,
+          "sha256": "c0df735168d5e4f49109e91319f350f6c4238d74b72396f012fce2e495ae8d32"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/Makefile",
+          "bytes": 47290,
+          "sha256": "8d032219035996701d926761e76459c84b77350f36f31775c1a34fb7f56ff07a"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/attacks.cpp",
+          "bytes": 6182,
+          "sha256": "260c2cceb38d7a87a69e4df0f84d84e6729b1a77bbc321a13fed8cff66b2c704"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/attacks.h",
+          "bytes": 10807,
+          "sha256": "0e6b122913bda3e051e036e4fbc4da02e0349ac13b0f88380ac3317eaf7483af"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/benchmark.cpp",
+          "bytes": 27162,
+          "sha256": "0a8d3f29278ad53abbceee284721a3ac4ddd7c768052de928672a2869bc2da80"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/benchmark.h",
+          "bytes": 1356,
+          "sha256": "bd4822d67e441a0546e49aadfb85c400a3dbe8f8b3bce8131814b156aedf2f27"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/bitboard.cpp",
+          "bytes": 1409,
+          "sha256": "b73064f2270344bce175865174666b92d1f3653c6ee4f98fd075f0fb1865b735"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/bitboard.h",
+          "bytes": 8143,
+          "sha256": "18420178487d2063990f08c8e8c0fc1aa7ad3d4a292e6d8d8d5aaa82586aa84d"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/engine.cpp",
+          "bytes": 12268,
+          "sha256": "53ed5936c580712fd77979f07787bd1348394287ad2f54c3607ccc6fb8478cab"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/engine.h",
+          "bytes": 4894,
+          "sha256": "be37f8052c96707478840fd2e5512eae79d50f581f1a5a1b6471246defaffe86"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/evaluate.cpp",
+          "bytes": 4668,
+          "sha256": "216e9a6400b62f14a6605a484bf92cc4ef31bf2a763a6f3590f8b45229c4270c"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/evaluate.h",
+          "bytes": 1767,
+          "sha256": "b375ca8f8a993400fe1095b6184fc7e1816fc09cfee96bbf7258b0468ab9ad21"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/history.h",
+          "bytes": 9247,
+          "sha256": "f6e957d6e717348f58aa308f88aefddb5975e6a6c1d23e936ecf3548cbb48c39"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/incbin/incbin.h",
+          "bytes": 16036,
+          "sha256": "70995329299ec55d414ad6df6929ddcfe0a43a40102cf6c05ff3c74ddd2765cb"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/main.cpp",
+          "bytes": 1602,
+          "sha256": "20ecc928260f46dfa3622ef0a4d810fe880322b1444659d155ce295be84b343a"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/memory.cpp",
+          "bytes": 7669,
+          "sha256": "5739783a3ab5627d9a59cd3c26d7b66ff8b35c85af3b5994c3aef75298f9aa5d"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/memory.h",
+          "bytes": 13202,
+          "sha256": "ab7fc8da563807ac89c93b60eee3dc81f30e19c0c4f0f4b6166251635006f1a9"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/misc.cpp",
+          "bytes": 17510,
+          "sha256": "9b199c946b2ce041ff656a50a530cac45953587f76a63e950dc2dcdd1fcc9799"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/misc.h",
+          "bytes": 17990,
+          "sha256": "aba39892e7e6d40975d2df370cb3bac88df003b49261b353f0bdfd6a75c86665"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/movegen.cpp",
+          "bytes": 9759,
+          "sha256": "62ce41a3fd6c60aa668593804168a4ca91ddb0a6c19077d0624bd09239087e54"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/movegen.h",
+          "bytes": 2130,
+          "sha256": "8180128aafed4aacdfc75999b17e7cb64da250b6c94b87e06a2e1bf65b3a6276"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/movepick.cpp",
+          "bytes": 11808,
+          "sha256": "cdf3dfe41a5ec8c582b1a7f0bdb8cef6b88f0f7114b0a7d0f263f9a34e915146"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/movepick.h",
+          "bytes": 2794,
+          "sha256": "6082a59beec9cd7badae9d2463df91d5067af490ae498a377eac9bc94ad1fe06"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/nn-252f33942263.nnue",
+          "bytes": 98668604,
+          "sha256": "252f33942263bc8b8f740ba8aec3fed5a159ff148113c47a55c18c33d6627ab3"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/nnue/features/full_threats.cpp",
+          "bytes": 12348,
+          "sha256": "4bd9602142ca97cb40ba3c02718236e0e15e41e29913d5917de599288dd23277"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/nnue/features/full_threats.h",
+          "bytes": 4424,
+          "sha256": "dd1d9b1cd360b8c5e41b5e0e9836c335cc250ade8a30fc28357e482f0aeff874"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/nnue/features/half_ka_v2_hm.cpp",
+          "bytes": 5355,
+          "sha256": "1c2ee6f4b5ef26f09815177e061a2cadc21e158d2aba350ab67a22b85c549141"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/nnue/features/half_ka_v2_hm.h",
+          "bytes": 5604,
+          "sha256": "c6c24b6246a10278e992e5494f38a02f96436764fe0fb0e11f21e96e6b3b45d5"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/nnue/features/pp_3wide.cpp",
+          "bytes": 10602,
+          "sha256": "55dad256e38a27149d48958747131afa6c87a41f6b4771e12c6113bc82b6614f"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/nnue/features/pp_3wide.h",
+          "bytes": 3153,
+          "sha256": "3889a046b7eb5c9147d0c89be69514200d414e276a68809b4f512c8fe139e635"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/nnue/layers/affine_transform.h",
+          "bytes": 16937,
+          "sha256": "b0a30ba12d1f11e8fddab66d8592c42ac3ca56233d0117ccf3bb9a9c27fefda2"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/nnue/layers/affine_transform_sparse_input.h",
+          "bytes": 18056,
+          "sha256": "5471180cbe69b91f7f39278bef5c79ce37f538307cb8f11d3f51fafe9a0eab14"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/nnue/layers/clipped_relu.h",
+          "bytes": 7033,
+          "sha256": "13d0f93da3b40df3a7c4b23fe34a4199e5f3cee03f529eac4f060299efa64e76"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/nnue/layers/sqr_clipped_relu.h",
+          "bytes": 11029,
+          "sha256": "d2b6fb4f7045d2851f7ca48c4daa9a6292655ba026dc7b94c34105706eb7504b"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/nnue/network.cpp",
+          "bytes": 12042,
+          "sha256": "e175edbd446cd2b3cf2919b1ea8ad56baa55ba71328f6e344d8e9e466b7c455f"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/nnue/network.h",
+          "bytes": 3746,
+          "sha256": "fcd4c2f5b774a463f115009dcea2ae83cab38d2bf31bac4f2d33e8130aa9c656"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/nnue/nnue_accumulator.cpp",
+          "bytes": 33202,
+          "sha256": "b96618fb98ba7f35d55f05a0745f19f3d907cb7c71a78ec6be796ac9e4349ca2"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/nnue/nnue_accumulator.h",
+          "bytes": 5221,
+          "sha256": "587b99e4a863ae2a37f09c132e1ddbdff62fe7ddfd3420f4da23fc418cf1e1d8"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/nnue/nnue_architecture.h",
+          "bytes": 6982,
+          "sha256": "162bb429eae5f6b2912ecaadaf027fae1f02bc8d2abc86119b5778b43a369a5e"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/nnue/nnue_common.h",
+          "bytes": 10515,
+          "sha256": "c46c47687353992f45a33e2207d46ca618cc12da9b99e2c131e59d48876b6e9b"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/nnue/nnue_feature_transformer.h",
+          "bytes": 16395,
+          "sha256": "87061048701098b3b85239e4b5c8a03d81b6779d49e89633bc9762f18286b5b4"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/nnue/nnue_misc.cpp",
+          "bytes": 2631,
+          "sha256": "e61d58094c174cb5dd8df318320c7c0a8fb7764cb10a7085e87847cb719bc884"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/nnue/nnue_misc.h",
+          "bytes": 1934,
+          "sha256": "a8d3fec5eae59d3bde9bf61879aa8cdb0551067ab929bdfc66333e008cee2144"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/nnue/nnz_helper.h",
+          "bytes": 5760,
+          "sha256": "5118876cd8008d84f397c07785be4f5ad2df9715e5d671b1537888f3d469fd0b"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/nnue/simd.h",
+          "bytes": 16544,
+          "sha256": "5e6758d557796b5479e81b30e6eb07e75b5fc2c8e95723d080c834188c0c4db7"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/numa.h",
+          "bytes": 64196,
+          "sha256": "d6014e0b9580885edc97d6ea38f2f8849bab37e8b0e71fb27e4fa1320f35bb57"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/perft.h",
+          "bytes": 1994,
+          "sha256": "3fd970d05be7e38299cdeeee8a9dc45b446a5527173245ff7d7296e0d439d356"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/position.cpp",
+          "bytes": 58345,
+          "sha256": "9761cba4d15e763141bcf0c45316e0926264df3f2b20ec2bcccdd88125a66324"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/position.h",
+          "bytes": 14842,
+          "sha256": "3fddd346a1289b7e8879b76f9c6d694cb0000c0047ac142564c0255c37edc7a1"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/score.cpp",
+          "bytes": 1414,
+          "sha256": "c5877628d70984fef345f2ace3f155ea883f316505485f2115701aac313dfb01"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/score.h",
+          "bytes": 1605,
+          "sha256": "b1355a14624fb743e7bde5b68030ae40650e3b34c36a4feac6d4b4704e56efd1"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/search.cpp",
+          "bytes": 95467,
+          "sha256": "adb720a9ea04130def70a6849854c51a382a3657ece4b05f9b6a203dd853f5bd"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/search.h",
+          "bytes": 14350,
+          "sha256": "18e8bab5e8da6043a0b493e9cfc52c19bb23a198b80aae0761a520a6cee9916e"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/shm.h",
+          "bytes": 20147,
+          "sha256": "b33e127ffd444e1382d804d3d84d7023aa09789d94d1f44695710d179d906c92"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/shm_unix.h",
+          "bytes": 20191,
+          "sha256": "9370ad96b19e41f34d85ae6086db5cd2d769803c3c20c63217d90090a9ff4337"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/syzygy/tbprobe.cpp",
+          "bytes": 70928,
+          "sha256": "39d87629573a92ee75c30ea6d76bc53c8aaaa0ea16a706300a840de0a256bc32"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/syzygy/tbprobe.h",
+          "bytes": 2640,
+          "sha256": "5b86ca73b73cd9850f7cd89a766a7d8e861fbb2e0dfa8ae3ebf151801e1d3930"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/thread.cpp",
+          "bytes": 16092,
+          "sha256": "dcbc79cf21d744dab41005ed53f53c9de9e3a38e44534744326c6344a33fbfe4"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/thread.h",
+          "bytes": 6295,
+          "sha256": "349f94779f1391453c8bdaa8b2b11e008728bcc2d2d5ab7ba5c254e126345cb9"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/thread_native.h",
+          "bytes": 5080,
+          "sha256": "e716bc066bac3feb1a80d65d03022a9a4a415fd961bf72a4922cbc85b55666d4"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/timeman.cpp",
+          "bytes": 6727,
+          "sha256": "f604f6387ace75d3eb7648f5b278f7d842bc72f5d0100637b26693fafbf6bc7d"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/timeman.h",
+          "bytes": 2136,
+          "sha256": "bb1b4a3124b36ac3cf511a2c5b781a340657aa4b4f17eb2bf965efb08c1121ed"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/tt.cpp",
+          "bytes": 10527,
+          "sha256": "b8332e1dd5c5d1589f2855aa586fda6423197a39167e95b0001a7b4c5049648a"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/tt.h",
+          "bytes": 3823,
+          "sha256": "a13bb0e12e927e3f17015a143cdcb53bdf863f250ffe6036aa97fbed3e838e14"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/tune.cpp",
+          "bytes": 3512,
+          "sha256": "3f0157baeaf981aa1e60aa178a33e9017f73efe82724d3694aa6088307fdaa36"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/tune.h",
+          "bytes": 6712,
+          "sha256": "9298669723766aea05f2d4317e5cd8119cdb6ad3f1d3e48f47ecc63c25bc3703"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/types.h",
+          "bytes": 16233,
+          "sha256": "9a6bae5b151595eb80b56e90c4496fefa92e013f1772bcc7b3ce60c178bb95f6"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/uci.cpp",
+          "bytes": 22713,
+          "sha256": "e50c16f789fd12b3e1ab46a2655c6dd4dd420f169bf5938b9cc84a95aeff0022"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/uci.h",
+          "bytes": 2571,
+          "sha256": "6ad20b4d5f02ad529ccc947d425f182ff68ad17dd8ab6f3984a652709f9307d0"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/ucioption.cpp",
+          "bytes": 6326,
+          "sha256": "5d699e2fa1d57cfa5f3169412dc8fc5d26685563be38c221cdbfde7237305e8a"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/ucioption.h",
+          "bytes": 3179,
+          "sha256": "85468dec1694abd49af3997edac57eb48a897a844369f86ecfb75ea575d546cb"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/universal/entry_arm64.cpp",
+          "bytes": 2202,
+          "sha256": "8d344fa02d4a6315c49bae32a5182578557c8543a8f146cf6690495f48691bdf"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/universal/entry_riscv64.cpp",
+          "bytes": 3158,
+          "sha256": "85ef23b0eeb56620df3dfe149ed2f60b2b6fbee2f66944e22173ac3fd9f718dc"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/universal/entry_x86.cpp",
+          "bytes": 6925,
+          "sha256": "523fa2ebc9bcca8378ce5a8e46ec0fee21385cc50bfae4eadbcabda6ba3c7225"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/universal/nnue_embed.cpp",
+          "bytes": 2838,
+          "sha256": "a1c8960bb0f57ca54d83ea99c0170b79061ebeb103bacc7866212e4aba78a3a2"
+        },
+        {
+          "path": "WetMeat-Source/stable/src/universal/patch_x86_slice.sh",
+          "bytes": 2754,
+          "sha256": "f20555e2a4327077ba4d4f3a83292e4da54c7033516c523d2299219db2cd8bd8"
+        },
+        {
+          "path": "WetMeat-Source/stable/tests/.gitattributes",
+          "bytes": 17,
+          "sha256": "1d5d71dcc6ccd28ab46a335349ecc74742ca4b81f4fcad212f8d134f70f1f13e"
+        },
+        {
+          "path": "WetMeat-Source/stable/tests/instrumented.py",
+          "bytes": 26942,
+          "sha256": "8f4adf30ccea015f9e80318ee18316072c76838644ff71f9cd3c5aca05e370b8"
+        },
+        {
+          "path": "WetMeat-Source/stable/tests/perft.sh",
+          "bytes": 3318,
+          "sha256": "eb197e6d33e0b6b85592d4686103a113f61125a204f1f5a1786de8c7eb457f71"
+        },
+        {
+          "path": "WetMeat-Source/stable/tests/reprosearch.sh",
+          "bytes": 1309,
+          "sha256": "e6226b7cf82ce36a9b5d04dbe8a31dda48651944311d5bfbdfc97d3d2a6f37f7"
+        },
+        {
+          "path": "WetMeat-Source/stable/tests/signature.sh",
+          "bytes": 1081,
+          "sha256": "360a4b30bc99789c5603c8627a21eff45d4b5849f42deaa32f766801bd6eb7c7"
+        },
+        {
+          "path": "WetMeat-Source/stable/tests/syzygy/SOURCE-5.txt",
+          "bytes": 15000,
+          "sha256": "8eb40b15a41fd7d10c47c6b70949261bba85aa01cf70309329cfab20391bfdb8"
+        },
+        {
+          "path": "WetMeat-Source/stable/tests/syzygy/SOURCE-6.txt",
+          "bytes": 38690,
+          "sha256": "38aa47cbc59c2f9ed6f2baa77312e2f886bcad9df0328e291c401ef4f237e818"
+        },
+        {
+          "path": "WetMeat-Source/stable/tests/syzygy/SOURCE.txt",
+          "bytes": 158,
+          "sha256": "e09df94798ad6d4e81490588d4fe7360c6dc5ac04b6a26ea5bb705dfc819002c"
+        },
+        {
+          "path": "WetMeat-Source/stable/tests/testing.py",
+          "bytes": 13218,
+          "sha256": "0a002681606fc2e9ed57c00e8a576c9c230e0868ac325f39a4d86539bfe72465"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/analyse_games.py",
+          "bytes": 14997,
+          "sha256": "8b1d06674e61ce2b57f8ccc6d860f5e39a0ddfc7b4bfe383c98aded7eaac108c"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/benchmark.py",
+          "bytes": 1960,
+          "sha256": "6d7dccdec77b196c6e7e33bac213672b4937d6767adb04a6c4a4d1f91084c50c"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/build.sh",
+          "bytes": 587,
+          "sha256": "53bda16115f1b449de93ed764a66f4d28d736741c6ba47d1baa93cf95189e6f5"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/clock_match.py",
+          "bytes": 11542,
+          "sha256": "2aec2f962f48e1a6b6079fd29e69195239d53646fea13b538e5c49e29fe9996c"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/differential.py",
+          "bytes": 5218,
+          "sha256": "c83f4bd8cd5660b095edf401fcef3507f4f28d1d5158b75f3d7de9171bad646b"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/finalize_study.py",
+          "bytes": 15610,
+          "sha256": "8a03ccd83ccc57fa705deda8eed6fedf7e116666caecea85c5165ace805d2ef1"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/match.py",
+          "bytes": 8037,
+          "sha256": "7d03343b3e67d45b0973755a7efe6e0b9b94f7d10612b5d9a199e4ee8d4d0cf7"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/analyse_games.py",
+          "bytes": 16070,
+          "sha256": "2119599b27d16fb80698541026c5b2a45e65cabac97a6732299c8717339c8d42"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/check_atomic_audits.py",
+          "bytes": 4048,
+          "sha256": "f3421302eee06d18050a4780347daae99c3c6c83139514f5b9e2bf58bbaf6380"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/check_audit_scores.py",
+          "bytes": 1494,
+          "sha256": "d49fd7fe5dccac6dd490d1a42eadf57d4c5bc84ff5968a8fc3672a9917585b68"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/check_continuation.py",
+          "bytes": 7219,
+          "sha256": "c2616b3736015fe89e7519d86e661b7862063c8816515d3b0845d23c24864389"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/check_cumulative_report.py",
+          "bytes": 4391,
+          "sha256": "3dfa41d00bd7509b00975f539f45f1412a6081209b4ed965bac6f61b410caf4b"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/check_draw_policy.py",
+          "bytes": 3552,
+          "sha256": "ecb86caae4444a083bd5d6f512f13aaafcc696eeae57b3d0d22a3a293fd82b09"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/check_export_failures.py",
+          "bytes": 4973,
+          "sha256": "1309079e99a6167b7e21cfbc605511d61a2f728bec8b54120323d118f73eba17"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/check_match_failures.py",
+          "bytes": 6059,
+          "sha256": "37c87c9209db10a7362a95f80b00792c9f8db20e0401c62b333c3cfe4e3ad46a"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/check_pipeline_safety.py",
+          "bytes": 6399,
+          "sha256": "70fa24877b740445c601e28e8ca72b205580cb4ab240ed3c6711de0f203aa421"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/check_pipelined_queue.py",
+          "bytes": 4999,
+          "sha256": "58d2bc778e956c68a4452e2e855f8a5a61ef01f84c55283b3e924c0e4c935e0a"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/check_report_evidence.py",
+          "bytes": 7987,
+          "sha256": "fc420d3d3f70e8c2d01840eab5b5663e3a6f093c80b2c16415fc153d6f45f64e"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/clock_match.py",
+          "bytes": 18561,
+          "sha256": "2bc076aafe09c4d8da7b4f63f976a7231c14a40da7b2819b63ba3f225e64b756"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/combined_report.py",
+          "bytes": 7841,
+          "sha256": "99b4d01f9cb2b3e24e0e43d8e17297d1f69edf4f9ac84015d1456d7bdffbc94b"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/combined_report_v2.py",
+          "bytes": 5432,
+          "sha256": "97cf98ecc98f7d740e8e11e68a2dde7abb4dcedb903fd6003eccb7cf68140aff"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/continue_original.py",
+          "bytes": 12517,
+          "sha256": "2ceb54c3686f6f76d78d28919529643ef2e836f355814339b88f028b6b1a1b21"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/cutoff_watch.py",
+          "bytes": 6783,
+          "sha256": "cd14a92ecdcacb954414b79787486f4679a0567904d99d27d69046d0158d7410"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/cutoff_watch_multi.py",
+          "bytes": 7453,
+          "sha256": "edf871cb29a30e05cdc7b456e852db21cbf45bdbdd8655515ab3f9886ed670ee"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/export_failures.py",
+          "bytes": 8366,
+          "sha256": "2033b50e2eb4ec3705c1f17a86df0cd4eb7fbaa4399bd2df8a06d3159ef88d42"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/journal_replay.py",
+          "bytes": 4208,
+          "sha256": "583f4fd8e106abe930c2269f754d4219860137c6a30c9968f5269081f80aab78"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/match.py",
+          "bytes": 8037,
+          "sha256": "7d03343b3e67d45b0973755a7efe6e0b9b94f7d10612b5d9a199e4ee8d4d0cf7"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/morning_report.py",
+          "bytes": 13865,
+          "sha256": "9e12a4f5dc2b3fe6e1b1b6be9e3dff89dd64fd58e17504003740d87d62b40259"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/overnight.py",
+          "bytes": 11450,
+          "sha256": "4147ac77f7b013b5f45e64f892242d141fbd3e6a4b1dcdeedc4c70b6e7e9e47f"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/pipeline_handoff.py",
+          "bytes": 7473,
+          "sha256": "18af7a46712d35b8ca74c95067bc513c12e85d5d314369ed0d6c12809f440161"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/pipelined_analyse_games.py",
+          "bytes": 16246,
+          "sha256": "c991c23fad0340b94ac009de3d88a2a83465c6a05d0dfc65917529e4fd513637"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/pipelined_clock_match.py",
+          "bytes": 20878,
+          "sha256": "b186ce6f2ffaa5ce4d3d82c9825c5bf00aa8d86773dc2eb1fa69403aeab2d8b8"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/pipelined_overnight.py",
+          "bytes": 11467,
+          "sha256": "1b0087e248ee353336804eebf814c30d5f8618e57e66f9f1b2fec0e804729f8e"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/prepare_original.py",
+          "bytes": 10480,
+          "sha256": "2a06472cf3a65847a61ae5807cd4dee91c5dc6b2594b3fefd929be7dd4cb405f"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/route_overnight.py",
+          "bytes": 9568,
+          "sha256": "2cef05af462d6ccb58fd903a10885341fa7c2976b95fb7fb4c9549c42eff1315"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/summarize_study.py",
+          "bytes": 9958,
+          "sha256": "5b27671f2950740fb362a759ff71ea6ef76f471d19d23b92785457219a1aa2bf"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/night-study/verify_records.py",
+          "bytes": 9623,
+          "sha256": "49a75dea88bd2e011cb59f66c4d9497c0e5d6475fda794a56d4b3127eaaeb121"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/package.py",
+          "bytes": 2887,
+          "sha256": "9e88931c1e00dec8147f42e0ddd40101ffd448ffe6e775f3333ccbb5dab193b7"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/package_study.py",
+          "bytes": 5323,
+          "sha256": "6d0d65dc4539ba392590d56661ba3563daa5b6be845661421828cc97b85606ad"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/protocol_regression.py",
+          "bytes": 3710,
+          "sha256": "d9b2df654ed370e4291f0df2c14205ac3a9504632dd0da1a84c22d69ae854e6f"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/regression.py",
+          "bytes": 2822,
+          "sha256": "bcc529e4fc37ed41c17b1584f4c1578a2f579ad0900b188ed5dc5e4f3b428e75"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/replays/create_replay.py",
+          "bytes": 3001,
+          "sha256": "7cbf1d09bc08d4e085f8de4e850bf18119411e83abc92612f7c6dbdfed897682"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/replays/create_study_report.py",
+          "bytes": 4575,
+          "sha256": "ca9bc25a56c69c33a666f318c3922b077f5822811c7133757c713a75e85e4a26"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/replays/replay.template.html",
+          "bytes": 14644,
+          "sha256": "e10c465773398160752b989bdbcbe444870133cc3140af1d8790edeb60e53754"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/replays/study.template.html",
+          "bytes": 16918,
+          "sha256": "1770a5107ef293ce297963fadb567c70ec0766d46847427a1207c05ff1e1edfd"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/stress.py",
+          "bytes": 5218,
+          "sha256": "52150b0b0271488dce79a34a5977b2740e8ae90c6ca20572d178219fa4af0f7b"
+        },
+        {
+          "path": "WetMeat-Source/stable/tools/uci_client.py",
+          "bytes": 4339,
+          "sha256": "f0af81891371ea38a3140cb547cfbaa2579313a286fba09fef24f303a619161d"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/continuation-20261007-061338/frozen-tools/check_continuation.py",
+          "bytes": 7219,
+          "sha256": "c2616b3736015fe89e7519d86e661b7862063c8816515d3b0845d23c24864389"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/continuation-20261007-061338/frozen-tools/continue_original.py",
+          "bytes": 12517,
+          "sha256": "2ceb54c3686f6f76d78d28919529643ef2e836f355814339b88f028b6b1a1b21"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/continuation-20261007-061338/previous-training-review-verified/positions.epd",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/continuation-20261007-061338/training-review-recovered/positions.epd",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-100ms-1000-20261007-1835/Copying.txt",
+          "bytes": 35149,
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-100ms-1000-20261007-1835/observations/milestone100.py",
+          "bytes": 10449,
+          "sha256": "4477cdbf9ac6ebfc2875218efb2414f9a3ca30ed6456aa8a741b254932369a25"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-100ms-1000-20261007-1835/safety/watch.py",
+          "bytes": 4507,
+          "sha256": "b23844bb7b7983add011345cc9b1809972e57363a5ce2e8f48e33f0674b042d6"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-100ms-1000-20261007-1835/tools/common.py",
+          "bytes": 1433,
+          "sha256": "415a5e9ee7f169a46a0b05c11cc2cbc3b74e86c0a48bf7bb1be4e923df3c3285"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-100ms-1000-20261007-1835/tools/controller.py",
+          "bytes": 223,
+          "sha256": "ba5d0ce2a36be264cc234df02731ff5a39f212b11fe3e7d9154b64a34c2d8c6b"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-100ms-1000-20261007-1835/tools/deadline_policy.py",
+          "bytes": 460,
+          "sha256": "b98794f7df79f5b03abe4a2bc161a5d3d0a27ee729ff79715b5897a44c88e511"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-100ms-1000-20261007-1835/tools/evidence.py",
+          "bytes": 18570,
+          "sha256": "1763ab818f452b0122c5bc5c5a738ce709cb2ffbb2ec2490e6f96360b36a4a08"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-100ms-1000-20261007-1835/tools/final_analysis.py",
+          "bytes": 4606,
+          "sha256": "e1f314333f466155ea95dc72c41e15f9e18dca052c2e8ec42b9e9558b43b5aea"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-100ms-1000-20261007-1835/tools/handoff.py",
+          "bytes": 15383,
+          "sha256": "9dd723cf2261a529a1dd90c8eb064ebeab4dc6880bffd0f32b4817e1d7ab383f"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-100ms-1000-20261007-1835/tools/match_100ms.py",
+          "bytes": 10288,
+          "sha256": "b084a3f44118e3493f8b5dfc6f16c9e0efa9adbfd0bfba2280381f49d52c0196"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-100ms-1000-20261007-1835/tools/preflight.py",
+          "bytes": 9492,
+          "sha256": "0fa2250ab435d45b54986c481f82178f1515a66c6267cf33c265e973e9d5b574"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-100ms-1000-20261007-1835/tools/prepare.py",
+          "bytes": 9316,
+          "sha256": "99b749304b32c12bbaf18aa768912015a75d50087557961c15b32acfe716b093"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-100ms-1000-20261007-1835/tools/queue_runtime.py",
+          "bytes": 12945,
+          "sha256": "77a5ccd585dcf3ffc73679756cb22dea4a767fbd1980d862673e96d569037b07"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-counter-20261007-104016/observations/checkpoint_counter.py",
+          "bytes": 9977,
+          "sha256": "3833a0273425e497092486cfd7c2faed60173a0722d0e2abbfe1c3781e72105f"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-counter-20261007-104016/observations/training_draw_review.py",
+          "bytes": 9486,
+          "sha256": "60a6a2373d282c815055d79d831af5a91736187a43f639cf20406fff50ad9baa"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-counter-20261007-104016/safety/check_watch.py",
+          "bytes": 1016,
+          "sha256": "4545e349a1c81167a60f4f7d38e49bd876bb7c14184bc62b3728701e4bd1aba3"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-counter-20261007-104016/safety/watch.py",
+          "bytes": 3414,
+          "sha256": "6f3c740945cd9dcf7d371bdfa8f42c0902b6a83ce3f64597430820edced30039"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-counter-20261007-104016/tools/check_queue.py",
+          "bytes": 5413,
+          "sha256": "cb8e2e08fbf03b59847ef155493f58e472875c466b1e6b9b1b9cdd3c777469ea"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-counter-20261007-104016/tools/check_setting.py",
+          "bytes": 5265,
+          "sha256": "79d2aa960edec78b2bf36cd1835d13b76271e96801e0f2e16ea75110553c5947"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-counter-20261007-104016/tools/counter_queue.py",
+          "bytes": 11076,
+          "sha256": "30fde2171947a03f82fb1d3dd0fb328630f55eac0edb8b6156ff91f98848d77d"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-counter-20261007-104016/tools/trial_clock.py",
+          "bytes": 2388,
+          "sha256": "5c9e6696dde4ded64a48ba74a65b5837f6e760ad2d4f1c9b5afa45d4087e6f51"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-counter-20261007-104016/training32_opening1-review/positions.epd",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-counter-ongoing-20261007-1557/observations/checkpoint_counter.py",
+          "bytes": 9534,
+          "sha256": "7438075101dd550766fdf80e87065562dcb2b642b355aa5aad31434e0975c7b6"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-counter-ongoing-20261007-1557/observations/training_draw_review.py",
+          "bytes": 9486,
+          "sha256": "60a6a2373d282c815055d79d831af5a91736187a43f639cf20406fff50ad9baa"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-counter-ongoing-20261007-1557/safety/watch.py",
+          "bytes": 4507,
+          "sha256": "b23844bb7b7983add011345cc9b1809972e57363a5ce2e8f48e33f0674b042d6"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-counter-ongoing-20261007-1557/tools/check_handoff.py",
+          "bytes": 7553,
+          "sha256": "af58d1ec06e48a1628faa1424734ead580b7ec168e6b65653cb25f5350681d93"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-counter-ongoing-20261007-1557/tools/check_queue.py",
+          "bytes": 5413,
+          "sha256": "cb8e2e08fbf03b59847ef155493f58e472875c466b1e6b9b1b9cdd3c777469ea"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-counter-ongoing-20261007-1557/tools/counter_queue.py",
+          "bytes": 11118,
+          "sha256": "e0024d953ed86127bc28aaba2601f0259877997e131baef9451c627e8f8f3286"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-counter-ongoing-20261007-1557/tools/deadline_policy.py",
+          "bytes": 460,
+          "sha256": "b98794f7df79f5b03abe4a2bc161a5d3d0a27ee729ff79715b5897a44c88e511"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-counter-ongoing-20261007-1557/tools/handoff.py",
+          "bytes": 18209,
+          "sha256": "e179bd6db15559ce21853f6af7c57b46b88033ba53d7c3ff85a56f3eee7c3aab"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-counter-ongoing-20261007-1557/tools/queue_runtime.py",
+          "bytes": 12945,
+          "sha256": "77a5ccd585dcf3ffc73679756cb22dea4a767fbd1980d862673e96d569037b07"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-counter-ongoing-20261007-1557/tools/trial_clock.py",
+          "bytes": 2388,
+          "sha256": "5c9e6696dde4ded64a48ba74a65b5837f6e760ad2d4f1c9b5afa45d4087e6f51"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/original-counter-ongoing-20261007-1557/training64_opening1-review/positions.epd",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/overnight-fallback/failure-review/positions.epd",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "WetMeat-Source/study-snapshots/rapid-study/candidate.patch",
+          "bytes": 1534,
+          "sha256": "8527217ab1d4a1d3f180d9e5004e2e4ad31f35ac9b37a138b306083ef485245c"
+        },
+        {
+          "path": "START-HERE.txt",
+          "bytes": 621,
+          "sha256": "68f913d94beb07ff89b945fde2c7e96785a3b749b57d3bb95d7538eef828bbf0"
+        }
+      ],
+      "download_url": "https://github.com/mwmwqxzk5h-del/WetMeat/archive/refs/tags/v1.0.0-source.zip"
+    },
+    {
+      "kind": "discord",
+      "folder": "WetMeat-Discord-Upload-Pack",
+      "tag": "v1.0.0-discord",
+      "commit": "b4426dc7f811ae9a20e6e6366f4a9960bd9a79ed",
+      "tree": "83cfafa94f0f8495cab2e4f87019bd94e4462043",
+      "files": [
+        {
+          "path": "WetMeat-Discord-Upload-Pack/CREDITS.txt",
+          "bytes": 1212,
+          "sha256": "c2e4da53ded351d1e61f6919a57f1b371ab71f9d254ad177f394c7b10909ab63"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/DISCORD-POST.txt",
+          "bytes": 1474,
+          "sha256": "63ffdde809308270237ee707c96189b708cecd062026d439268642a3e64024bf"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Linux/Join-Linux.cmd",
+          "bytes": 3147,
+          "sha256": "08d4ef1b979dda73bc83e9ed04f8276e186bfede4e4f8f1d8fb555112ae63d84"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Linux/Join-Linux.sh",
+          "bytes": 990,
+          "sha256": "2d4b781fd8c5be827029dfeba9535b9116a592da3d7ab76eed896c129a0fc4a5"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Linux/PARTS.json",
+          "bytes": 3402,
+          "sha256": "5bee97232c2fa0bfab90f6c36e087c70945f500543f6565f4f02609198e2bba8"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Linux/README.txt",
+          "bytes": 400,
+          "sha256": "34f9badfd96418d69ff157a58b58318384de4e5a309af9f15b4cbe8cdcf5def4"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Linux/WetMeat-Linux.zip.part001",
+          "bytes": 8388608,
+          "sha256": "ca6880f9943c5367191c384fde606982f5853ca8e09815d8ad00eb541524b746"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Linux/WetMeat-Linux.zip.part002",
+          "bytes": 8388608,
+          "sha256": "5fe2b6dac07f8fa10e445e596e4aecc57baa40dc4e456c642c9c700997060551"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Linux/WetMeat-Linux.zip.part003",
+          "bytes": 8388608,
+          "sha256": "fead24726d0591764a8135da92d3ef72c16eb7f7a5015fa0b0c162272f8810f1"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Linux/WetMeat-Linux.zip.part004",
+          "bytes": 8388608,
+          "sha256": "de2377ef779ab46ee58197b922321b9929735816a4387b8fe6ab82c002c81952"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Linux/WetMeat-Linux.zip.part005",
+          "bytes": 8388608,
+          "sha256": "02470ba3a124dc542214d4bee39368e339f4bdcc226818374df621b6b9029a0a"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Linux/WetMeat-Linux.zip.part006",
+          "bytes": 8388608,
+          "sha256": "9b49bbb141540360994790c5ef9affd50330b8ddd3315a8789525946473f96ac"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Linux/WetMeat-Linux.zip.part007",
+          "bytes": 8388608,
+          "sha256": "79d5b7ee3e20bbcffaa06a1e92d3996cb9af0bed47f0cb6f534a8a99cbbf78c4"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Linux/WetMeat-Linux.zip.part008",
+          "bytes": 8388608,
+          "sha256": "8749f86c3ee18c7d83ae154c7dab73419bbd4985d8be8a2ec5207c054ae1b7fb"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Linux/WetMeat-Linux.zip.part009",
+          "bytes": 8388608,
+          "sha256": "c83e8aa71b3173c08c6c31c410ce981fca867c4760c1cf9978106ee8ac93a214"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Linux/WetMeat-Linux.zip.part010",
+          "bytes": 8388608,
+          "sha256": "95d3f59895d541ac34d486f121f2fee15d0d1dc638080fc4127eb4c04b816743"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Linux/WetMeat-Linux.zip.part011",
+          "bytes": 8388608,
+          "sha256": "0e3269927753dbbea275c1c6ab39847607ec02ebb4c306e7ebad0a618434f798"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Linux/WetMeat-Linux.zip.part012",
+          "bytes": 8388608,
+          "sha256": "324f0e5a18e002aac8ddf5445607cce3c6767e6b81f483da8094eefe17659580"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Linux/WetMeat-Linux.zip.part013",
+          "bytes": 8388608,
+          "sha256": "6deee3d08a02e43a74715d9cc5a46073dd814323bd7e83d44630ae1cb5fa9311"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Linux/WetMeat-Linux.zip.part014",
+          "bytes": 8388608,
+          "sha256": "6c80f0e4c3d8e8cf738ba04550adbbbea781b78140400557822a9104b2aaa9b5"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Linux/WetMeat-Linux.zip.part015",
+          "bytes": 8388608,
+          "sha256": "80bbf3f8793bd47f3f788308163e095bffcd6df1643b9f26ed0d5e22b70d7640"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Linux/WetMeat-Linux.zip.part016",
+          "bytes": 8388608,
+          "sha256": "5317f5f85fcd354580f6bd286df7431d79e90ded703a098288d09f3093a7e30a"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Linux/WetMeat-Linux.zip.part017",
+          "bytes": 8388608,
+          "sha256": "669c74f88f40bd0bdfcd9b81dbf49b7b5b869779db101b6ea675761515bfa2a7"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Linux/WetMeat-Linux.zip.part018",
+          "bytes": 8388608,
+          "sha256": "e568c053863b62ad30272130826336e646d4f26b6f6334379effba76cf1482f9"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Linux/WetMeat-Linux.zip.part019",
+          "bytes": 8388608,
+          "sha256": "22723300272bdcffd57c0bf0670b1534324c24366a1fcab7ea439ccae44b912b"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Linux/WetMeat-Linux.zip.part020",
+          "bytes": 1642122,
+          "sha256": "028c18d4f3d2967566caad39b7d9c9a827a7951d04bec0a3c1d644bcdb51dd35"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/SHA256SUMS.txt",
+          "bytes": 5357,
+          "sha256": "be8a9d69cb18437854ff51aaf0f588a813806a741a7cd8f81bd9aedffb39ddb1"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/SHARING-ON-DISCORD.txt",
+          "bytes": 2179,
+          "sha256": "1fcad37df74b57a2ac36adda56847fe508e4abb02e5e71cc4811aa0a86e2feeb"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Source/Join-Source.cmd",
+          "bytes": 2112,
+          "sha256": "20155953c49e111cc847b00ed7ba64cd7bf7b604fe0ef6a99ec01b34dfc566de"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Source/Join-Source.sh",
+          "bytes": 993,
+          "sha256": "a0b8b2bfee81787a11d1827bf3b89f444113d8827178659345b8b1cf0a81d46a"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Source/PARTS.json",
+          "bytes": 1783,
+          "sha256": "b2acf0a269c300f35f67f000648bebcd7ec410ff222519b429d001a1e8505a71"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Source/README.txt",
+          "bytes": 404,
+          "sha256": "b8d19fdf801dca9adcd7636fa6826fb374c28119c4358bb0cd5fcfc9264cec5b"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Source/WetMeat-Source.zip.part001",
+          "bytes": 8388608,
+          "sha256": "187328a5a615bfbbd313e48186ec17784670ff2e18ed2be7562b1670cfebaac5"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Source/WetMeat-Source.zip.part002",
+          "bytes": 8388608,
+          "sha256": "caf799ea3d1786c251f03e6af496bd027e6430886dde16a725e51ccaf1e120a0"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Source/WetMeat-Source.zip.part003",
+          "bytes": 8388608,
+          "sha256": "d7c16b8bd78e2bf8334be986b8afc58bca5845f138dbf5da4ef1cf497cd008f8"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Source/WetMeat-Source.zip.part004",
+          "bytes": 8388608,
+          "sha256": "8447b2f3a886bc9966a318b1cdd8f3f2d5d27d0286a8b848f8260b29539dc527"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Source/WetMeat-Source.zip.part005",
+          "bytes": 8388608,
+          "sha256": "1c208a0ab62d95ea7eab73dcd72153765747a4e9df61042ea4949b5af4bfb500"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Source/WetMeat-Source.zip.part006",
+          "bytes": 8388608,
+          "sha256": "e6a34d1f5ed65e0b9dbe0e72c93d1e83da192d0b4a9d45ba3b35b34cb6d4ce06"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Source/WetMeat-Source.zip.part007",
+          "bytes": 8388608,
+          "sha256": "e2dc9692c9d4d2ee2ecdfb34757f072993cd66df9f4553e1bbb5edbdaf1100b0"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Source/WetMeat-Source.zip.part008",
+          "bytes": 8388608,
+          "sha256": "369c391d43b508f6435a0422a4f2f2a94b984ee8449b01007089fdd082233582"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Source/WetMeat-Source.zip.part009",
+          "bytes": 8388608,
+          "sha256": "9be91b41787cdfba1815c74d97f34e134ccffd697d4a17a609e59863ddd14629"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Source/WetMeat-Source.zip.part010",
+          "bytes": 5996863,
+          "sha256": "8c00e55f9a61c1e3a73a6af97898c20936d4fde3a77c64b0d3a14923ccd020b1"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/WetMeat-Setup-English.pdf",
+          "bytes": 70916,
+          "sha256": "2b20cfd02299d48d95d9934b5f55b61ff3164ee6c4a7d37176a15c5d3692a0bd"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Windows/Join-Windows.cmd",
+          "bytes": 2137,
+          "sha256": "bee0e4077ac056a0aa27730b600e405177eda45f123e4819ec3074fb6e62499b"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Windows/Join-Windows.sh",
+          "bytes": 996,
+          "sha256": "175247a0c6b1420020ae234a00d46ec96ec6f8a1eb0c9706324894e66562a2bb"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Windows/PARTS.json",
+          "bytes": 1794,
+          "sha256": "b2e3c895af89541618aabb3cd959c59a5279998719460d78cb3edeef2b87d09c"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Windows/README.txt",
+          "bytes": 408,
+          "sha256": "127d0d6aad3fb85c4db990980f2150a42d88778373f3f72190bca92e205c93ab"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Windows/WetMeat-Windows.zip.part001",
+          "bytes": 8388608,
+          "sha256": "d3b5fda2f19b826a6c617fb3935ea3531237fef27f87bf5d25783152aa92db5e"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Windows/WetMeat-Windows.zip.part002",
+          "bytes": 8388608,
+          "sha256": "87f756293338793ff0b23c0e8e0170002fd716d1196e0f13b99c4fc2fd60eecf"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Windows/WetMeat-Windows.zip.part003",
+          "bytes": 8388608,
+          "sha256": "45705491dcd5b221c3c1e8108276f07800e9196c8fd1066fb8eb49af964c5b94"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Windows/WetMeat-Windows.zip.part004",
+          "bytes": 8388608,
+          "sha256": "161641e034e42fe8f0a681040772368292a340c93e64bac1e65372ec13695f94"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Windows/WetMeat-Windows.zip.part005",
+          "bytes": 8388608,
+          "sha256": "3f5cefe500586bcdb761c953172768e8b6b63aacc52cc1450356449977306633"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Windows/WetMeat-Windows.zip.part006",
+          "bytes": 8388608,
+          "sha256": "9b921cb053ce6f2c837e825b40acafa79f00f8ffede4c3019eff4d7bbc9fd86f"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Windows/WetMeat-Windows.zip.part007",
+          "bytes": 8388608,
+          "sha256": "f529121a8a46b406e62aef4bd630dfe7c6f89e803558499b3ded30697c3a7eb7"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Windows/WetMeat-Windows.zip.part008",
+          "bytes": 8388608,
+          "sha256": "495586899cd77d3cc559209c305693698e0ef98b0b5bad8b0aef2b9475c6422e"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Windows/WetMeat-Windows.zip.part009",
+          "bytes": 8388608,
+          "sha256": "6e8206d0990f93881d6272092df62872dc39c0ce9d07ef27174e16a8d9f8868a"
+        },
+        {
+          "path": "WetMeat-Discord-Upload-Pack/Windows/WetMeat-Windows.zip.part010",
+          "bytes": 4840665,
+          "sha256": "beb366900bd71b26b6770c5421c5e7234faa796b988982dc838e8c394e48a050"
+        },
+        {
+          "path": "START-HERE.txt",
+          "bytes": 634,
+          "sha256": "4923819fee96e433fa618f919dba4b623aa12eadde605dfe1b9252e51e66014d"
+        }
+      ],
+      "download_url": "https://github.com/mwmwqxzk5h-del/WetMeat/archive/refs/tags/v1.0.0-discord.zip"
+    }
+  ]
+}

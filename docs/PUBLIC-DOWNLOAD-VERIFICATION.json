@@ -1,0 +1,101 @@
+{
+  "verified_utc": "2026-10-15T00:28:32.987356+00:00",
+  "status": "passed",
+  "release": {
+    "verified_utc": "2026-10-15T00:27:33.523741+00:00",
+    "release_url": "https://github.com/mwmwqxzk5h-del/WetMeat/releases/tag/v1.0.0",
+    "latest_release_id": 413292122,
+    "tag": "v1.0.0",
+    "published_at": "2026-10-15T00:26:45Z",
+    "public_release_page_http_status": 200,
+    "all_four_package_links_present": true,
+    "request_included_authorization_header": false,
+    "release_draft": false
+  },
+  "package_downloads": [
+    {
+      "kind": "discord",
+      "url": "https://github.com/mwmwqxzk5h-del/WetMeat/archive/refs/tags/v1.0.0-discord.zip",
+      "tag": "v1.0.0-discord",
+      "commit": "b4426dc7f811ae9a20e6e6366f4a9960bd9a79ed",
+      "http_status": 200,
+      "request_included_authorization_header": false,
+      "download_bytes": 322870124,
+      "observed_outer_archive_sha256": "02ff6d5c84013aef4f53f61e59a972b7f1dd16d328e9ad93c73e32c0b3855d19",
+      "files_verified": 58,
+      "all_file_sizes_sha256_and_crc_passed": true
+    },
+    {
+      "kind": "linux",
+      "url": "https://github.com/mwmwqxzk5h-del/WetMeat/archive/refs/tags/v1.0.0-linux.zip",
+      "tag": "v1.0.0-linux",
+      "commit": "f41782b6101fc99dc09d78babc7311fa49ffc5b3",
+      "http_status": 200,
+      "request_included_authorization_header": false,
+      "download_bytes": 161027351,
+      "observed_outer_archive_sha256": "4e4bebf0319a110c6d59c2b3fb8198be646e86f436e1c9f63e90a092a9b42441",
+      "files_verified": 12,
+      "all_file_sizes_sha256_and_crc_passed": true
+    },
+    {
+      "kind": "source",
+      "url": "https://github.com/mwmwqxzk5h-del/WetMeat/archive/refs/tags/v1.0.0-source.zip",
+      "tag": "v1.0.0-source",
+      "commit": "973ddc963851852f6eb3c34f82eb337e2bde2dc4",
+      "http_status": 200,
+      "request_included_authorization_header": false,
+      "download_bytes": 81542300,
+      "observed_outer_archive_sha256": "1cfa6b579b8279b33f1d7c13b0f317343ab77f8af5b2c86946dd824b62a2dc16",
+      "files_verified": 459,
+      "all_file_sizes_sha256_and_crc_passed": true
+    },
+    {
+      "kind": "windows",
+      "url": "https://github.com/mwmwqxzk5h-del/WetMeat/archive/refs/tags/v1.0.0-windows.zip",
+      "tag": "v1.0.0-windows",
+      "commit": "d9cc8541ffa268ed540a36f51866f0d7a408846f",
+      "http_status": 200,
+      "request_included_authorization_header": false,
+      "download_bytes": 80339822,
+      "observed_outer_archive_sha256": "64681111f7ab91a263fb2c6be8e5f2c6a7ccef8ea3558f7e4a7959cbbde29b32",
+      "files_verified": 11,
+      "all_file_sizes_sha256_and_crc_passed": true
+    }
+  ],
+  "total_files_sha256_crc_verified": 540,
+  "linux_installation": {
+    "verified_utc": "2026-10-15T00:25:03.048653+00:00",
+    "download_source": "Public GitHub v1.0.0-linux ZIP",
+    "installer_passed": true,
+    "destination_with_spaces": true,
+    "installed_binary_sha256": "80ef6e114018f3ee823ba6c7411ff4f6160bc8d1f72f9ced399ed3144aa9ab6b",
+    "started_from_unrelated_empty_directory": true,
+    "external_model_required": false,
+    "nodes_for_smoke_check": 2048,
+    "legal_move": "e2e4",
+    "strength_test": false,
+    "native_windows_installer_tested": false
+  },
+  "english_documents": [
+    {
+      "url": "https://raw.githubusercontent.com/mwmwqxzk5h-del/WetMeat/main/docs/WetMeat-Setup-English.pdf",
+      "http_status": 200,
+      "bytes": 70916,
+      "sha256": "2b20cfd02299d48d95d9934b5f55b61ff3164ee6c4a7d37176a15c5d3692a0bd",
+      "matches_local_file": true,
+      "request_included_authorization_header": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/mwmwqxzk5h-del/WetMeat/main/docs/DISCORD-POST.txt",
+      "http_status": 200,
+      "bytes": 1421,
+      "sha256": "bd65ca5b023a9eca2a66f6de0b870ff6cc70f76efc1f33d633effc3906e3e957",
+      "matches_local_file": true,
+      "request_included_authorization_header": false
+    }
+  ],
+  "native_windows_installer_tested": false,
+  "engine_and_model_bytes_unchanged": true,
+  "new_strength_claim": false,
+  "archive_hash_note": "These are observed GitHub-generated ZIP hashes, not the old saved ZIP hashes. Verify the unchanged inner package files; GitHub may change archive compression over time."
+}
